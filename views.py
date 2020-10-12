@@ -3,6 +3,9 @@ from flask import Flask, render_template, request
 def hello():
     return render_template('hello.html')
 
+def album():
+	return render_template('album.html')
+
 ## Getting Query String
 def get_query_string():
     # request.query_string           ## Whole Request String
