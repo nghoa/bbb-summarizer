@@ -11,31 +11,30 @@ DOMAIN = 'https://bbb.ngwork.de/bigbluebutton/api/'
 def get_meetings():
     api_url = get_meetings_req_string()
     response = requests.get(api_url)
-    soup = Soup(response.content, 'xml')
-    print(soup)
+    xml_obj = Soup(response.content, 'xml')
+    # Check for active meetings
+    if (xml_obj.messageKey):
+        print('No active Meetings')
+    else:
+        meetings = xml_obj.meetings
+        print(meetings)
+        
 
 
 
-def parse_xml():
-    # tree = ET.fromstring(response.content)
-    # for elem in tree:
-    #     print(elem.text, elem.attrib)
-    pass
 
-def get_meetings_req_string():
-    query_string = 'getMeetings'
-    query_string_append = query_string + S_KEY
-    checksum = sha1_hash(query_string_append)
-    api_request_string = DOMAIN+query_string+'?checksum='+checksum
-    return api_request_string
 
 '''
     for creating request_string():
         checksum = sha1_hash(query_string + append it with S_KEY)
         api_req_string = DOMAIN + query_string + ?checksum= + checksum
 '''
-
-
+def get_meetings_req_string():
+    query_string = 'getMeetings'
+    query_string_append = query_string + S_KEY
+    checksum = sha1_hash(query_string_append)
+    api_request_string = DOMAIN+query_string+'?checksum='+checksum
+    return api_request_string
 
 # Verwendung für andere API Request, welche _ Leerzeichen in den Params haben
 # TODO
