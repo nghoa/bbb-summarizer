@@ -1,5 +1,8 @@
 import hashlib
 import urllib.parse
+import requests
+import xml.etree.ElementTree as ET
+from bs4 import BeautifulSoup as Soup
 
 # Global Variables
 S_KEY = 'zo76ubWZJiQtl63GjAJ7SG2Sq6Tlf8xZfncKTTjF0'
@@ -7,7 +10,17 @@ DOMAIN = 'https://bbb.ngwork.de/bigbluebutton/api/'
 
 def get_meetings():
     api_url = get_meetings_req_string()
-    print(api_url)
+    response = requests.get(api_url)
+    soup = Soup(response.content, 'xml')
+    print(soup)
+
+
+
+def parse_xml():
+    # tree = ET.fromstring(response.content)
+    # for elem in tree:
+    #     print(elem.text, elem.attrib)
+    pass
 
 def get_meetings_req_string():
     query_string = 'getMeetings'
