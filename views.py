@@ -11,6 +11,7 @@ def album():
 def get_query_string():
     # request.query_string           ## Whole Request String
     meetings = get_meetings()
+    print(meetings)
     conf_num = request.args.get('confnum')
 
     for meeting in meetings:
