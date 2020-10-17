@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup as Soup
 
 # Global Variables
 S_KEY = 'zo76ubWZJiQtl63GjAJ7SG2Sq6Tlf8xZfncKTTjF0'
-DOMAIN = 'https://bbb.ngwork.de/bigbluebutton/api/'
+# DOMAIN = 'https://bbb.ngwork.de/bigbluebutton/api/'
+DOMAIN = 'http://34.107.7.184/bigbluebutton/api/'
 
 def get_meetings():
     api_url = get_meetings_req_string()
@@ -26,7 +27,7 @@ def get_meetings():
                 "voice_bridge": meeting.voiceBridge.get_text(),
                 "moderator_pw": meeting.moderatorPW.get_text()
             }
-            print(meeting)
+            print('get_meetings from bbb.py', meeting)
             meetings_end.append(meeting)
         return meetings_end
         
@@ -87,8 +88,9 @@ def sha1_hash(string):
     return hashed_string
 
 def main():
+    pass
     # get_meetings()
-    end_meeting('random 192592!', 'mp')
+    # end_meeting('random 192592!', 'mp')
 
 if __name__ == '__main__':
     main()
