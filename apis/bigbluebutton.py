@@ -17,6 +17,7 @@ def get_meetings():
         print('No active Meetings')
     else:
         meetings = xml_obj.find_all({"meeting"})     # meetings[<xml>, <xml>, <xml>, ...]
+        meetings_end = []
         for meeting in meetings:
             meeting = {
                 "meeting_name": meeting.meetingName.get_text(),
