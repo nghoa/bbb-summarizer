@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from apis.bigbluebutton import get_meetings
+from utility.serve_audio import serve_wav
 
 def hello():
     return render_template('hello.html')
@@ -11,14 +12,13 @@ def album():
 def get_query_string():
     # request.query_string           ## Whole Request String
     meetings = get_meetings()
-    print(meetings)
     conf_num = request.args.get('confnum')
 
     # TODO: Error with voiceBridge???
 
     for meeting in meetings:
-        if (meeting.voice_bridge == conf_num):
-            internal_meeting_id == meeting.internal_meeting_id
+        if (meeting['voice_bridge'] == conf_num):
+            internal_meeting_id = meeting['internal_meeting_id']
 
     metadata = {
         "conference_number": conf_num,
