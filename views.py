@@ -14,6 +14,8 @@ def get_query_string():
     print(meetings)
     conf_num = request.args.get('confnum')
 
+    # TODO: Error with voiceBridge???
+
     for meeting in meetings:
         if (meeting.voice_bridge == conf_num):
             internal_meeting_id == meeting.internal_meeting_id
