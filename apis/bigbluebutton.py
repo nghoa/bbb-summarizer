@@ -26,6 +26,8 @@ def get_meetings():
                 "moderator_pw": meeting.moderatorPW.get_text()
             }
             print(meeting)
+            meetings_end.append(meeting)
+        return meetings_end
         
 '''
     TODO

@@ -10,11 +10,17 @@ def album():
 ## Getting Query String
 def get_query_string():
     # request.query_string           ## Whole Request String
-    meeting = get_meetings()
+    meetings = get_meetings()
+    conf_num = request.args.get('confnum')
+
+    for meeting in meetings:
+        if (meeting.voice_bridge == conf_num):
+            internal_meeting_id == meeting.internal_meeting_id
+
     metadata = {
-        "conference_number": request.args.get('confnum'),
+        "conference_number": conf_num,
         "conference_name": request.args.get('confname'),
-        "internal_meeting_id": meeting.internal_meeting_id
+        "internal_meeting_id": internal_meeting_id
     }
 
     return render_template('meta-data.html', metadata=metadata)
