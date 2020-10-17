@@ -1,7 +1,9 @@
 from flask import Flask
 import views
+import settings
 
 app = Flask(__name__)
+settings.init()
 
 app.add_url_rule('/', view_func=views.hello)
 app.add_url_rule('/album', view_func=views.album)
