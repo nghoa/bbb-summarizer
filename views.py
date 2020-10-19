@@ -19,13 +19,21 @@ def get_query_string():
         if (meeting['voice_bridge'] == conf_num):
             internal_meeting_id = meeting['internal_meeting_id']
 
+    filepath = serve_filepath(internal_meeting_id)
+
     metadata = {
         "conference_number": conf_num,
         "conference_name": request.args.get('confname'),
-        "internal_meeting_id": internal_meeting_id
+        "internal_meeting_id": internal_meeting_id,
+        "filepath": filepath
     }
 
     return render_template('meta-data.html', metadata=metadata)
+
+def serve_filepath(internal_meeting_id):
+    path = path = f'/var/bigbluebutton/recording/raw{internal_meeting_id}/audio/{internal_meeting_id}.wav'
+    return 'file'
+
 
 ## Getting direct value from url
 def get_param(param):
