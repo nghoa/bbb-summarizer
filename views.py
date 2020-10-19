@@ -9,12 +9,11 @@ def album():
 	return render_template('album.html')
 
 ## Getting Query String
+# data?param=value&param2=value2
 def get_query_string():
     # request.query_string           ## Whole Request String
     meetings = get_meetings()
     conf_num = request.args.get('confnum')
-
-    # TODO: Error with voiceBridge???
 
     for meeting in meetings:
         if (meeting['voice_bridge'] == conf_num):
