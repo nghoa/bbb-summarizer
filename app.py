@@ -1,15 +1,5 @@
-from flask import Flask
-import views
-import settings
+from app import create_app
 
-app = Flask(__name__)
-settings.init()
-
-app.add_url_rule('/', view_func=views.hello)
-app.add_url_rule('/album', view_func=views.album)
-app.add_url_rule('/data', view_func=views.get_query_string)
-app.add_url_rule('/data/<param>', view_func=views.get_param)
-app.add_url_rule('/table', view_func=views.table)
-
-if __name__ == '__main__':
-    app.run(host='localhost', port=8132, debug=True)
+# Call the Application Factory function to construct a Flask application instance
+# using the standard configuration defined in /instance/dev.cfg
+app = create_app('dev.cfg')
