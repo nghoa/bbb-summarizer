@@ -1,6 +1,11 @@
-*.pyc
+# Byte compiled | optimized | dll files
+*.py[cod]
 __pycache__/
+
+# distribution | packaging
 summarize-env/
+
 .vscode/
-.gitignore
+
+
 
