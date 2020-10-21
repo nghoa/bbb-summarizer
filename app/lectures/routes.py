@@ -1,6 +1,3 @@
-#################
-#### imports ####
-#################
 from flask import render_template, jsonify, request
 import time
 
