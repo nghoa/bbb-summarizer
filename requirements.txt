@@ -2,3 +2,9 @@ flask
 requests
 beautifulsoup4
 lxml
+pydub
+ffmpeg
+google
+google-cloud
+google-cloud-speech
+google-cloud-storage
