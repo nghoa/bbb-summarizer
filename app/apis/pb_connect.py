@@ -2,7 +2,8 @@ import redis
 import json
 
 '''
-This function will listen to the Redis channels and returns channel message
+Listen to Redis Channel
+Returns whether meeting has ended
 '''
 def connect_to_redis():
     CHANNEL_TO_VOICE = "to-voice-conf-redis-channel"
@@ -15,7 +16,7 @@ def connect_to_redis():
     return pb.listen()
 
 # Wait for "MeetingDestroyedEvtMsg (=> Meeting has ended) then True"
-def meeting_has_ended():
+def meeting_has_ended(internal_meeting_id):
     pb_listener = connect_to_redis()
     for msg in pb_listener:
         channel = msg['channel'].decode('utf-8')
@@ -27,12 +28,15 @@ def meeting_has_ended():
             data_json = json.loads(data_cleaned)
             message_name = data_json['envelope']['name']
             if (channel == "from-akka-apps-redis-channel" and message_name == "MeetingDestroyedEvtMsg"):
-                meeting_id = data_json['core']['body']['meetingId']
-                print('Meeting_id: ' + meeting_id)
-                print('Meeting has ended')
-                return True
+                # meetingID only shown after specific messages
+                meeting_id = data_json['core']['body']['meetingId'] 
+                if (meeting_id == internal_meeting_id):  
+                    print('Meeting_id: ' + meeting_id)
+                    print('Meeting has ended')
+                    return True
         except ValueError: # ...
             print('Redis listener: JSON Decoding failed')
 
 if __name__ == '__main__':
-    meeting_has_ended()
+    internal_meeting_id = '3aef88dc4fce517bdf94627abee6a2a056cda0cd-1603390857218'
+    meeting_has_ended(internal_meeting_id)
