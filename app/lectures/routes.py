@@ -1,10 +1,13 @@
-from flask import render_template, jsonify, request, redirect, url_for
+from flask import render_template, jsonify, request, redirect, url_for, json
 import time
+import datetime
 # In App Modules
 from app.apis.bigbluebutton import get_meetings
 from . import lectures_blueprint
 from .get_stuff import get_config
 
+# TODO:
+# Querystring from confnum => get_meetings and so on...
 ## Getting Query String
 # data?param=value&param2=value2
 @lectures_blueprint.route('/lectures/data')
@@ -28,34 +31,33 @@ def get_query_string():
     return render_template('meta-data.html', metadata=metadata)
 
 
-
-# TODO:
 # Testing out redirect from confnum -> lecture with metadata
 @lectures_blueprint.route('/lectures/testplace/data')
-def get_confnum():
+def get_meeting_info():
     conf_num = request.args.get('confnum')
-    metadata = {
+    # TODO:
+    # start_time transformation 
+    start_number = "1603483882428"
+    f_start_number = float(start_number)
+    start_time = datetime.datetime.fromtimestamp(f_start_number / 1e3).strftime('%d-%m-%Y %H:%M:%S')
+
+    metadata_dict = {
         "conference_number": conf_num,
         "conference_name": "Conference Name Test",
         "internal_meeting_id": "Internal Meeting ID test",
-        "starttime": "1603483882428",
+        "start_time": start_time,
         "current_presenter": "Lorem Ipsum"
     }
+    metadata = json.dumps(metadata_dict)
 
-    return redirect(url_for('.show_lecture_with_metadata', metadata=metadata, _external=True))
+    return redirect(url_for('.show_lecture_with_metadata', metadata=metadata))
 
 @lectures_blueprint.route('/lectures/testplace')
 def show_lecture_with_metadata():
-    metadata = request.args.get('metadata')     # counterpart for url_for
-    # metadata = {
-    #     "conference_number": conf_num,
-    #     "conference_name": "Conference Name Test",
-    #     "internal_meeting_id": "Internal Meeting ID test",
-    #     "starttime": "1603483882428",
-    #     "current_presenter": "Lorem Ipsum"
-    # }
+    metadata = request.args['metadata']     # counterpart for url_for
+    metadata_json = json.loads(metadata)
 
-    return render_template('lecture_test.html', metadata=metadata)
+    return render_template('lecture_test.html', metadata = metadata_json)
 
 
 # TODO:

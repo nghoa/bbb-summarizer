@@ -1,3 +1,4 @@
+werkzeug==0.16.0
 flask
 requests
 beautifulsoup4
@@ -9,3 +10,4 @@ google-cloud
 google-cloud-speech
 google-cloud-storage
 redis
+flask-reverse-proxy-fix
