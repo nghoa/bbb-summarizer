@@ -3,9 +3,11 @@ from flask import Flask
 # host='localhost', port=8132, debug=True
 def create_app():
     app = Flask(__name__, instance_relative_config=True)
+    # TODO:
     app.config.from_pyfile('dev.cfg')
     initialize_extensions(app)
     register_blueprints(app)
+
 
     return app
 
