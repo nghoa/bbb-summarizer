@@ -37,6 +37,8 @@ def meeting_has_ended(internal_meeting_id):
         except ValueError: # ...
             print('Redis listener: JSON Decoding failed')
 
+# TODO:
+# Just testing purposes
 if __name__ == '__main__':
     internal_meeting_id = '3aef88dc4fce517bdf94627abee6a2a056cda0cd-1603390857218'
     meeting_has_ended(internal_meeting_id)

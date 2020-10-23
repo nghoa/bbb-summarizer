@@ -1,23 +1,9 @@
 from flask import render_template, jsonify, request
 import time
-
+# In App Modules
 from app.apis.bigbluebutton import get_meetings
 from . import lectures_blueprint
 from .get_stuff import get_config
-
-@lectures_blueprint.route('/lectures')
-def index():
-    return render_template('lectures.html')
-
-@lectures_blueprint.route('/lectures/album')
-def album():
-    return render_template('album.html')
-
-@lectures_blueprint.route('/lectures/stuff')
-def stuff():
-    test = get_config()
-    print(test)
-    return test
 
 ## Getting Query String
 # data?param=value&param2=value2
@@ -39,15 +25,45 @@ def get_query_string():
         "internal_meeting_id": internal_meeting_id,
         "filepath": filepath
     }
-
     return render_template('meta-data.html', metadata=metadata)
 
+# TODO:
+# - adding loading screen, while meeting has not ended
+# - adding some basic information (metadata from bbb-api)
+# - [internal_meeting_id, meeting_name, conf_num, current_presenter]
+@lectures_blueprint.route('/lectures/overview')
+def overview():
+    status_code = {"code": "loading"}
+    return render_template('lectures.html', status_code = status_code)
+
+@lectures_blueprint.route('/lectures/overview/loaded')
+def overview_loaded():
+    time.sleep(5)
+    status_code = {"code": "done"}
+    return render_template('lectures.html', status_code = status_code)
+
+
+@lectures_blueprint.route('/lectures/ajax')
+def index():
+    return render_template('ajaxindex.html')
+
 # AJAX Loading screen
-@lectures_blueprint.route('/lectures/ajax/index')
+@lectures_blueprint.route('/lectures/ajax/loaded')
 def load():
     # Processing function
     time.sleep(5)
     return '<h1>Done Loading!</h1>'
+
+
+
+# TODO:
+####### ---------- Testspace -------------------
+@lectures_blueprint.route('/lectures/stuff')
+def stuff():
+    test = get_config()
+    print(test)
+    return test
+
 
 # Test interactive ajax after submitting a form
 @lectures_blueprint.route('/lectures/interactive')

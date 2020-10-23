@@ -6,7 +6,7 @@ Follow the below instruction for setup
 - Activate virtual environment: `source /<name of venv>/bin/activate`
 - Install python packages: `pip install -r requirements.txt`
 - Install additional dependencies: `./install.sh`
-- Start server with:  `. start.sh`
+- Start server with:  `. entrypoint.sh`
 
 # Reference:
 - https://github.com/jiaaro/pydub/issues/184
