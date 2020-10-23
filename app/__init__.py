@@ -1,13 +1,15 @@
 from flask import Flask
+from flask_reverse_proxy_fix.middleware import ReverseProxyPrefixFix
 
 # host='localhost', port=8132, debug=True
 def create_app():
     app = Flask(__name__, instance_relative_config=True)
-    # TODO:
     app.config.from_pyfile('dev.cfg')
+    # Fix Reverse Proxy in Flask -> lookup in dev.cfg ['REVERSE_PROXY_PATH']
+    # documentation @https://pypi.org/project/flask-reverse-proxy-fix/
+    ReverseProxyPrefixFix(app)          
     initialize_extensions(app)
     register_blueprints(app)
-
 
     return app
 
