@@ -1,4 +1,4 @@
-from flask import render_template, jsonify, request
+from flask import render_template, jsonify, request, redirect, url_for
 import time
 # In App Modules
 from app.apis.bigbluebutton import get_meetings
@@ -26,6 +26,37 @@ def get_query_string():
         "filepath": filepath
     }
     return render_template('meta-data.html', metadata=metadata)
+
+
+
+# TODO:
+# Testing out redirect from confnum -> lecture with metadata
+@lectures_blueprint.route('/lectures/testplace/data')
+def get_confnum():
+    conf_num = request.args.get('confnum')
+    metadata = {
+        "conference_number": conf_num,
+        "conference_name": "Conference Name Test",
+        "internal_meeting_id": "Internal Meeting ID test",
+        "starttime": "1603483882428",
+        "current_presenter": "Lorem Ipsum"
+    }
+
+    return redirect(url_for('.show_lecture_with_metadata', metadata=metadata, _external=True))
+
+@lectures_blueprint.route('/lectures/testplace')
+def show_lecture_with_metadata():
+    metadata = request.args.get('metadata')     # counterpart for url_for
+    # metadata = {
+    #     "conference_number": conf_num,
+    #     "conference_name": "Conference Name Test",
+    #     "internal_meeting_id": "Internal Meeting ID test",
+    #     "starttime": "1603483882428",
+    #     "current_presenter": "Lorem Ipsum"
+    # }
+
+    return render_template('lecture_test.html', metadata=metadata)
+
 
 # TODO:
 # - adding loading screen, while meeting has not ended
