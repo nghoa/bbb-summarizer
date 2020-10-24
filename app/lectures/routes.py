@@ -97,9 +97,9 @@ def lecture_ajax():
     return render_template('lecture_ajax.html')
 
 # AJAX Loading screen
-@lectures_blueprint.route('/lectures/ajax/loaded')
-def load():
-    # Processing function
+@lectures_blueprint.route('/lectures/ajax/prepare_meeting')
+def prepare_meeting_summary():
+    # meeting_has_ended function
     time.sleep(5)
     return  ''' 
                 <div id="overlay" style="display: none;">
@@ -108,6 +108,12 @@ def load():
                     </div>
                 </div>
             '''
+
+# TODO: dunno for what
+@lectures_blueprint.route('/lectures/ajax/new_loading_script')
+def replace_ajax():
+    return ''
+
 
 # TODO:
 ####### ---------- Testspace -------------------
