@@ -18,30 +18,35 @@ def get_meetings():
         print('No active Meetings')
     else:
         meetings = xml_obj.find_all({"meeting"})     # meetings[<xml>, <xml>, <xml>, ...]
-        meetings_end = []
+        meetings_info = []
         for meeting in meetings:
+            # Check for current presenter
+            attendees = meeting.find("attendees").findChildren(recursive=False)
+            for attendee in attendees:
+                role = attendee.role.get_text()
+                is_presenter = attendee.isPresenter.get_text()
+                if (role == 'MODERATOR' and is_presenter == 'true'):
+                    current_presenter = attendee.fullName.get_text()
+
             meeting = {
                 "meeting_name": meeting.meetingName.get_text(),
                 "meeting_id": meeting.meetingID.get_text(),
                 "internal_meeting_id": meeting.internalMeetingID.get_text(),
                 "voice_bridge": meeting.voiceBridge.get_text(),
-                "moderator_pw": meeting.moderatorPW.get_text()
+                "moderator_pw": meeting.moderatorPW.get_text(),
+                "start_time": meeting.startTime.get_text(),
+                "current_presenter": current_presenter
             }
-            print('get_meetings from bbb.py', meeting)
-            meetings_end.append(meeting)
-        return meetings_end
-        
-'''
-    TODO
-        > add attendees to dictionary
-        ------------- Structure -------------------
-        attendee = {
-            "user_id": userID,
-            "full_name": fullName,
-            "role": role,                   ## If role === MODERATOR -> isPresenter also true
-        }
-'''
 
+            meetings_info.append(meeting)
+
+        print('BBB Api - MeetingsInfo: ', meetings_info)
+        return meetings_info
+
+'''
+    ends a meeting via API Call
+    TODO: Use-case not defined right now
+'''
 def end_meeting(meeting_id, password):
     query = 'end'
     params = 'meetingID=' + url_encode(meeting_id) + '&password=' + url_encode(password)
@@ -76,7 +81,7 @@ def get_meetings_req_string():
     api_request_string = DOMAIN + query_string + '?' + 'checksum=' + checksum
     return api_request_string
 
-# Verwendung für andere API Request, welche _ Leerzeichen in den Params haben
+# URL encoding for BBB Api Calls...
 # TODO
 def url_encode(query):
     return urllib.parse.quote_plus(query)
@@ -89,7 +94,7 @@ def sha1_hash(string):
 
 def main():
     pass
-    # get_meetings()
+    get_meetings()
     # end_meeting('random 192592!', 'mp')
 
 if __name__ == '__main__':
