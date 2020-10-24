@@ -3,6 +3,7 @@ import time
 from datetime import datetime, timedelta
 # In App Modules
 from app.apis.bigbluebutton import get_meetings
+from app.apis.pb_connect import meeting_ended
 from . import lectures_blueprint
 from .get_stuff import get_config
 
@@ -72,7 +73,7 @@ def show_lecture_with_metadata():
     # TODO:
     # Start EventListener: meeting_ended()? 
 
-    return render_template('lecture_test.html', metadata = metadata_json)
+    return render_template('lecture.html', metadata = metadata_json)
 
 
 # TODO:
@@ -82,27 +83,31 @@ def show_lecture_with_metadata():
 @lectures_blueprint.route('/lectures/overview')
 def overview():
     status_code = {"code": "loading"}
-    return render_template('lectures.html', status_code = status_code)
+    return render_template('lecture_loading.html', status_code = status_code)
 
 @lectures_blueprint.route('/lectures/overview/loaded')
 def overview_loaded():
     time.sleep(5)
     status_code = {"code": "done"}
-    return render_template('lectures.html', status_code = status_code)
+    return render_template('lecture_loading.html', status_code = status_code)
 
-
+# TODO: Testing another ajax 
 @lectures_blueprint.route('/lectures/ajax')
-def index():
-    return render_template('ajaxindex.html')
+def lecture_ajax():
+    return render_template('lecture_ajax.html')
 
 # AJAX Loading screen
 @lectures_blueprint.route('/lectures/ajax/loaded')
 def load():
     # Processing function
     time.sleep(5)
-    return '<h1>Done Loading!</h1>'
-
-
+    return  ''' 
+                <div id="overlay" style="display: none;">
+                    <div class="w-100 d-flex justify-content-center align-items-center">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+            '''
 
 # TODO:
 ####### ---------- Testspace -------------------
