@@ -1,0 +1,12 @@
+Type-1-grammar: context-sensitive
+A	grammar	G	=	(Φ,Σ,R,S)	is	context-sensi@ve,	iﬀ	all	produc+on	rules	
+in	R	obey	the	form	
+•  either	αAγ→αβγ	with	α,β,γ	∈	(Φ∪Σ)*,	A∈Φ,	β≠ε			
+•  or	S→ε.	
+If	S→ε,	then	S	cannot	appear	in	the	righthand	side	of	rules	in	R.	
+	
+The	language	of	a	type-1	grammar	is	accepted	by	a	linear	bounded	
+automaton	(a	nondeterminis+c	Turing	machine	whose	tape	is	
+bounded	by	a	constant	+mes	the	length	of	the	input).	
+	
+31/03/19 Language Technology Group – Chris Biemann 23

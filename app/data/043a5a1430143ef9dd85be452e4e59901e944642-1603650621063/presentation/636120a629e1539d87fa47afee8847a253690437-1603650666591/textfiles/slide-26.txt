@@ -1,0 +1,22 @@
+Context-free Syntax Trees with
+phrase structure grammars
+•  Syntax	trees	can	(almost)	be	modeled	with	
+context-free	languages	
+	
+	
+I	 shot	 an	 elephant	 in	 my	 pajamas	
+N	 V	 D	 N	 P	 D	 N	
+NP	 NP	
+PP	
+VP	
+NP	
+S	
+S 	→	NP	VP	
+NP 	→	N	|	D	N	|	NP	PP	
+VP 	→	V	NP	|	V	NP	PP	
+PP 	→	P	NP	
+N 	→	I	|	elephant	|	pajamas	
+V 	→	shot	
+P 	→	in	
+D 	→	my	|	an	|	a	|	the	
+31/03/19 Language Technology Group – Chris Biemann 26

@@ -1,0 +1,16 @@
+Type-3 grammar: regular,
+left/right linear
+A	grammar	G	=	(Φ,Σ,R,S)	is	right	linear	(le_	linear),		iﬀ	all	the	produc+on	rules	in	
+R	obey	the	forms	
+•  A→w	
+•  A→wB	(lef	linear:	A→Bw	)		
+with	A,B∈Φ	and	w∈Σ*.	
+	
+Lef	(right)	linear	grammars	generate	regular	languages:	
+•  ∅	is	regular	
+•  {ai}	is	regular	for	ai	∈	alphabet	Σ	
+•  if	the	sets	L1	and	L2	are	regular,	then	(L1∩L2)	is	regular		
+•  if	the	sets	L1	and	L2	are	regular,	then	(L1L2)	is	regular		
+•  if	set	L	is	regular,	then	also	L*.	
+These	languages	can	be	described	through	regular	expressions.		
+31/03/19 Language Technology Group – Chris Biemann 28

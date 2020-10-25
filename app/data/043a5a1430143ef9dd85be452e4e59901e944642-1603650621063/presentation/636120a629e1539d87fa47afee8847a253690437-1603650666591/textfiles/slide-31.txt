@@ -1,0 +1,13 @@
+Programming Language vs.
+Natural Language
+Grammar	of	Programming	languages		
+•  by	design:	determinis+c	context	free	(in	most	cases)	
+•  which	allows	eﬃcient	parsing	
+•  without	ambigui+es.	
+•  clearly	deﬁned	seman+cs	
+Grammar	of	Natural	Languages	
+•  somewhere	between	type-1	and	type-2	
+•  many	possible	parses	for	a	single	sentence	
+•  inherent	ambigui+es	
+•  seman+cs	yet	another	layer	
+31/03/19 Language Technology Group – Chris Biemann 31

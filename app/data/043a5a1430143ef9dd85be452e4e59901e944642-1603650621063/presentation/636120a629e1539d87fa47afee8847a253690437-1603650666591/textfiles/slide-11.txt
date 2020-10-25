@@ -1,0 +1,14 @@
+§  In the practice classes you will work on weekly assignments,
+which will give you some practical experience in NLP
+§  The assignments will be graded on a binary scale (“ok”/”not
+ok”)
+§  You need 50% of points to pass the course
+§  The practice classes are supervised by Eugen Ruppert and
+Seid Muhie Yimam
+§  Depending on nature of the topic, assignments will be
+§  theoretical, i.e. paper-and-pencil
+§  practical, i.e. writing a program and applying it to data
+§  hands-on, i.e. applying a third-party program to data
+Practice Class Information
+11
+31/03/19 Language Technology Group – Chris Biemann

@@ -1,0 +1,13 @@
+§  BMBF: WebAnno: A web-based annotation platform
+§  DFG: Joining Ontologies and Distributional Semantics
+§  DFG: Semantic Writing Aid
+§  DB: Aspect-based Sentiment Analysis
+§  LFF: Forum 4.0: Analysis of User Comments
+§  IBM: JoBimText: Linking text to Knowledge with
+Distributional Semantics
+§  Telekom: Xpert Finder
+§  VW: New/s/leak: Network of Searchable Leaks
+Recent Projects of Language
+Technology Group
+6
+31/03/19 Language Technology Group – Chris Biemann

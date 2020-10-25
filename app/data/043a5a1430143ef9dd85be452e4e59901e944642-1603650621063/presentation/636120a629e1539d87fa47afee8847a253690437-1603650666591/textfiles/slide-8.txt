@@ -1,0 +1,14 @@
+Statistical Methods of Language Technology
+§  focus on methods rather than applications
+§  variety of techniques, focus on statistical methods
+§  efficiency vs. effectiveness
+Statistical Methods of Language Technology
+§  cores of methods being used in NL systems
+§  adaptations of generally known algorithms to language data
+§  evaluation of techniques
+Lecture: theory, concepts, algorithms
+Practice class: hands-on, writing small programs, using available
+software
+OVerview of this LEcture
+8
+31/03/19 Language Technology Group – Chris Biemann

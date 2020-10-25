@@ -1,12 +1,15 @@
 import os
 import shutil
+import time
 from flask import jsonify
 
 # Getting dir for creation
-DEV_DIR = os.path.expanduser("~/dev/bbb-summarizer")
-DEV_PATH = DEV_DIR + "/data/"
+# PROJECT_APP_DIR = os.path.expanduser("~/dev/bbb-summarizer")
+PROJECT_APP_DIR = os.path.dirname(os.path.abspath(os.path.join(__file__ ,"..")))
+print(PROJECT_APP_DIR)
+DEV_PATH = PROJECT_APP_DIR + "/data/"
 ROOT_TARGET_DIR = os.path.dirname(DEV_PATH)
-print('Root Target Dir: ' + ROOT_TARGET_DIR)
+print("Root Target Dir: " + ROOT_TARGET_DIR)
 
 def main():
     # TODO
@@ -19,7 +22,7 @@ def main():
 def mkdir_data_folder():
     access_rights = 0o755
     directory = os.path.dirname(DEV_PATH)
-    print('Directory: ' + directory)
+    print('Data Directory: ' + directory)
     if not os.path.exists(directory):
         try:
             os.makedirs(ROOT_TARGET_DIR)
@@ -29,13 +32,17 @@ def mkdir_data_folder():
         else:
             print("Sucessfully created directory %s " % ROOT_TARGET_DIR)
     else:
-        print("Directory already exists")
+        print("Data Directory already exists")
         return True
 
 def mkdir_presentation_folder(internal_meeting_id):
     # TODO: Test internal_meeting_id where presentation was uploaded
     root_src_path = "/var/bigbluebutton/recording/raw/{}/presentation".format(internal_meeting_id)
     root_replacement_path = "/var/bigbluebutton/recording/raw"
+
+    # BBB needs time to process the recording and create the files
+    while not os.path.exists(root_src_path):
+        time.sleep(2)
 
     # Get Move_Dir => Directory which contains files, where we want to move them out
     if os.path.exists(root_src_path):
@@ -57,25 +64,31 @@ def mkdir_presentation_folder(internal_meeting_id):
                             os.makedirs(dst_dir)
                         # Simple Copy Paste into new folder
                         for file_ in files:
+                            print('Files: ', file_)
                             src_file = os.path.join(src_dir, file_)
+                            print('Source File: ', src_file)
                             dst_file = os.path.join(dst_dir, file_)
+                            print('Destination file: ', dst_file)
                             if os.path.exists(dst_file):
                                 os.remove(dst_file)
                             shutil.copy(src_file, dst_dir)
-
-                            return True
+                    return True
         except OSError:
             print("OS Error for that path: " + root_src_path)
         else:
-            print("Everything is done")
+            print("Mkdir presentation, everything is done")
     else:
-        print("Path does not exists: " + root_src_path)
+        print("Path for presentation does not exists: " + root_src_path)
     
 
 # Check audio structure
 def mkdir_audio_folder(internal_meeting_id):
     root_src_path = "/var/bigbluebutton/recording/raw/{}/audio".format(internal_meeting_id)
     root_replacement_path = "/var/bigbluebutton/recording/raw"
+
+    # BBB needs time to process the recording and create the files
+    while not os.path.exists(root_src_path):
+        time.sleep(2)
 
     if os.path.exists(root_src_path):
         try:
@@ -90,14 +103,13 @@ def mkdir_audio_folder(internal_meeting_id):
                     if os.path.exists(dst_file):
                         os.remove(dst_file)
                     shutil.copy(src_file, dst_dir)
-
-                    return True
+            return True
         except OSError:
             print("OSError for that path: " + root_src_path)
         else:
-            print("Everything done!")
+            print("Mkdir audio folder, Everything is done!")
     else:
-        print("Path does not exists: " + root_src_path)
+        print("Path for audio does not exists: " + root_src_path)
 
 def mkdir_summarization_folder():
     # TODO
@@ -106,5 +118,7 @@ def mkdir_summarization_folder():
     # mkdir ~dev/<internal meeting id>/metadata.txt ???
     pass
 
+
 if __name__ == '__main__':
-    main()
+    # main()
+    mkdir_summarization_folder()
