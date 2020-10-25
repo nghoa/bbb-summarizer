@@ -84,22 +84,6 @@ def replace_ajax():
 # TODO
 #### ------- Working Space ------- #####
 
-
-# TODO:
-# - adding loading screen, while meeting has not ended
-# - adding some basic information (metadata from bbb-api)
-# - [internal_meeting_id, meeting_name, conf_num, current_presenter]
-@lectures_blueprint.route('/lectures/overview')
-def overview():
-    status_code = {"code": "loading"}
-    return render_template('lecture_loading.html', status_code = status_code)
-
-@lectures_blueprint.route('/lectures/overview/loaded')
-def overview_loaded():
-    time.sleep(5)
-    status_code = {"code": "done"}
-    return render_template('lecture_loading.html', status_code = status_code)
-
 # TODO: Testing another ajax 
 @lectures_blueprint.route('/lectures/ajax')
 def lecture_ajax():
@@ -113,7 +97,7 @@ def stuff():
     print(test)
     return test
 
-
+# TODO: instead of using submit as an Event Trigger -> I want to use a backend eventHandler -> meeting_has_ended to replace the specific svg
 # Test interactive ajax after submitting a form
 @lectures_blueprint.route('/lectures/interactive')
 def interactivate():
@@ -171,3 +155,15 @@ def prepare_meeting_summary_test():
 @lectures_blueprint.route('/lectures/ajax/new_loading_script')
 def replace_ajax_test():
     return ''
+
+# Prototype for simple loading screen with parsing status_code param
+@lectures_blueprint.route('/lectures/overview')
+def overview():
+    status_code = {"code": "loading"}
+    return render_template('lecture_loading.html', status_code = status_code)
+
+@lectures_blueprint.route('/lectures/overview/loaded')
+def overview_loaded():
+    time.sleep(5)
+    status_code = {"code": "done"}
+    return render_template('lecture_loading.html', status_code = status_code)
