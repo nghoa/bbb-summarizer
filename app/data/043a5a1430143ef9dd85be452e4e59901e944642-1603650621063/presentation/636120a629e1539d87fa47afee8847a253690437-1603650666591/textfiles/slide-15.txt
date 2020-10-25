@@ -1,0 +1,11 @@
+§  Formal Languages and Automata
+§  Computational Morphology
+§  Sequence Tagging
+§  Topic Modelling
+§  Statistical Machine Translation
+§  Graph-Based Methods
+§  Distributional Semantics
+§  Word Senses and their Disambiguation
+Topics of this Lecture
+15
+31/03/19 Language Technology Group – Chris Biemann

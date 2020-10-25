@@ -1,0 +1,12 @@
+Type-0 grammar: unrestricted
+The	mechanism	of	unrestricted	grammars	allows	the	
+deﬁni+on	of	very	complex	languages	that	in	turn	need	
+very	complex	automata.	Restric+ons	on	the	form	of	
+produc+on	rules	lead	to	diﬀerent	types	of	grammars.	
+An	unrestricted	formal		
+grammar	is	called	Type-0		
+grammar	and	can	be	accepted		
+by	a	Turing	Machine.		
+It	produces	recursively		
+enumerable	languages.	
+31/03/19 Language Technology Group – Chris Biemann 22

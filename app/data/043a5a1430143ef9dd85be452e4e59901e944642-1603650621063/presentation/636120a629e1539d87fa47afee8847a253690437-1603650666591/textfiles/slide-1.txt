@@ -1,0 +1,16 @@
+Statistical Methods of
+Language Technology
+Master Studies Informatics
+Universität Hamburg, SS 2019
+Chomsky-Hierarchy	
+Machine	Learning	
+Syntax	Rules	
+Transducers	for	Morphology	
+Sequence	Labeling	
+Seman@c	Methods	
+Topic	Models	
+Phrase	Alignment	
+1
+Chris Biemann, Eugen Ruppert
+31/03/19 Language Technology Group – Chris Biemann
+Neural	Architectures	

@@ -1,0 +1,14 @@
+§  Jurafsky, D. and Martin, J. H. (2009): Speech and Language
+Processing. An Introduction to Natural Language Processing,
+Computational Linguistics and Speech Recognition. Second Edition.
+Pearson: New Jersey
+§  Manning, C. D. and Schütze, H. (1999): Foundations of Statistical
+Natural Language Processing. MIT Press: Cambridge, Massachusetts
+§  Carstensen, K.U., Ebert, Ch., Endriss, C., Jekat, S., Klabunde, R. and
+Langer, H. (Editors) (2004): Computerlinguistik und
+Sprachtechnologie. Eine Einführung. 2. Auflage. Spektrum:
+Heidelberg
+Literature for specialized topics will be given in-place.
+Textbooks
+9
+31/03/19 Language Technology Group – Chris Biemann

@@ -1,0 +1,13 @@
+Recap: Formal Languages and
+Automata
+•  Automata	theory	and	theory	of	formal	languages	are	a	part	of	
+theore+cal	computer	science	
+•  Their	concepts	originate	in	theore+cal	linguis+cs:	Noam	Chomsky	
+is	the	originator	of	the	Chomsky	hierarchy	of	formal	languages	
+Why	talk	about	it?	
+•  complexity	of	sub-systems	of	natural	language	informs	
+complexity	of	automa+c	processing	machinery	
+•  Fundamental	results	from	theore+cal	computer	science	have	
+direct	implica+ons	on	implementa+ons	for	language	technology	
+applica+ons	
+31/03/19 Language Technology Group – Chris Biemann 17

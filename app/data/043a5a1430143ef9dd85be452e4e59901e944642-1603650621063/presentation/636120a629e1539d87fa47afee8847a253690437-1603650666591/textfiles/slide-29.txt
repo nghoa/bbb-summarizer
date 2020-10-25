@@ -1,0 +1,15 @@
+Finite State Automaton
+Regular	grammars	are	accepted	by	ﬁnite	state	automata.	
+A	(determinis+c)	ﬁnite	state	automaton	FSA=(Φ,Σ,δ,S,F)	consists	of:	
+•  set	of	states	Φ	
+•  input	alphabet	Σ,	disjunct	with	Φ	
+•  transi+on	func+on	δ:	Φ×Σ→Φ	
+•  one	start	state	S∈Φ	
+•  set	of	ﬁnal	states	F⊂Φ		
+Regular	languages	cover		
+sub-systems	of	language,		
+such	as	morphology	and		
+chunk	parsing.		
+	
+	
+31/03/19 Language Technology Group – Chris Biemann 29

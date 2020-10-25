@@ -1,0 +1,11 @@
+§  understand statistical methods for language processing in
+detail
+§  feeling for language tech applications, avoiding pitfalls
+§  ability to plan technology requirements for a language tech
+project
+§  analyze and evaluate the use of NLP in applications
+§  see the beauty of language technology, be ready to write
+your thesis in language tech
+Learning Goals
+10
+31/03/19 Language Technology Group – Chris Biemann

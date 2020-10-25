@@ -1,7 +1,6 @@
 ## Reference:
 # https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9
 
-
 # Import libraries
 from pydub import AudioSegment
 import io
@@ -9,7 +8,6 @@ from io import BytesIO
 import os
 from google.cloud import speech
 from google.cloud.speech import enums
-# from google.cloud.speech_v1 import enums
 from google.cloud.speech import types
 import wave
 from google.cloud import storage

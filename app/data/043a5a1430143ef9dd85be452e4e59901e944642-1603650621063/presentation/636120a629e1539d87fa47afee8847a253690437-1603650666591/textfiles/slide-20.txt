@@ -1,0 +1,21 @@
+Derivation, Formal Language,
+Automaton
+Let	G	=	(Φ,Σ,R,S)	be	a	formal	grammar	and	let	u,v	∈	(Φ∪Σ)*.	
+1.  v	is	directly	derivable	from	u,	noted										,	if	
+u	=	awb,	v=azb	and	w→z	is	a	produc+on	rule	in	R.	
+	
+2.  v	is	derivable	from	u,	noted										,	if	there	are	words	w0..wk,	such	
+that	u⇒w0,	wn-1⇒wn	for	all	0<n≤k	and		wn⇒v	.			
+	
+Let	G	=	(Φ,Σ,R,S)	be	a	formal	grammar.	Then,		
+is	the	formal	language	generated	by	G.	
+An	automaton	is	a	device	that	decides,	whether	a	given	sentence	
+belongs	to	a	formal	language.		
+L(G) = {w ∈ Σ* |S⇒
+*
+w}
+u ⇒ v
+u⇒
+*
+v
+31/03/19 Language Technology Group – Chris Biemann 20

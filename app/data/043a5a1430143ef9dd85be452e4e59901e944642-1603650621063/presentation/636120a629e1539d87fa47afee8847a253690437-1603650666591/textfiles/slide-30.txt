@@ -1,0 +1,15 @@
+The Chomsky Hierarchy of
+Formal Languages
+•  The	diﬀerent	classes	are	proper	subsets	of	each	other:	the	expressivity	of	
+type-(n)	grammars	is	truly	smaller	than	type-(n-1)	grammars.	
+•  Several	other	classes	are	known,	e.g.	corresponding	to	determinis+c	context-
+free	grammars,	tree	adjoining	grammars	…	
+type	0:	recursively	enumerable	
+type	1:	context-sensi+ve	
+type	2:	context-free	
+type	3:	regular	
+Turing	Machine	(TM)	
+linearly	bounded	TM	
+Pushdown	Automaton	(PDA)	
+Finite	State	Automaton	(FSA)	
+31/03/19 Language Technology Group – Chris Biemann 30

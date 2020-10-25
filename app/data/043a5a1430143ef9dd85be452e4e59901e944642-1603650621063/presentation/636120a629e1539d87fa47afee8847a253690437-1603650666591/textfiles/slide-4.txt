@@ -1,0 +1,15 @@
+Language Technology
+•  Formal	languages?	
+•  Programming	Languages?	
+Here:	
+Natural	Languages	
+Natural	Language:	
+•  Naturally	grown	
+•  Constantly	changing	
+•  No	well-deﬁned	seman+cs	
+•  Many	layers	of	interpreta+on	
+•  Meaning	dependent	on	context	
+•  …	
+	
+Technologies	coping	with	this	
+31/03/19 Language Technology Group – Chris Biemann 4

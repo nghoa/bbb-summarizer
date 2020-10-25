@@ -1,0 +1,15 @@
+§  Established in October 2016 at UHH, MIN-Faculty, Comp.Sci.
+Dept.
+§  Key Research Areas
+§  Statistical Semantics: capture word meaning with big-data methods
+§  Structure Discovery: unsupervised-knowledge-free methods for
+language processing
+§  Cognitive Computing: human in the loop, interactive systems
+§  Open Source Software and Open Data: committed to the most lenient
+licenses possible
+§  Currently: 1 Prof, 4 PostDocs, 6 PhD students, 1 office
+assistant
+Short Intro of the LT Group
+http://lt.informatik.uni-hamburg.de/
+3
+31/03/19 Language Technology Group – Chris Biemann

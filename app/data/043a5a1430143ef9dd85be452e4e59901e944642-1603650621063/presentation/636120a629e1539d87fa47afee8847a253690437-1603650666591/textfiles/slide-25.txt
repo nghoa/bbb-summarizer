@@ -1,0 +1,12 @@
+Pushdown automaton
+Context-free	grammars	are	accepted	by	non-determinis@c	pushdown	automata.	
+A	non-determinis+c	push-down	automaton	PDA=(Φ,Σ,Δ,☐,δ,S,F)	consists	of	
+•  Alphabet	Φ	of	states		
+•  Alphabet	Σ	of	input	symbols,	disjunct	with	Φ	
+•  Alphabet	Δ	of	stack	symbols,	disjunct	with	Φ	
+•  ini+al	stack	symbol	☐	
+•  transi+on	relaton	δ:	Φ×Σ×(Δ∪☐)→ρ(Φ×Δ*)	
+•  start	state	S	∈	Φ	
+•  set	of	ﬁnal	states	F⊂Φ		
+	
+31/03/19 Language Technology Group – Chris Biemann 25

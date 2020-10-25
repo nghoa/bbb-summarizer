@@ -4,6 +4,7 @@ Follow the below instruction for setup
 ## Installation
 - Start by creating a python virtual environment: `python3 -m venv <name of venv>`
 - Activate virtual environment: `source /<name of venv>/bin/activate`
+- Before installing the packages, upgrade pip first: `pip install --upgrade pip`
 - Install python packages: `pip install -r requirements.txt`
 - Install additional dependencies: `./install.sh`
 - Start server with:  `. entrypoint.sh`
