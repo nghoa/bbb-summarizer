@@ -4,7 +4,7 @@
 <script id="loading_script">
 	$(function () {
 		// parse internal_meeting_id for prepare_meeting_data route
-		$("#loading").load("lectures/prepare_meeting_data?internal_meeting_id={{ metadata.internal_meeting_id }}");
+		$("#loading").load("lectures/prepare_meeting_data?internalMeetingId={{ metadata.internal_meeting_id }}");
 		$("#loading_script").load("lectures/new_loading_script");
 		$("#modalCenter").modal("show");
 	})

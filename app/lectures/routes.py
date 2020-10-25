@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 # In App Modules
 from app.apis.bigbluebutton import get_meetings
 from app.apis.pb_connect import meeting_has_ended
+from app.utils.mk_folder import mkdir_data_folder, mkdir_presentation_folder, mkdir_audio_folder
 from . import lectures_blueprint
 from .get_stuff import get_config
 
@@ -56,25 +57,33 @@ def show_lecture_with_metadata():
 @lectures_blueprint.route('/lectures/prepare_meeting_data')
 def prepare_meeting_summary():
     # meeting_has_ended function
-    internal_meeting_id = request.args.get('internal_meeting_id')
+    internal_meeting_id = request.args.get('internalMeetingId')
     meeting_end = meeting_has_ended(internal_meeting_id)
     if (meeting_end):
 
         # TODO:
         ###### after meeting has ended do following:
         # mkdir folders
-        # transcribe meeting
-        # align meeting
-        # route to summarization
-        # serve files
+        data_folder_constructed = mkdir_data_folder()
+        if (data_folder_constructed):
+            audio_folder_constructed = mkdir_audio_folder(internal_meeting_id)
+            presentation_folder_constructed = mkdir_presentation_folder(internal_meeting_id)
+            if (audio_folder_constructed and presentation_folder_constructed):
+                # transcribe meeting
+                # get presentation
+                # align meeting
+                pass
 
-        return  ''' 
-                    <div id="overlay" style="display: none;">
-                        <div class="w-100 d-flex justify-content-center align-items-center">
-                            <div class="spinner"></div>
-                        </div>
+                # redirect to summarization route
+                # serve files there...
+
+    return  ''' 
+                <div id="overlay" style="display: none;">
+                    <div class="w-100 d-flex justify-content-center align-items-center">
+                        <div class="spinner"></div>
                     </div>
-                '''
+                </div>
+            '''
 
 @lectures_blueprint.route('/lectures/new_loading_script')
 def replace_ajax():
