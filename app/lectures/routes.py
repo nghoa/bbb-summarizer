@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 from app.apis.bigbluebutton import get_meetings
 from app.apis.pb_connect import meeting_has_ended
 from app.utils.mk_folder import mkdir_data_folder, mkdir_presentation_folder, mkdir_audio_folder
+from app.utils.gcp_transcription import execute_transcription
 from . import lectures_blueprint
 from .get_stuff import get_config
 
@@ -72,7 +73,8 @@ def prepare_meeting_summary():
             print(audio_folder_constructed)
             print(presentation_folder_constructed)
             if (audio_folder_constructed and presentation_folder_constructed):
-                # transcribe meeting
+                # TODO: transcribe meeting
+                transcription_done = execute_transcription()
                 # get presentation
                 # align meeting
                 # TODO:
