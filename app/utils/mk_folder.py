@@ -7,30 +7,19 @@ from flask import jsonify
 # PROJECT_APP_DIR = os.path.expanduser("~/dev/bbb-summarizer")
 PROJECT_APP_DIR = os.path.dirname(os.path.abspath(os.path.join(__file__ ,"..")))
 print(PROJECT_APP_DIR)
-DEV_PATH = PROJECT_APP_DIR + "/data/"
-ROOT_TARGET_DIR = os.path.dirname(DEV_PATH)
-print("Root Target Dir: " + ROOT_TARGET_DIR)
-
-def main():
-    # TODO
-    internal_meeting_id = 'd3b050f3b31a8b967b4affec4a6a044b31fbf0dc-1601799973266'
-    # mkdir_data_folder()
-    # Check if meeting has ended!!!
-    # mkdir_presentation_folder(internal_meeting_id)
-    mkdir_audio_folder(internal_meeting_id)
+TARGET_DATA_PATH = os.path.join(PROJECT_APP_DIR, 'data')
+print("Root Target Dir: " + TARGET_DATA_PATH)
 
 def mkdir_data_folder():
     access_rights = 0o755
-    directory = os.path.dirname(DEV_PATH)
-    print('Data Directory: ' + directory)
-    if not os.path.exists(directory):
+    if not os.path.exists(TARGET_DATA_PATH):
         try:
-            os.makedirs(ROOT_TARGET_DIR)
+            os.makedirs(TARGET_DATA_PATH)
             return True
         except OSError:
-            print("Creation of directory %s failed" % ROOT_TARGET_DIR)
+            print("Creation of directory %s failed" % TARGET_DATA_PATH)
         else:
-            print("Sucessfully created directory %s " % ROOT_TARGET_DIR)
+            print("Sucessfully created directory %s " % TARGET_DATA_PATH)
     else:
         print("Data Directory already exists")
         return True
@@ -58,7 +47,7 @@ def mkdir_presentation_folder(internal_meeting_id):
                     # Get all files from presentation_dir 
                     for src_dir, dirs, files in os.walk(root_src_dir):
                         # Use root_replacement_path NOT root_src_dir because there might be multiple presentation 
-                        dst_dir = src_dir.replace(root_replacement_path, ROOT_TARGET_DIR)        # Test # root_src_dir
+                        dst_dir = src_dir.replace(root_replacement_path, TARGET_DATA_PATH)        # Test # root_src_dir
                         print("New Destination Dir: " + dst_dir)
                         if not os.path.exists(dst_dir):
                             os.makedirs(dst_dir)
@@ -93,7 +82,7 @@ def mkdir_audio_folder(internal_meeting_id):
     if os.path.exists(root_src_path):
         try:
             for src_dir, dirs, files in os.walk(root_src_path):
-                dst_dir = src_dir.replace(root_replacement_path, ROOT_TARGET_DIR)        # Test # root_src_dir
+                dst_dir = src_dir.replace(root_replacement_path, TARGET_DATA_PATH)        # Test # root_src_dir
                 # Make Audio folder if not existent
                 if not os.path.exists(dst_dir):
                     os.makedirs(dst_dir)
@@ -111,14 +100,19 @@ def mkdir_audio_folder(internal_meeting_id):
     else:
         print("Path for audio does not exists: " + root_src_path)
 
-def mkdir_summarization_folder():
-    # TODO
-    # mkdir ~dev/<internal meeting id>/transcription
-    # mkdir ~dev/<internal meeting id>/alignment
-    # mkdir ~dev/<internal meeting id>/metadata.txt ???
-    pass
+# TODO:
+# Auslagern der Funktion in create_summary()
+# Auslagern der Funktion in create_alignment()
 
+def mkdir_summarization_folder(internal_meeting_id):
+    alignment_dir = os.path.join(TARGET_DATA_PATH, internal_meeting_id, 'alignment')
+    summarization_dir = os.path.join(TARGET_DATA_PATH, internal_meeting_id, 'summarization')
+    if not os.path.exists(alignment_dir):
+        os.makedirs(alignment_dir)
+    if not os.path.exists(summarization_dir):
+        os.makedirs(summarization_dir)
 
 if __name__ == '__main__':
     # main()
-    mkdir_summarization_folder()
+    internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
+    mkdir_summarization_folder(internal_meeting_id)
