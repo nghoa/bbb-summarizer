@@ -75,6 +75,10 @@ def show_lecture_with_metadata():
 
     return render_template('lecture.html', metadata = metadata_json)
 
+@lectures_blueprint.route('/lectures/testplace/base')
+def show_base_extension():
+    return render_template('test.html')
+
 
 # TODO:
 # - adding loading screen, while meeting has not ended

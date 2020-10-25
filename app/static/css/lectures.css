@@ -1,7 +1,7 @@
 .jumbotron {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
   background-color: #fff;
 }
 @media (min-width: 768px) {
@@ -24,7 +24,7 @@
 }
 
 footer {
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 3rem;
 }
 
