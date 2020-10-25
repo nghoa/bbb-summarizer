@@ -1,138 +1,112 @@
-<!DOCTYPE html>
-<html>
+{% extends "base.html" %}
+{% block title %} Extension Test {% endblock %}
+{% block scripts %}
+<script id="loading_script">
+	$(function () {
+		// parse internal_meeting_id for prepare_meeting_data route
+		$("#loading").load("lectures/prepare_meeting_data?internal_meeting_id={{ metadata.internal_meeting_id }}");
+		$("#loading_script").load("lectures/new_loading_script");
+		$("#modalCenter").modal("show");
+	})
+</script>
+{% endblock %}
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Lecture List</title>
+<!-- Head of html -->
+{% block head %}
+{{ super() }}
+{% endblock %}
 
-	<!-- Bootstrap Core CSS -->
-	<link href="../static/dist/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Custom style for this template -->
-	<link href="../static/css/lectures.css" rel="stylesheet">
-	<link href="../static/css/carousel.css" rel="stylesheet">
+<!-- Header -->
+{% block header %}
+{{ super() }}
+{% endblock %}
 
-	<script src="https://code.jquery.com/jquery-3.0.0.slim.js"></script>
-	<script src="../static/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Main content -->
+{% block content %}
+<section class="jumbotron text-center">
+	<div class="container">
+		<h1>Informationen zum Lehrenden? Modul? Veranstaltung? MetaData: <b>tbd</b></h1>
+		<p class="lead text-muted">Kleine Beschreibung über das Summarization Modul???</p>
+		<p>
+			<a href="#" class="btn btn-primary my-2">Anzeige aller Präsentationen</a>
+			<a href="#" class="btn btn-secondary my-2">Anzeige aller Zusammenfassungen</a>
+		</p>
+	</div>
+</section>
 
-	<!-- If the above doesnt work -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-		crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<div class="album py-5 bg-light">
+	<div class="container">
+		<div class="row">
 
-</head>
-
-<body>
-	<header>
-		<div class="collapse bg-dark" id="navbarHeader">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-8 col-md-7 py-4">
-						<h4 class="text-white">About</h4>
-						<p class="text-muted">Add some information about the album below, the author, or any other
-							background context. Make it a few sentences long so folks can pick up some informative
-							tidbits. Then, link them off to some social networking sites or contact information.</p>
-					</div>
-					<div class="col-sm-4 offset-md-1 py-4">
-						<h4 class="text-white">Contact</h4>
-						<ul class="list-unstyled">
-							<li><a href="#" class="text-white">Follow on Twitter</a></li>
-							<li><a href="#" class="text-white">Like on Facebook</a></li>
-							<li><a href="#" class="text-white">Email me</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="navbar navbar-dark bg-dark shadow-sm">
-			<div class="container d-flex justify-content-between">
-				<a href="#" class="navbar-brand d-flex align-items-center">
-					<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-play"
-						fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-						<path
-							d="M6 11.117V6.883a.5.5 0 0 1 .757-.429l3.528 2.117a.5.5 0 0 1 0 .858l-3.528 2.117a.5.5 0 0 1-.757-.43z" />
-						<path
-							d="M4 0h5.5v1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h1V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z" />
-						<path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 0 1 9.5 3z" />
+			<div class="col-md-12">
+				<div class="card mb-4 shadow-sm">
+					<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+						xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+						role="img" aria-label="Placeholder: Thumbnail">
+						<title>Placeholder</title>
+						<rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+							dy=".3em">PLaceholder</text>
 					</svg>
-					<strong>Summarization</strong>
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
-					aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-			</div>
-		</div>
-	</header>
-
-	<!-- Middle Section of Content -->
-	<main role="main">
-
-		<section class="jumbotron text-center">
-			<div class="container">
-				<h1>Informationen zum Lehrenden? Modul? Veranstaltung? MetaData: <b>tbd</b></h1>
-				<p class="lead text-muted">Kleine Beschreibung über das Summarization Modul???</p>
-				<p>
-					<a href="#" class="btn btn-primary my-2">Anzeige aller Präsentationen</a>
-					<a href="#" class="btn btn-secondary my-2">Anzeige aller Zusammenfassungen</a>
-				</p>
-			</div>
-		</section>
-
-		<div class="album py-5 bg-light">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-md-12">
-						<div class="card mb-4 shadow-sm">
-							<svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-								xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-								focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-								<title>Placeholder</title>
-								<rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-									dy=".3em">Thumbnail</text>
-							</svg>
-							<div class="card-body">
-								<h5 class="card-title">Meetingname: {{ metadata.conference_name }}</h5>
-								<p class="card-text">
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Start time: {{ metadata.start_time }} </li>
-                                        <li class="list-group-item">Current Presenter: {{ metadata.current_presenter }}</li>
-                                    </ul>
-                                </p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-										<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					<div class="card-body">
+						<h5 class="card-title">Meetingname: {{ metadata.conference_name }}</h5>
+						<p class="card-text">
+						<ul class="list-group">
+							<li class="list-group-item">Start time: {{ metadata.start_time }} </li>
+							<li class="list-group-item">Current Presenter: {{ metadata.current_presenter }}</li>
+						</ul>
+						</p>
+						<div class="d-flex justify-content-between align-items-center">
+							<!-- Loading Overlay -->
+							<div id="loading">
+								<div id="overlay" style="display: flex;">
+									<div class="w-100 d-flex justify-content-center align-items-center">
+										<div class="spinner"></div>
 									</div>
-									<small class="text-muted">{{ metadata.current_duration }} min</small>
 								</div>
 							</div>
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+								<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+							</div>
+							<small class="text-muted">{{ metadata.current_duration }} min</small>
 						</div>
 					</div>
-
 				</div>
 			</div>
+
+			<!-- Modal -->
+            <div class="modal fade" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLongTitle">Pending!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            The summarization & alignment of the meeting is still ongoing, because of the running
+                            meeting.
+                            <br> <br>
+                            Wait until the meeting is finished and the post processing of the meeting is done.
+                            Visit this site again after everything is ready.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 		</div>
-	</main>
+	</div>
+</div>
+{% endblock %}
 
 
-	<footer class="text-muted">
-		<div class="container">
-			<p class="float-right">
-				<a href="#">Back to top</a>
-			</p>
-			<p>University Hamburg</p>
-			<p>Department of Informatics: Language Technology Group <a
-					href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/home.html">Visit the homepage</a>.</p>
-		</div>
-	</footer>
 
-</body>
-
-</html>
+<!-- Footer -->
+{% block footer %}
+{{ super() }}
+{% endblock %}
