@@ -1,18 +1,10 @@
 import redis
 import json
 
-# TODO: Prototype
-import time
-
 '''
 Listen to Redis Channel
 Returns whether meeting has ended
 '''
-
-# TODO: Prototyping for meeting has ended event
-def meeting_ended():
-    time.sleep(10)
-    return True
 
 def connect_to_redis():
     CHANNEL_TO_VOICE = "to-voice-conf-redis-channel"

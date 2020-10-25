@@ -3,7 +3,7 @@ import time
 from datetime import datetime, timedelta
 # In App Modules
 from app.apis.bigbluebutton import get_meetings
-from app.apis.pb_connect import meeting_ended
+from app.apis.pb_connect import meeting_has_ended
 from . import lectures_blueprint
 from .get_stuff import get_config
 
@@ -44,40 +44,45 @@ def get_meeting_info():
             return redirect(url_for('.show_lecture_with_metadata', metadata=metadata))
 
 
-# Testing out redirect from confnum -> lecture with metadata
-@lectures_blueprint.route('/lectures/testplace/data')
-def get_meeting_info_test():
-    conf_num = request.args.get('confnum')
-    # TODO:
-    # start_time transformation 
-    start_number = "1603483882428"
-    f_start_number = float(start_number)
-    start_time = datetime.datetime.fromtimestamp(f_start_number / 1e3).strftime('%d-%m-%Y %H:%M:%S')
-
-    metadata_dict = {
-        "conference_number": conf_num,
-        "conference_name": "Conference Name Test",
-        "internal_meeting_id": "Internal Meeting ID test",
-        "start_time": start_time,
-        "current_presenter": "Lorem Ipsum"
-    }
-    metadata = json.dumps(metadata_dict)
-
-    return redirect(url_for('.show_lecture_with_metadata', metadata=metadata))
-
-@lectures_blueprint.route('/lectures/testplace')
+@lectures_blueprint.route('/lectures')
 def show_lecture_with_metadata():
     metadata = request.args['metadata']     # counterpart for url_for
     metadata_json = json.loads(metadata)
 
-    # TODO:
-    # Start EventListener: meeting_ended()? 
-
+    # through ajax the /lectures/prepare_meeting_data route will be immediately triggered
     return render_template('lecture.html', metadata = metadata_json)
 
-@lectures_blueprint.route('/lectures/testplace/base')
-def show_base_extension():
-    return render_template('test.html')
+
+@lectures_blueprint.route('/lectures/prepare_meeting_data')
+def prepare_meeting_summary():
+    # meeting_has_ended function
+    internal_meeting_id = request.args.get('internal_meeting_id')
+    meeting_end = meeting_has_ended(internal_meeting_id)
+    if (meeting_end):
+
+        # TODO:
+        ###### after meeting has ended do following:
+        # mkdir folders
+        # transcribe meeting
+        # align meeting
+        # route to summarization
+        # serve files
+
+        return  ''' 
+                    <div id="overlay" style="display: none;">
+                        <div class="w-100 d-flex justify-content-center align-items-center">
+                            <div class="spinner"></div>
+                        </div>
+                    </div>
+                '''
+
+@lectures_blueprint.route('/lectures/new_loading_script')
+def replace_ajax():
+    return ''
+
+
+# TODO
+#### ------- Working Space ------- #####
 
 
 # TODO:
@@ -99,25 +104,6 @@ def overview_loaded():
 @lectures_blueprint.route('/lectures/ajax')
 def lecture_ajax():
     return render_template('lecture_ajax.html')
-
-# AJAX Loading screen
-@lectures_blueprint.route('/lectures/ajax/prepare_meeting')
-def prepare_meeting_summary():
-    # meeting_has_ended function
-    time.sleep(5)
-    return  ''' 
-                <div id="overlay" style="display: none;">
-                    <div class="w-100 d-flex justify-content-center align-items-center">
-                        <div class="spinner"></div>
-                    </div>
-                </div>
-            '''
-
-# TODO: dunno for what
-@lectures_blueprint.route('/lectures/ajax/new_loading_script')
-def replace_ajax():
-    return ''
-
 
 # TODO:
 ####### ---------- Testspace -------------------
@@ -143,3 +129,45 @@ def background_process():
             return jsonify(result='Try again.')
     except Exception as e:
         return str(e)
+
+
+
+# TODO:
+# Archive
+
+# Testing out redirect from confnum -> lecture with metadata
+@lectures_blueprint.route('/lectures/testplace/data')
+def get_meeting_info_test():
+    conf_num = request.args.get('confnum')
+    start_number = "1603483882428"
+    f_start_number = float(start_number)
+    start_time = datetime.datetime.fromtimestamp(f_start_number / 1e3).strftime('%d-%m-%Y %H:%M:%S')
+
+    metadata_dict = {
+        "conference_number": conf_num,
+        "conference_name": "Conference Name Test",
+        "internal_meeting_id": "Internal Meeting ID test",
+        "start_time": start_time,
+        "current_presenter": "Lorem Ipsum"
+    }
+    metadata = json.dumps(metadata_dict)
+
+    return redirect(url_for('.show_lecture_with_metadata', metadata=metadata))
+
+# AJAX Loading screen
+@lectures_blueprint.route('/lectures/ajax/prepare_meeting')
+def prepare_meeting_summary_test():
+    # meeting_has_ended function
+    time.sleep(5)
+    return  ''' 
+                <div id="overlay" style="display: none;">
+                    <div class="w-100 d-flex justify-content-center align-items-center">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+            '''
+
+# TODO: dunno for what
+@lectures_blueprint.route('/lectures/ajax/new_loading_script')
+def replace_ajax_test():
+    return ''
