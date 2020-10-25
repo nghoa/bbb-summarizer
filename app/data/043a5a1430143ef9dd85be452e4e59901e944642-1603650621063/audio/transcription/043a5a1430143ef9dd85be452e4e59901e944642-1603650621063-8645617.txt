@@ -1,1 +1,260 @@
-you are currently the only person in this conference we are starting a presentation again I'm eating again and see how this works we are uploading our presentation now still waiting still waiting okay the presentation is uploaded now now we can talk about the presentation of cost starting the summarizer
+{
+    "confidence": 0.8768144845962524,
+    "transcribed_words": [
+        {
+            "word": "you",
+            "end_time": 0.5,
+            "start_time": 0.2
+        },
+        {
+            "word": "are",
+            "end_time": 0.7000000000000001,
+            "start_time": 0.5
+        },
+        {
+            "word": "currently",
+            "end_time": 0.9,
+            "start_time": 0.7000000000000001
+        },
+        {
+            "word": "the",
+            "end_time": 1.2,
+            "start_time": 0.9
+        },
+        {
+            "word": "only",
+            "end_time": 1.4,
+            "start_time": 1.2
+        },
+        {
+            "word": "person",
+            "end_time": 1.9,
+            "start_time": 1.4
+        },
+        {
+            "word": "in",
+            "end_time": 1.9,
+            "start_time": 1.9
+        },
+        {
+            "word": "this",
+            "end_time": 2.1,
+            "start_time": 1.9
+        },
+        {
+            "word": "conference",
+            "end_time": 2.5,
+            "start_time": 2.1
+        },
+        {
+            "word": "we",
+            "end_time": 4.8,
+            "start_time": 4.4
+        },
+        {
+            "word": "are",
+            "end_time": 4.8,
+            "start_time": 4.8
+        },
+        {
+            "word": "starting",
+            "end_time": 5.2,
+            "start_time": 4.8
+        },
+        {
+            "word": "a",
+            "end_time": 5.3,
+            "start_time": 5.2
+        },
+        {
+            "word": "presentation",
+            "end_time": 5.6,
+            "start_time": 5.3
+        },
+        {
+            "word": "again",
+            "end_time": 6.3,
+            "start_time": 5.6
+        },
+        {
+            "word": "I'm",
+            "end_time": 6.4,
+            "start_time": 6.3
+        },
+        {
+            "word": "eating",
+            "end_time": 6.7,
+            "start_time": 6.4
+        },
+        {
+            "word": "again",
+            "end_time": 7.0,
+            "start_time": 6.7
+        },
+        {
+            "word": "and",
+            "end_time": 7.5,
+            "start_time": 7.0
+        },
+        {
+            "word": "see",
+            "end_time": 7.8,
+            "start_time": 7.5
+        },
+        {
+            "word": "how",
+            "end_time": 9.1,
+            "start_time": 7.8
+        },
+        {
+            "word": "this",
+            "end_time": 9.4,
+            "start_time": 9.1
+        },
+        {
+            "word": "works",
+            "end_time": 9.9,
+            "start_time": 9.4
+        },
+        {
+            "word": "we",
+            "end_time": 17.8,
+            "start_time": 17.2
+        },
+        {
+            "word": "are",
+            "end_time": 17.9,
+            "start_time": 17.8
+        },
+        {
+            "word": "uploading",
+            "end_time": 18.6,
+            "start_time": 17.9
+        },
+        {
+            "word": "our",
+            "end_time": 18.8,
+            "start_time": 18.6
+        },
+        {
+            "word": "presentation",
+            "end_time": 19.2,
+            "start_time": 18.8
+        },
+        {
+            "word": "now",
+            "end_time": 19.6,
+            "start_time": 19.2
+        },
+        {
+            "word": "still",
+            "end_time": 23.1,
+            "start_time": 22.5
+        },
+        {
+            "word": "waiting",
+            "end_time": 23.5,
+            "start_time": 23.1
+        },
+        {
+            "word": "still",
+            "end_time": 27.5,
+            "start_time": 26.0
+        },
+        {
+            "word": "waiting",
+            "end_time": 27.9,
+            "start_time": 27.5
+        },
+        {
+            "word": "okay",
+            "end_time": 28.4,
+            "start_time": 27.9
+        },
+        {
+            "word": "the",
+            "end_time": 28.9,
+            "start_time": 28.4
+        },
+        {
+            "word": "presentation",
+            "end_time": 29.2,
+            "start_time": 28.9
+        },
+        {
+            "word": "is",
+            "end_time": 29.6,
+            "start_time": 29.2
+        },
+        {
+            "word": "uploaded",
+            "end_time": 30.1,
+            "start_time": 29.6
+        },
+        {
+            "word": "now",
+            "end_time": 30.3,
+            "start_time": 30.1
+        },
+        {
+            "word": "now",
+            "end_time": 30.3,
+            "start_time": 30.3
+        },
+        {
+            "word": "we",
+            "end_time": 30.7,
+            "start_time": 30.3
+        },
+        {
+            "word": "can",
+            "end_time": 30.9,
+            "start_time": 30.7
+        },
+        {
+            "word": "talk",
+            "end_time": 31.1,
+            "start_time": 30.9
+        },
+        {
+            "word": "about",
+            "end_time": 31.3,
+            "start_time": 31.1
+        },
+        {
+            "word": "the",
+            "end_time": 31.6,
+            "start_time": 31.3
+        },
+        {
+            "word": "presentation",
+            "end_time": 32.0,
+            "start_time": 31.6
+        },
+        {
+            "word": "of",
+            "end_time": 32.3,
+            "start_time": 32.0
+        },
+        {
+            "word": "cost",
+            "end_time": 32.7,
+            "start_time": 32.3
+        },
+        {
+            "word": "starting",
+            "end_time": 38.2,
+            "start_time": 37.2
+        },
+        {
+            "word": "the",
+            "end_time": 38.3,
+            "start_time": 38.2
+        },
+        {
+            "word": "summarizer",
+            "end_time": 39.2,
+            "start_time": 38.3
+        }
+    ]
+}

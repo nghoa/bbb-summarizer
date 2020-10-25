@@ -3,9 +3,8 @@
 
 # Import libraries
 from pydub import AudioSegment
-import io
-from io import BytesIO
 import os
+import json
 from google.cloud import speech
 from google.cloud.speech import enums
 from google.cloud.speech import types
@@ -72,7 +71,6 @@ def google_transcribe(audio_dict):
     upload_blob(bucket_name, source_file_name, destination_blob_name)
     
     gcs_uri = 'gs://' + bucket_name + '/' + audio_file_name
-    transcript = ''
     
     client = speech.SpeechClient()
     audio = types.RecognitionAudio(uri=gcs_uri)
@@ -89,17 +87,25 @@ def google_transcribe(audio_dict):
 
     response = operation.result(timeout=10000)
 
+    transcript = {}
+    transcript['transcribed_words'] = []
+
     for result in response.results:
         alternative = result.alternatives[0]
-        print(u'Transcript: {}'.format(alternative.transcript))
         print('Confidence: {}'.format(alternative.confidence))
-        transcript += alternative.transcript                            ## Whole transcript
         
         ### Get timestamp about speecific words
         for word_info in alternative.words:
             word = word_info.word
             start_time = word_info.start_time
             end_time = word_info.end_time
+
+            transcript['transcribed_words'].append({
+                'word': word,
+                'start_time': start_time.seconds + start_time.nanos * 1e-9,
+                'end_time': end_time.seconds + end_time.nanos * 1e-9
+            })
+
             print('Word: {}, start_time: {}, end_time: {}'.format(
                 word,
                 start_time.seconds + start_time.nanos * 1e-9,
@@ -116,9 +122,8 @@ def write_transcripts(audio_dict, transcript):
         os.makedirs(output_filepath)
     transcript_filename = audio_dict['file_name'].split('.')[0] + '.txt'
     output_file = os.path.join(output_filepath, transcript_filename)
-    f = open(output_file, "w+")
-    f.write(transcript)
-    f.close()
+    with open(output_file, 'w+') as outfile:
+        json.dump(transcript, outfile, indent=4)
 
 def execute_transcription(internal_meeting_id):
     # input internal_meeting_id
@@ -140,6 +145,7 @@ def execute_transcription(internal_meeting_id):
             write_transcripts(audio_dict, transcript)
             return True
 
+# TODO: Prototyping
 if __name__ == '__main__':
     internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
     execute_transcription(internal_meeting_id)
