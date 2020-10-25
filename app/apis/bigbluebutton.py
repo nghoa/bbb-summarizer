@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup as Soup
 
 # Global Variables
 S_KEY = 'zo76ubWZJiQtl63GjAJ7SG2Sq6Tlf8xZfncKTTjF0'
-# DOMAIN = 'https://bbb.ngwork.de/bigbluebutton/api/'
-DOMAIN = 'http://34.107.7.184/bigbluebutton/api/'
+DOMAIN = 'https://bbb.ngwork.de/bigbluebutton/api/'
+# DOMAIN = 'http://34.107.7.184/bigbluebutton/api/'
 
 def get_meetings():
     api_url = get_meetings_req_string()

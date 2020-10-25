@@ -11,9 +11,3 @@ LIST_OF_APPS="ffmpeg"
 add-apt-repository ppa:jonathonf/ffmpeg-4
 apt-get update # latest package list
 apt-get install -y $LIST_OF_APPS
-
-# Setup GCloud Creds
-
-
-
-# other stuff
