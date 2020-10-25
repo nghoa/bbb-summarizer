@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %} Extension Test {% endblock %}
+{% block scripts %}
+<script id="loading_script">
+    $(function () {
+        $("#loading").load("ajax/prepare_meeting");
+        $("#loading_script").load("ajax/new_loading_script");
+        $("#modalCenter").modal("show");
+    })
+</script>
+{% endblock %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block header %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1>Informationen zum Lehrenden? Modul? Veranstaltung? MetaData: <b>tbd</b></h1>
+        <p class="lead text-muted">Kleine Beschreibung über das Summarization Modul???</p>
+        <p>
+            <a href="#" class="btn btn-primary my-2">Anzeige aller Präsentationen</a>
+            <a href="#" class="btn btn-secondary my-2">Anzeige aller Zusammenfassungen</a>
+        </p>
+    </div>
+</section>
+
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                        role="img" aria-label="Placeholder: Thumbnail">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Placeholder</text>
+                    </svg>
+                    <div class="card-body justify-content-center align-items-center">
+                        <div id="loading">
+                            <div id="overlay" style="display: flex;">
+                                <div class="w-100 d-flex justify-content-center align-items-center">
+                                    <div class="spinner"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="card-title">Meeting ID: asdasdasdasdachnjkdsnlasashndchndjkas</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLongTitle">Pending!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            The summarization & alignment of the meeting is still ongoing, because of the running
+                            meeting.
+                            <br> <br>
+                            Wait until the meeting is finished and the post processing of the meeting is done.
+                            Visit this site again after everything is ready.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+{{ super() }}
+{% endblock %}
