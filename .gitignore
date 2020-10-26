@@ -6,6 +6,8 @@ __pycache__/
 summarize-env/
 
 .vscode/
+glove.6B/
+glove.6B.300d.txt
 
 WILPS-fbd52af604db.json
 
