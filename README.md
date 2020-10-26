@@ -9,21 +9,12 @@ Follow the below instruction for setup
 - Install additional dependencies: `./install.sh`
 - Start server with:  `. entrypoint.sh`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### Reference:
 - https://github.com/jiaaro/pydub/issues/184
 ### Install ffmpeg
 - https://github.com/jiaaro/pydub#dependencies
 
-### Download Glove.6B
-Download Glove.6B and put it into the following directory: `/app/hmm_alignment/glove.6B`
-Step by Step:
-1. Starting from the base directory: `cd /app/hmm_alignment/glove.6B`
-2. Download glove: `wget http://nlp.stanford.edu/data/glove.6B.zip`
-3. Unzip it & move `glove.6B.300d.txt` in the base dir of `glove.6B`
-
-### HMM Alignment
+## Using HMM Alignment
 - Reference: `https://github.com/levguy/talksumm`
 ```
 @inproceedings{lev-etal-2019-talksumm,
@@ -44,7 +35,14 @@ Step by Step:
 }
 ```
 
-# Reference:
-- https://github.com/jiaaro/pydub/issues/184
-# Install ffmpeg
-- https://github.com/jiaaro/pydub#dependencies
+### Download Glove.6B
+Download Glove.6B and put it into the following directory: `/app/hmm_alignment/glove.6B`
+Step by Step:
+1. Starting from the base directory: `cd /app/hmm_alignment/glove.6B`
+2. Download glove: `wget http://nlp.stanford.edu/data/glove.6B.zip`
+3. Unzip it & move `glove.6B.300d.txt` in the base dir of `glove.6B`
+
+- Start your python interpreter and do the following: 
+>>> `import nltk`
+>>> `nltk.download('stopwords')`
+>>> `nltk.download('punkt')`

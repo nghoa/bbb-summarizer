@@ -103,6 +103,9 @@ def summarize(args):
 
                 predicted_seq_info, log_prob = hmm_article.predict()
 
+                print('predicted_seq_info: ')
+                print(predicted_seq_info)
+
                 print("log_prob = {}".format(log_prob))
 
                 print("predicted sequence info:\n")
@@ -111,7 +114,7 @@ def summarize(args):
                 with open(alignment_fname, 'w', encoding='utf-8') as out_file:
                     out_file.write(alignment_str + "\n")
 
-                # TODO: prototype
+                # TODO: prototype Error Output:  0 is not JSON serializable
                 with open(json_alignment, 'w', encoding='utf-8') as f:
                     json.dump(predicted_seq_info, f, ensure_ascii=False, indent=4, cls=npEncoder)              
 
