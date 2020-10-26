@@ -8,7 +8,8 @@ import json
 from google.cloud import speech
 from google.cloud.speech import enums
 from google.cloud.speech import types
-from serve_meeting_files import get_audio_file
+from app.utils.serve_meeting_files import get_audio_file
+# from serve_meeting_files import get_audio_file            # Use it for local development
 import wave
 from google.cloud import storage
 
