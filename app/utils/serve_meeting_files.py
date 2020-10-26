@@ -52,6 +52,16 @@ def get_pdf_file(internal_meeting_id):
                 
                 return json.dumps({'file_name': pdf_file, 'file_path': pdf_file_path})
 
+def get_wav_file(internal_meeting_id):
+    audio_dir = os.path.join(DATA_DIR, internal_meeting_id, 'audio')
+    for src_dir, dirs, files in os.walk(audio_dir):
+        for file_ in files:
+            audio_file = file_
+            audio_file_path = os.path.join(src_dir, audio_file)
+            if (audio_file.split('.')[1] == 'wav'):
+                response = { 'file_name': audio_file, 'file_path': audio_file_path, 'src_dir': src_dir}
+
+                return response
 
 def get_presentation_svgs(internal_meeting_id):
     pass
@@ -64,6 +74,7 @@ def get_alignment_file(internal_meeting_id):
 
 if __name__ == '__main__':
     internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
-    get_pdf_file(internal_meeting_id)
+    get_wav_file(internal_meeting_id)
+    # get_pdf_file(internal_meeting_id)
     # read_transcription(internal_meeting_id)
     # get_transcription(internal_meeting_id)
