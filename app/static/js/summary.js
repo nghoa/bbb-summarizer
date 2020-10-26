@@ -1,5 +1,5 @@
-function setCurTime() {
-    audio.currentTime = 5;
+function setCurTime(time) {
+    audio.currentTime = time;
 }
 
 function getCurTime() {
