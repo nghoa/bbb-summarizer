@@ -16,7 +16,7 @@ def get_audio_file(internal_meeting_id):
 
         return audio_files
 
-def get_transcription(internal_meeting_id):
+def get_transcription_path(internal_meeting_id):
     transcription_dir = os.path.join(DATA_DIR, internal_meeting_id, 'audio', 'transcription')
     # just one transcription file
     for src_dir, dirs, files in os.walk(transcription_dir):
@@ -27,18 +27,10 @@ def get_transcription(internal_meeting_id):
             return transcription_file_path
 
 def read_transcription(internal_meeting_id):
-    transcription_file_path = get_transcription(internal_meeting_id)
+    transcription_file_path = get_transcription_path(internal_meeting_id)
     with open(transcription_file_path) as json_file:
         data = json.load(json_file)
-        for t_words in data['transcribed_words']:
-            word = t_words['word']
-            start_time = t_words['start_time']
-            end_time = t_words['end_time']
-            print('Word: {}, start_time: {}, end_time: {}'.format(
-                word,
-                start_time,
-                end_time
-            ))
+        return data
 
 def get_pdf_file(internal_meeting_id):
     presentation_dir = os.path.join(DATA_DIR, internal_meeting_id, 'presentation')
