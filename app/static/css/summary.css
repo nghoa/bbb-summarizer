@@ -1,7 +1,32 @@
+.background-color {
+    background-color: #e6e6e6;
+}
+
 audio {
     width: 50% !important;
 }
 
-#pdf-container {
-    width: 50% !important;
+.nav-link {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Move Dropdown to furthest right position */
+.dropdown {
+    right: 1rem !important;
+    position: absolute;
+}
+
+.card-body {
+    overflow: auto;
+    height: 70vh;
+}
+
+.first-row {
+    padding-bottom: 1rem;
+}
+
+.pdf-iframe {
+    height: 100%;
+    width: 100%; 
 }

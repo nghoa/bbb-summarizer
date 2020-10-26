@@ -5,4 +5,3 @@ function setCurTime() {
 function getCurTime() {
     alert(audio.currentTime);
 }
-
