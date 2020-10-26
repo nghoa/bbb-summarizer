@@ -1,16 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test summary</title>
-</head>
-<body>
-    <h1>PDF</h1>
+{% extends "base.html" %}
+{% block title %} Lecture Overview {% endblock %}
+{% block scripts %}
+<link href="{{ url_for('static', filename='css/summary.css') }}" rel="stylesheet">
+<script src="{{ url_for('static', filename='js/summary.js') }}"></script>
+{% endblock %}
+
+<!-- Head of html -->
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+<!-- Header -->
+{% block header %}
+{{ super() }}
+{% endblock %}
+
+<!-- Main content -->
+{% block content %}
+<h1>PDF</h1>
     <div class="pdf-container">
-        <iframe src="{{ url_for('.show_static_pdf') }}" type="application/pdf" style="width: 80%; height: 50rem;" frameborder="0"></iframe>
+        <iframe src="{{ url_for('.show_static_pdf') }}" type="application/pdf" style="width: 50%; height: 50rem;" frameborder="0"></iframe>
     </div>
 
+    <audio controls preload="auto" id="audio">
+        <source src="{{ url_for('.serve_wav_file') }}" type="audio/wav">
+    </audio>
 
-</body>
-</html>
+    <button onclick="setCurTime()" type="button">Set time position to 5 seconds</button><br> 
+    <button onclick="getCurTime()" type="button">Get current time position</button>
+
+{% endblock %}
+
+<!-- Footer -->
+{% block footer %}
+{{ super() }}
+{% endblock %}
