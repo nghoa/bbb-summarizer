@@ -6,9 +6,7 @@ from flask import jsonify
 # Getting dir for creation
 # PROJECT_APP_DIR = os.path.expanduser("~/dev/bbb-summarizer")
 PROJECT_APP_DIR = os.path.dirname(os.path.abspath(os.path.join(__file__ ,"..")))
-print(PROJECT_APP_DIR)
 TARGET_DATA_PATH = os.path.join(PROJECT_APP_DIR, 'data')
-print("Root Target Dir: " + TARGET_DATA_PATH)
 
 def mkdir_data_folder():
     access_rights = 0o755

@@ -40,6 +40,18 @@ def read_transcription(internal_meeting_id):
                 end_time
             ))
 
+def get_pdf_file(internal_meeting_id):
+    presentation_dir = os.path.join(DATA_DIR, internal_meeting_id, 'presentation')
+    for src_dir, dirs, files in os.walk(presentation_dir):
+        for file_ in files:
+            file_name, extension = file_.split('.')
+            # only serve the pdf_file
+            if(extension == 'pdf'):
+                pdf_file = file_
+                pdf_file_path = os.path.join(src_dir, pdf_file)
+                
+                return json.dumps({'file_name': pdf_file, 'file_path': pdf_file_path})
+
 
 def get_presentation_svgs(internal_meeting_id):
     pass
@@ -52,5 +64,6 @@ def get_alignment_file(internal_meeting_id):
 
 if __name__ == '__main__':
     internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
-    read_transcription(internal_meeting_id)
+    get_pdf_file(internal_meeting_id)
+    # read_transcription(internal_meeting_id)
     # get_transcription(internal_meeting_id)
