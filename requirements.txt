@@ -11,6 +11,7 @@ google-cloud-speech
 google-cloud-storage
 redis
 <<<<<<< HEAD
+<<<<<<< HEAD
 flask-reverse-proxy-fix
 nltk>=3.4
 scipy>=1.2.0
@@ -18,6 +19,9 @@ pandas>=0.23.4
 gensim>=3.7.0
 numpy>=1.16.0
 tqdm>=4.38.0
+=======
+flask-reverse-proxy-fix
+>>>>>>> c0d0e473154025293f467780255fffe69ddd7c63
 =======
 flask-reverse-proxy-fix
 >>>>>>> c0d0e473154025293f467780255fffe69ddd7c63
