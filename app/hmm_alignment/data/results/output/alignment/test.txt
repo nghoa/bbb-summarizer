@@ -1,0 +1,581 @@
+Sent i | Sent Text                      | Duration | Spoken words                  
+-------+--------------------------------+----------+-------------------------------
+0      | test automated conversational  | 21       | okay high 'm name much show   
+       | agents (chatbots) are becoming |          | death present work detecting  
+       | widely used for various tasks  |          | conversations customers       
+       | such as personal assistants or |          | virtual agents joint work ibm 
+       | as customer service agents.    |          | loving high fi yorktown       
+3      | still, chatbots may behave     | 7        | okay one second okay sorry    
+       | extremely badly, leading to    |          | okay think                    
+       | conversations so off-the-mark  |          |                               
+       | that only a human agent could  |          |                               
+       | step in and salvage them.      |          |                               
+6      | in this paper we study         | 9        | stuff phoenician egregious    
+       | detecting these egregious      |          | egregious definition          
+       | conversations that can arise   |          | outstandingly bad shocking    
+       | in numerous ways.              |          | heard                         
+0      | test automated conversational  | 8        | known interest using virtual  
+       | agents (chatbots) are becoming |          | agent increasing specifically 
+       | widely used for various tasks  |          | prediction                    
+       | such as personal assistants or |          |                               
+       | as customer service agents.    |          |                               
+1      | recent studies project that    | 5        | twenty twenty eighty percent  
+       | 80% of businesses plan to use  |          | businesses                    
+       | chatbots by 20201, and that    |          |                               
+       | chatbots will power 85% of     |          |                               
+       | customer service interactions  |          |                               
+       | by the year 20202.             |          |                               
+0      | test automated conversational  | 8        | virtual agents even           
+       | agents (chatbots) are becoming |          | specifically look customer    
+       | widely used for various tasks  |          | care main                     
+       | such as personal assistants or |          |                               
+       | as customer service agents.    |          |                               
+1      | recent studies project that    | 5        | eighty five percent           
+       | 80% of businesses plan to use  |          | interactions provide          
+       | chatbots by 20201, and that    |          |                               
+       | chatbots will power 85% of     |          |                               
+       | customer service interactions  |          |                               
+       | by the year 20202.             |          |                               
+2      | this increasing usage is       | 2        | powered virtual               
+       | mainly due to advances in      |          |                               
+       | artificial intelligence and    |          |                               
+       | natural language processing    |          |                               
+       | (hirschberg and manning, 2015) |          |                               
+       | along with increasingly        |          |                               
+       | capable chat development       |          |                               
+       | environments, leading to       |          |                               
+       | improvements in conversational |          |                               
+       | richness and robustness.       |          |                               
+3      | still, chatbots may behave     | 15       | agents course good us however 
+       | extremely badly, leading to    |          | either experience know virtual
+       | conversations so off-the-mark  |          | agents might behave really bad
+       | that only a human agent could  |          | lead                          
+       | step in and salvage them.      |          |                               
+4      | consequences of these failures | 4        | loss customer loyalty even    
+       | may include loss of customer   |          |                               
+       | goodwill and associated        |          |                               
+       | revenue, and even exposure to  |          |                               
+       | litigation if the failures can |          |                               
+       | be shown to include fraudulent |          |                               
+       | claims.                        |          |                               
+13     | the resulting customer         | 4        | ways use okay sir             
+       | frustration may not surface in |          |                               
+       | easily detectable ways such as |          |                               
+       | the appearance of all caps,    |          |                               
+       | shouting to a speech           |          |                               
+       | recognizer, or the use of      |          |                               
+       | profanity or extreme           |          |                               
+       | punctuation.                   |          |                               
+15     | consider, for example, the     | 3        | real example conversation     
+       | anonymized but representative  |          |                               
+       | conversation depicted in       |          |                               
+       | figure 1.                      |          |                               
+16     | here the customer aims to      | 36       | n't deal let take okay        
+       | understand the details of a    |          | customer left agents right    
+       | flight ticket.                 |          | customer asking quotes travel 
+       |                                |          | wants know details agent kind 
+       |                                |          | understand telling consider   
+       |                                |          | purchased ticket customer     
+       |                                |          | interested n't want buy want  
+       |                                |          | know details agents actually  
+       |                                |          | missing gifts think           
+17     | in the first two turns, the    | 13       | already wants go next online  
+       | chatbot misses the customer’s  |          | lyor process rent cop customer
+       | intentions, which leads to the |          | asking rule person            
+       | customer asking “are you a     |          |                               
+       | real person?”.                 |          |                               
+18     | the customer then tries to     | 40       | response develop since        
+       | explain what went wrong, but   |          | assistant trained answer      
+       | the chatbot has insufficient   |          | questions drivers get ask     
+       | exposure to this sort of       |          | question customer trying start
+       | utterance to provide anything  |          | getting little bit annoyed ask
+       | but the default response (“i’m |          | specific question got sell    
+       | not trained on that”).         |          | agent picking answering 'm    
+       |                                |          | trained yet 'm still learning 
+       |                                |          | may want forget phase question
+       |                                |          | time customer thing           
+19     | the response seems to upset    | 16       | frustrated anger well         
+       | the customer and leads to a    |          | pointless talk real life      
+       | request for a human agent,     |          | person answer n't currently   
+       | which is rejected by the       |          | live agents checked online    
+       | system (“we don’t currently    |          | okay                          
+       | have live agents”).            |          |                               
+32     | we review related work, then   | 9        | define egregious conversations
+       | we formally define the         |          | okay course bunch well top    
+       | methodology for detecting      |          | elected                       
+       | egregious conversations.       |          |                               
+36     | these works studied the        | 9        | book festal works todd looking
+       | complementary problem of       |          | computer complementary        
+       | detecting and measuring user   |          | problems try                  
+       | satisfaction and engagement.   |          |                               
+37     | early work by (walker et al.,  | 5        | maximize data previous work   
+       | 1997, 2001) discussed a        |          | coming                        
+       | framework that maximizes the   |          |                               
+       | user satisfaction by           |          |                               
+       | considering measures such as   |          |                               
+       | number of inappropriate        |          |                               
+       | utterances, recognition rates, |          |                               
+       | number of times user requests  |          |                               
+       | repetitions, number of turns   |          |                               
+       | per interaction, etc.          |          |                               
+39     | other works focus on           | 2        | mine systems                  
+       | predicting the user engagement |          |                               
+       | in such systems.               |          |                               
+43     | in our work, we likewise use   | 4        | data use dialogue logo        
+       | emotion analysis as predictive |          |                               
+       | features for egregious         |          |                               
+       | conversation.                  |          |                               
+45     | specifically, in (sarikaya,    | 19       | specific setting late late    
+       | 2017) they reported on how the |          | stood two thousand seventeen  
+       | different reasons affect the   |          | somewhat thought trying study 
+       | users’ satisfaction.           |          | reason customers rephrasing   
+       |                                |          | different reasons affect      
+       |                                |          | satisfaction                  
+46     | in (sano et al., 2017) they    | 2        | dissatisfaction finally       
+       | focused on how to              |          |                               
+       | automatically predict the      |          |                               
+       | reason for user’s              |          |                               
+       | dissatisfaction using          |          |                               
+       | different features.            |          |                               
+49     | in (walker et al., 2000;       | 7        | also looking dialog break     
+       | hastie et al., 2002) the       |          | break downs walker            
+       | authors also looked for        |          |                               
+       | problems in a specific setting |          |                               
+       | of spoken conversations.       |          |                               
+53     | in (steidl et al., 2004) they  | 3        | trying torrents level         
+       | measured dialogue success at   |          |                               
+       | the turn level as a way of     |          |                               
+       | predicting the success of a    |          |                               
+       | conversation as a whole.       |          |                               
+57     | all these measures may serve   | 11       | try understand utterance break
+       | as reasons for a conversation  |          | data japanese chat okay       
+       | turning egregious, but none    |          | dealing would like            
+       | try to capture or predict it   |          |                               
+       | directly.                      |          |                               
+60     | they found that a combination  | 26       | sit extracted lead companies  
+       | of exaggerated customer        |          | provide customer support using
+       | expectations along with a      |          | virtual agents company using  
+       | reduction in agent performance |          | similar line totally different
+       | (e.g., failure to listen to    |          | domains one company business  
+       | the consumer, being too        |          | logic course arm system       
+       | intrusive) caused customers to |          | extract thousand              
+       | stop using such systems.       |          |                               
+64     | the objective of this work is  | 21       | conversations randomly see    
+       | to reliably detect egregious   |          | local distribution            
+       | conversations between a human  |          | conversation never see        
+       | and a virtual agent.           |          | conversation company much     
+       |                                |          | twice longer company okay     
+       |                                |          | recall thought try detect     
+       |                                |          | group conversation            
+65     | we treat this as a binary      | 12       | treat problem binary          
+       | classification task, where the |          | classification problem target 
+       | target classes are “egregious” |          | classes egregious awning      
+       | and “non-egregious”.           |          | gregis input classifieds      
+66     | while we are currently         | 6        | basically complete            
+       | applying this to complete      |          | conversation classification   
+       | conversations (i.e., the       |          | done end                      
+       | classification is done on the  |          |                               
+       | whole conversation), some of   |          |                               
+       | the features examined here     |          |                               
+       | could likely be used to detect |          |                               
+       | egregious conversations as     |          |                               
+       | they were unfolding in real    |          |                               
+       | time.                          |          |                               
+67     | to perform egregious           | 22       | conversation struck dot three 
+       | conversation detection,        |          | different feature sets        
+       | features from both customer    |          | conversation feature coming   
+       | inputs and agent responses are |          | agent response customer input 
+       | extracted, together with       |          | interaction feature customer  
+       | features related to the        |          | agents also low feature       
+       | combination of specific inputs |          | context                       
+       | and responses.                 |          |                               
+66     | while we are currently         | 14       | basically whether count appeal
+       | applying this to complete      |          | conversation okay point       
+       | conversations (i.e., the       |          | features complete check paper 
+       | classification is done on the  |          | 'll 'll 'll                   
+       | whole conversation), some of   |          |                               
+       | the features examined here     |          |                               
+       | could likely be used to detect |          |                               
+       | egregious conversations as     |          |                               
+       | they were unfolding in real    |          |                               
+       | time.                          |          |                               
+72     | when the agent starts losing   | 8        | begin agents response first   
+       | the context of a conversation, |          | week ease called repeating    
+       | fails in understanding the     |          |                               
+       | customer intention, or keeps   |          |                               
+       | repeating the same responses,  |          |                               
+       | the illusion of conversing     |          |                               
+       | with a human is lost and the   |          |                               
+       | conversation may become        |          |                               
+       | extremely annoying.            |          |                               
+75     | accurate intent detection is   | 8        | sponson analysis basically    
+       | thus a fundamental             |          | aims find many time agents    
+       | characteristic of well-trained |          |                               
+       | virtual agents, and incorrect  |          |                               
+       | intent analysis is reported as |          |                               
+       | the leading cause of user      |          |                               
+       | dissatisfaction (sarikaya,     |          |                               
+       | 2017).                         |          |                               
+77     | is often used to detect        | 6        | keep rephrasing saying 're    
+       | intents, its probabilistic     |          | response similarly            
+       | behavior can cause the agent   |          |                               
+       | to repeat the same (or         |          |                               
+       | semantically similar) response |          |                               
+       | over and over again, despite   |          |                               
+       | the user’s attempt to rephrase |          |                               
+       | the same intent.               |          |                               
+80     | we represented each sentence   | 17       | spahn 's order calculate sauna
+       | by averaging the pre-trained   |          | representing sentence         
+       | embeddings5 of each word in    |          | leveraging buildings sentence 
+       | the sentence, calculating the  |          | using cause similarity find   
+       | cosine similarity between the  |          | similar similar sentences     
+       | representations.               |          |                               
+86     | we extracted the possible      | 17       | set feature second feature    
+       | variants of the unsupported    |          | call unsupported intent       
+       | intent messages directly from  |          | analysis basically means ball 
+       | the system, and later matched  |          | n't use supporting intent     
+       | them with the agent responses  |          | usually answer                
+       | from the logs.                 |          |                               
+87     | from the customer’s point of   | 15       | something like like 'm trained
+       | view, an ineffective           |          | something similar okay next   
+       | interaction with a virtual     |          | feature coming customers site 
+       | agent is clearly undesirable.  |          | point done                    
+89     | these efforts can appear as    | 10       | customer may want could       
+       | behavioral cues in the         |          | behavioral cues first family  
+       | customer’s inputs, and include |          | 's emotion                    
+       | emotions, repetitions, and     |          |                               
+       | more.                          |          |                               
+90     | we used the following customer | 9        | analysis saw example earlier  
+       | analysis in our model.         |          | real example discussed        
+       |                                |          | actually morning              
+99     | we focused on negative         | 36       | emotion really important seems
+       | emotions (denoted as neg emo)  |          | one causes lead lead egregious
+       | to identify turns with a       |          | conversation looking different
+       | negative emotional peak (i.e., |          | behavior emotion looking big  
+       | single utterances that carried |          | online emotions example max   
+       | high negative emotional        |          | negative emotions also looking
+       | state), as well as to estimate |          | variation conversation ever   
+       | the aggregated negative        |          | going emotions conversation   
+       | emotion throughout the         |          | compared pick specific        
+       | conversation (i.e., the        |          | utterance done looking        
+       | averaged negative emotion      |          |                               
+       | intensity).                    |          |                               
+102    | note that we used the positive | 19       | rephrasing analysis equivalent
+       | emotions as a filter for other |          | say trying capture many times 
+       | customer features, such as the |          | efforts customer trying       
+       | rephrasing analysis.           |          | rephrase agents well hopefully
+       |                                |          | understand also another       
+       |                                |          | feature                       
+104    | in examining the conversation  | 11       | asking human agents want make 
+       | logs, we noticed that it is    |          | clear 's perfectly okay ask   
+       | not unusual to find a customer |          | agent                         
+       | asking to be transferred to a  |          |                               
+       | human agent.                   |          |                               
+108    | the assumption is that single  | 15       | however cases 's one cases    
+       | word (unigram) sentences are   |          | example customizable human    
+       | probably short customer        |          | also carreon negative emotions
+       | responses (e.g., no, yes,      |          | taken care okay               
+       | thanks, okay), which in most   |          |                               
+       | cases do not contribute to the |          |                               
+       | egregiousness of the           |          |                               
+       | conversation.                  |          |                               
+110    | we also looked at features     | 10       | finally looking interaction   
+       | across conversation utterance- |          | agent customer agent first    
+       | response pairs in order to     |          | group feature looking         
+       | capture a more complete        |          |                               
+       | picture of the interac- tion   |          |                               
+       | between the customer and the   |          |                               
+       | virtual agent.                 |          |                               
+108    | the assumption is that single  | 31       | behavior inputs customer      
+       | word (unigram) sentences are   |          | phones something like 'm      
+       | probably short customer        |          | trained give example civil    
+       | responses (e.g., no, yes,      |          | third one call long sentences 
+       | thanks, okay), which in most   |          | maybe imagine starting write  
+       | cases do not contribute to the |          | long sentence explaining      
+       | egregiousness of the           |          | question something need enough
+       | conversation.                  |          | use spend quite lot           
+116    | these features are summarized  | 3        | time fourth efforts           
+       | in the last part of table 1.   |          |                               
+117    | we also calculated the         | 20       | press enter immediately got 'm
+       | similarity between the         |          | turn could closely high       
+       | customer’s turn and the        |          | frustration customer later    
+       | virtual agent’s response in    |          | group cause section looking   
+       | cases of customer rephrasing.  |          | also customer aside freezing  
+118    | this analysis aims to capture  | 4        | analysis example getting      
+       | the reason for the customer    |          | results                       
+       | rephrasing.                    |          |                               
+127    | both agents are using similar  | 5        | similar results agents        
+       | underlying conversation        |          | basically means               
+       | engines, each embedded in a    |          |                               
+       | larger system with its own     |          |                               
+       | unique business logic.         |          |                               
+129    | each system logs               | 16       | customer trying phrase room   
+       | conversations, and each        |          | input agent keep getting wrong
+       | conversation is a sequence of  |          | thing keep turn wrong customer
+       | tuples, where each tuple       |          | expected conversation         
+       | consists of {conversation id,  |          |                               
+       | turn id, customer input, agent |          |                               
+       | response}.                     |          |                               
+136    | this sample included 1100 and  | 15       | lens feature okay setting     
+       | 200 conversations for company  |          | sample full eleven hundred    
+       | a and company b respectively.  |          | conversation company another  
+       |                                |          | two hundred company 's        
+139    | given the full conversation,   | 27       | conversation give give hci    
+       | each judge tagged whether the  |          | experts judge using guideline 
+       | conversation was egregious or  |          | conversation exploded mute    
+       | not following this guideline:  |          | extra ordinarily bad ways     
+       | “conversations which are       |          | conversations like see human  
+       | extraordinarily bad in some    |          | jump save conversation okay   
+       | way, those conversations where |          | like superman something like  
+       | you’d like to see a human jump |          |                               
+       | in and save the conversation”. |          |                               
+141    | the interrater reliability     | 8        | delay delay delay ability     
+       | between all judges, measured   |          | judges high around point      
+       | by cohen’s kappa, was 0.72     |          |                               
+       | which indicates high level     |          |                               
+       | agreement.                     |          |                               
+140    | we generated true binary       | 13       | two okay run actually non     
+       | labels by considering a        |          | companies around eight percent
+       | conversation to be egregious   |          | conversation doug egregious 'm
+       | if at least three of the four  |          |                               
+       | judges agreed.                 |          |                               
+144    | we also implemented two        | 10       | tools looking also implemented
+       | baseline models, rule-based    |          | focus based whether compel due
+       | and text-based, as follows:    |          | first                         
+       | rule-based.                    |          |                               
+147    | a model that was trained to    | 2        | model text                    
+       | predict egregiousness given    |          |                               
+       | the conversation’s text (all   |          |                               
+       | customer and agent’s text dur- |          |                               
+       | 8judges that are hci experts   |          |                               
+       | and have experience in         |          |                               
+       | designing conversational       |          |                               
+       | agents systems.                |          |                               
+148    | this model was implemented     | 15       | based model looked unique     
+       | using state-of-the-art textual |          | grimes feature lexicon coming 
+       | features as in (herzig et al., |          | emotion emotional features    
+       | 2017).                         |          | door based looking simple     
+147    | a model that was trained to    | 8        | agent response 'm trained     
+       | predict egregiousness given    |          | customer asking agent finally 
+       | the conversation’s text (all   |          |                               
+       | customer and agent’s text dur- |          |                               
+       | 8judges that are hci experts   |          |                               
+       | and have experience in         |          |                               
+       | designing conversational       |          |                               
+       | agents systems.                |          |                               
+148    | this model was implemented     | 1        | implemented                   
+       | using state-of-the-art textual |          |                               
+       | features as in (herzig et al., |          |                               
+       | 2017).                         |          |                               
+151    | since class distribution is    | 3        | class using v                 
+       | unbalanced, we evaluated       |          |                               
+       | classification performance by  |          |                               
+       | using precision (p), recall    |          |                               
+       | (r) and f1-score (f) for each  |          |                               
+       | class.                         |          |                               
+152    | the egr classifier was         | 1        | svm                           
+       | implemented using an svm with  |          |                               
+       | a linear kernel9.              |          |                               
+153    | table 2 depicts the            | 7        | okay results okay look f one  
+       | classification results for     |          | school                        
+       | both classes and the three     |          |                               
+       | models we explored.            |          |                               
+154    | the egr model significantly    | 12       | see egregious classifiers     
+       | outperformed both baselines10. |          | outperforming bass baseline   
+       |                                |          | approach around forty percent 
+       |                                |          | eighty percent                
+155    | specifically, for the          | 9        | text based think also         
+       | egregious class, the precision |          | interesting look precision    
+       | obtained by the text-based and |          | seems least                   
+       | egr models were similar.       |          |                               
+156    | this indicates that the text   | 8        | text based approaches capture 
+       | analyzed by both models        |          | send egregious using text     
+       | encodes some information about |          |                               
+       | egregiousness.                 |          |                               
+159    | to better understand the       | 14       | features interesting continue 
+       | contributions of different     |          | feature sets contribution     
+       | sets of features to our egr    |          | analyses basically heading    
+       | model, we examined various     |          | incremental time one different
+       | features in an incremental     |          | sets                          
+       | fashion.                       |          |                               
+160    | based on the groups of feature | 7        | feature starting agents       
+       | sets that we defined in        |          | features adding customer      
+       | section 3, we tested the       |          | finally                       
+       | performance of different group |          |                               
+       | combinations, added in the     |          |                               
+       | following order: agent,        |          |                               
+       | customer and customer-agent    |          |                               
+       | interactions.                  |          |                               
+164    | the figure also suggests that  | 23       | also get see gray column      
+       | the most informative group in  |          | adding also goodwill gave us  
+       | terms of prediction ability is |          | highest quality also          
+       | the customer group.            |          | interesting features coming   
+       |                                |          | customer along informative    
+       |                                |          | respect detecting egregious   
+       |                                |          | okay                          
+167    | for this task, we utilized the | 21       | look main remember company    
+       | 200 annotated conversations of |          | conversations trying data     
+       | company b as test data, and    |          | using company data n't        
+       | experimented with the          |          | musician note tuning destroyed
+       | different models, trained on   |          | simple simply company data    
+       | company a’s data.              |          | look score                    
+168    | the rule-based baseline does   | 3        | also somehow expected         
+       | not require training, of       |          |                               
+       | course, and could be applied   |          |                               
+       | directly.                      |          |                               
+169    | table 3 summarizes the results | 19       | degradation nine percent still
+       | showing that the performance   |          | seems able detect 'd also nice
+       | of the egr model is relatively |          | seize annoyance nice look     
+       | stable (w.r.t the model’s      |          | performance text based much   
+       | performance when it was        |          | lower                         
+       | trained and tested on the same |          |                               
+       | domain), with a degradation of |          |                               
+       | only 9% in f1-score11.         |          |                               
+171    | this may occur since textual   | 10       | used fact text feature allows 
+       | features are closely tied to   |          | tied main trained okay finally
+       | the training domain.           |          |                               
+172    | inspired by (sarikaya, 2017;   | 37       | mom customer phrasing analysis
+       | sano et al., 2017) we analyzed |          | inspired works saikai un sunal
+       | the customer rephrasing        |          | wanted idea understand        
+       | motivations for both the       |          | difference reasons customer   
+       | egregious and the non-         |          | phrasing setting use heard    
+       | egregious classes.             |          | systems little bit differently
+       |                                |          | stuff problems problems       
+       |                                |          | related setting idea turn     
+       |                                |          | analyze whole distribution    
+       |                                |          | different egregious angry     
+       |                                |          | class                         
+173    | first, we detected customer    | 6        | first time always l coming    
+       | rephrasing as described in     |          | called                        
+       | section 3.2.1, and then        |          |                               
+       | assigned to each its           |          |                               
+       | motivation.                    |          |                               
+174    | specifically, in our setting,  | 70       | basically intent detected     
+       | the relevant motivations       |          | correctly means agents        
+       | are12: (1) natural language    |          | response semantically file    
+       | understanding (nlu) error -    |          | customer expected able coming 
+       | the agent’s intent detection   |          | limitation language generation
+       | is wrong, and thus the agent’s |          | limitation 's item intent     
+       | response is semantically far   |          | section score customer        
+       | from the customer’s turn; (2)  |          | satisfied two got agents      
+       | language generation (lg)       |          | example could agents going    
+       | limitation - the intent is     |          | speak specific thing got us   
+       | detected correctly, but the    |          | may broad use 's needs last   
+       | customer is not satisfied by   |          | elway 's 'll come dunn support
+       | the response (for example, the |          | intent basically 'm trained   
+       | response was too generic); (3) |          | data supported agent look     
+       | unsupported intent error - the |          | distribution good gorgeous see
+       | customer’s intent is not       |          | dumb much unsupported intent  
+       | supported by the agent.        |          | previous one error also lg    
+       |                                |          | reduction                     
+175    | in order to detect nlu errors, | 15       | heiau non gregis one think get
+       | we measured the similarity     |          | indicates customer tolerance  
+       | between the first customer     |          | blow blames get feedback agent
+       | turn (before the rephrasing)   |          | time                          
+       | and the agent response.        |          |                               
+181    | this indicates that customers  | 4        | actually understand case      
+       | are more tolerant of cases     |          | system                        
+       | where the system understood    |          |                               
+       | their intent, but the response |          |                               
+       | is not exactly what they       |          |                               
+       | expected, rather than cases    |          |                               
+       | where the system’s response    |          |                               
+       | was “not trained”.             |          |                               
+183    | we further investigated why    | 13       | things ask thus conversation  
+       | the egr model was better at    |          | getting egregious fast also   
+       | identifying egregious          |          | look arm also percentage      
+       | conversations (i.e., its       |          | course                        
+       | recall was higher compared to  |          |                               
+       | the baseline models).          |          |                               
+185    | those conversations were       | 1        | due                           
+       | particularly prevalent with    |          |                               
+       | the agent’s difficulty to      |          |                               
+       | identify correctly the user’s  |          |                               
+       | intent due to nlu errors or lg |          |                               
+       | limitation.                    |          |                               
+187    | in addition, the customer      | 7        | weight 's line 's annual      
+       | intents that appeared in those |          | company okay                  
+       | conversations were very        |          |                               
+       | diverse.                       |          |                               
+189    | in this paper, we have shown   | 14       | conclude walker show detect   
+       | how it is possible to detect   |          | egregious conversation using  
+       | egregious conversations using  |          | feature coming agent customer 
+       | a combination of customer      |          | direction also feature        
+       | utterances, agent responses,   |          |                               
+       | and customer-agent             |          |                               
+       | interactional features.        |          |                               
+191    | in this context, future work   | 9        | whole bust first main future  
+       | includes collecting more data  |          | work consul first want        
+       | and using neural approaches    |          |                               
+       | (e.g., rnn, cnn) for analysis, |          |                               
+       | validating our models on a     |          |                               
+       | range of domains beyond the    |          |                               
+       | two explored here.             |          |                               
+192    | we also plan to extend the     | 11       | every time n't want waiting   
+       | work to detect egregious       |          | end call conversation plan    
+       | conversations in real time     |          | real time                     
+       | (e.g., for escalating to a     |          |                               
+       | human operators), and create   |          |                               
+       | log analysis tools to analyze  |          |                               
+       | the root causes of egregious   |          |                               
+       | conversations and suggest      |          |                               
+       | possible remedies.             |          |                               
+191    | in this context, future work   | 5        | want collect data look        
+       | includes collecting more data  |          | approaches                    
+       | and using neural approaches    |          |                               
+       | (e.g., rnn, cnn) for analysis, |          |                               
+       | validating our models on a     |          |                               
+       | range of domains beyond the    |          |                               
+       | two explored here.             |          |                               
+192    | we also plan to extend the     | 26       | order useful also integrates  
+       | work to detect egregious       |          | real alice 's tools explained 
+       | conversations in real time     |          | root cause egregious          
+       | (e.g., for escalating to a     |          | conversations high thanks     
+       | human operators), and create   |          | great holiday foundation lose 
+       | log analysis tools to analyze  |          | track many feature dollar     
+       | the root causes of egregious   |          | contacts 'm wondering         
+       | conversations and suggest      |          |                               
+       | possible remedies.             |          |                               
+191    | in this context, future work   | 24       | type feature important lie    
+       | includes collecting more data  |          | compositional lands big data  
+       | and using neural approaches    |          | tenet repeating repented state
+       | (e.g., rnn, cnn) for analysis, |          | repeating imports may help    
+       | validating our models on a     |          | complete task 'm wondering    
+       | range of domains beyond the    |          | tapley feature important      
+       | two explored here.             |          | expected                      
+192    | we also plan to extend the     | 11       | 'd last could n't hear last   
+       | work to detect egregious       |          | part repeat last also recall  
+       | conversations in real time     |          |                               
+       | (e.g., for escalating to a     |          |                               
+       | human operators), and create   |          |                               
+       | log analysis tools to analyze  |          |                               
+       | the root causes of egregious   |          |                               
+       | conversations and suggest      |          |                               
+       | possible remedies.             |          |                               
+191    | in this context, future work   | 3        | used three three              
+       | includes collecting more data  |          |                               
+       | and using neural approaches    |          |                               
+       | (e.g., rnn, cnn) for analysis, |          |                               
+       | validating our models on a     |          |                               
+       | range of domains beyond the    |          |                               
+       | two explored here.             |          |                               
+189    | in this paper, we have shown   | 15       | feature sets right first ones 
+       | how it is possible to detect   |          | extracted agent put segments  
+       | egregious conversations using  |          | customer decline action       
+       | a combination of customer      |          | features many features        
+       | utterances, agent responses,   |          |                               
+       | and customer-agent             |          |                               
+       | interactional features.        |          |                               
+190    | as explained, the goal of this | 3        | right 'm wondering            
+       | work is to give developers of  |          |                               
+       | automated agents tools to      |          |                               
+       | detect and then solve problems |          |                               
+       | cre- ated by exceptionally bad |          |                               
+       | conversations.                 |          |                               
+191    | in this context, future work   | 19       | type features important one   
+       | includes collecting more data  |          | okay actually 's appear system
+       | and using neural approaches    |          | analysis get featuring within 
+       | (e.g., rnn, cnn) for analysis, |          | group 's part work discuss    
+       | validating our models on a     |          | line                          
+       | range of domains beyond the    |          |                               
+       | two explored here.             |          |                               

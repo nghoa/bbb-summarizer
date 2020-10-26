@@ -807,13 +807,13 @@ class HmmArticle:
             duration = len(observed_subseq)
 
             cur_subseq_info = {
-                PredictedSeqInfoKey.SENT_I.value: cur_sent_i,
-                PredictedSeqInfoKey.BACKGROUND.value: cur_backg,
-                PredictedSeqInfoKey.SENT_FULL_ID.value: cur_sent_id,
+                PredictedSeqInfoKey.SENT_I.value: int(cur_sent_i),                  # forced type-casting cause of json module in python3.5
+                PredictedSeqInfoKey.BACKGROUND.value: int(cur_backg),               
+                PredictedSeqInfoKey.SENT_FULL_ID.value: cur_sent_id,   
                 PredictedSeqInfoKey.SENT_TEXT.value: cur_sent_text,
-                PredictedSeqInfoKey.DURATION.value: duration,
+                PredictedSeqInfoKey.DURATION.value: int(duration),               
                 PredictedSeqInfoKey.SPOKEN_WORDS.value: spoken_words_str,
-                PredictedSeqInfoKey.IS_GROUND_TRUTH.value: is_ground_truth
+                PredictedSeqInfoKey.IS_GROUND_TRUTH.value: int(is_ground_truth)     
             }
 
             all_subseq_info.append(cur_subseq_info)
