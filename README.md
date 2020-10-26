@@ -9,6 +9,7 @@ Follow the below instruction for setup
 - Install additional dependencies: `./install.sh`
 - Start server with:  `. entrypoint.sh`
 
+<<<<<<< HEAD
 ### Reference:
 - https://github.com/jiaaro/pydub/issues/184
 ### Install ffmpeg
@@ -39,3 +40,9 @@ Step by Step:
     pages = "2125--2131",
     abstract = "Currently, no large-scale training data is available for the task of scientific paper summarization. In this paper, we propose a novel method that automatically generates summaries for scientific papers, by utilizing videos of talks at scientific conferences. We hypothesize that such talks constitute a coherent and concise description of the papers{'} content, and can form the basis for good summaries. We collected 1716 papers and their corresponding videos, and created a dataset of paper summaries. A model trained on this dataset achieves similar performance as models trained on a dataset of summaries created manually. In addition, we validated the quality of our summaries by human experts.",
 }
+=======
+# Reference:
+- https://github.com/jiaaro/pydub/issues/184
+# Install ffmpeg
+- https://github.com/jiaaro/pydub#dependencies
+>>>>>>> c0d0e473154025293f467780255fffe69ddd7c63
