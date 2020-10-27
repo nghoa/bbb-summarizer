@@ -1,3 +1,5 @@
+import os
+
 from app.hmm_alignment.summarize import main
 from app.utils.serve_meeting_files import get_alignment_file, get_all_presentation_txt
 # from summarize import main            # Use it for local development

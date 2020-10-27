@@ -60,7 +60,21 @@ def get_presentation_svgs(internal_meeting_id):
     pass
 
 def get_all_presentation_txt(internal_meeting_id):
-    pass
+    presentation_dir = os.path.join(DATA_DIR, internal_meeting_id, 'presentation')
+    # presentation folder structure has a unique dir in the above level
+    for lower_dir in os.listdir(presentation_dir):
+        txt_dir = os.path.join(presentation_dir, lower_dir, 'textfiles')
+        all_txt_files = []
+        for src_dir, dirs, files in os.walk(txt_dir):
+            for file_ in files:
+                txt_file = file_
+                txt_file_path = os.path.join(src_dir, txt_file)
+
+                all_txt_files.append({ 'file_name': txt_file, 'file_path': txt_file_path })
+
+            return all_txt_files
+    
+
 
 def get_alignment_file(internal_meeting_id):
     hmm_dir = os.path.join(PROJECT_APP_DIR, 'hmm_alignment')
@@ -79,8 +93,10 @@ def get_alignment_file(internal_meeting_id):
 
 if __name__ == '__main__':
     internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
+    get_all_presentation_txt(internal_meeting_id)
+
     # get_alignment_file(internal_meeting_id)
     # get_wav_file(internal_meeting_id)
     # get_pdf_file(internal_meeting_id)
-    read_transcription(internal_meeting_id)
+    # read_transcription(internal_meeting_id)
     # get_transcription(internal_meeting_id)
