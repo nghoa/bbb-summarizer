@@ -8,11 +8,11 @@ import itertools
 import numpy as np
 import json
 
-from Logger import Logger
-from util import print_table, files_in_dir
-from SummaryCreator import SummaryCreator
-from ArticleDataSample import ArticleDataSample
-from HmmArticle import HmmArticle, HmmArticleConfig, PredictedSeqInfoKey
+from app.hmm_alignment.Logger import Logger
+from app.hmm_alignment.util import print_table, files_in_dir
+from app.hmm_alignment.SummaryCreator import SummaryCreator
+from app.hmm_alignment.ArticleDataSample import ArticleDataSample
+from app.hmm_alignment.HmmArticle import HmmArticle, HmmArticleConfig, PredictedSeqInfoKey
 
 class Namespace:
     def __init__(self, **kwargs):

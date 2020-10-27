@@ -1,7 +1,7 @@
 import numpy as np
 from nltk.tokenize import word_tokenize
 
-from ArticleDataSample import ArticleDataSample, CommonSectionNames
+from app.hmm_alignment.ArticleDataSample import ArticleDataSample, CommonSectionNames
 
 
 class SummaryCreator:

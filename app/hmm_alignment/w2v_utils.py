@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from util import tprint
+from app.hmm_alignment.util import tprint
 from gensim.models import KeyedVectors
 
 

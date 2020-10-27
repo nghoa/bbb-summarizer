@@ -9,10 +9,10 @@ from enum import Enum
 from itertools import compress
 from tqdm import tqdm
 
-from ArticleDataSample import ArticleDataSample, CommonSectionNames
-from util import tprint, cosine_similarity
-from w2v_utils import read_pretrained_w2v
-from viterbi import viterbi
+from app.hmm_alignment.ArticleDataSample import ArticleDataSample, CommonSectionNames
+from app.hmm_alignment.util import tprint, cosine_similarity
+from app.hmm_alignment.w2v_utils import read_pretrained_w2v
+from app.hmm_alignment.viterbi import viterbi
 
 
 class HmmAlgo(Enum):
