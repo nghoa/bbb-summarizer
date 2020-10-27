@@ -88,12 +88,14 @@ def google_transcribe(audio_dict):
 
     response = operation.result(timeout=10000)
 
+    full_transcription = ''
     transcript = {}
     transcript['transcribed_words'] = []
 
     for result in response.results:
         alternative = result.alternatives[0]
         print('Confidence: {}'.format(alternative.confidence))
+        full_transcription += alternative.transcript 
         
         ### Get timestamp about speecific words
         for word_info in alternative.words:
@@ -114,17 +116,21 @@ def google_transcribe(audio_dict):
             ))
     
     delete_blob(bucket_name, destination_blob_name)
-    return transcript
+    return { 'json_transcript': transcript, 'txt_transcription': full_transcription }
 
-def write_transcripts(audio_dict, transcript):
+def write_transcripts(audio_dict, transcript_dict):
     output_dir = 'transcription'
     output_filepath = os.path.join(audio_dict['src_dir'], output_dir)
     if not os.path.exists(output_filepath):
         os.makedirs(output_filepath)
-    transcript_filename = audio_dict['file_name'].split('.')[0] + '.txt'
-    output_file = os.path.join(output_filepath, transcript_filename)
-    with open(output_file, 'w+') as outfile:
-        json.dump(transcript, outfile, indent=4)
+    json_transcript_filename = audio_dict['file_name'].split('.')[0] + '.json'
+    text_transcript_filename = audio_dict['file_name'].split('.')[0] + '.txt'
+    json_output_file = os.path.join(output_filepath, json_transcript_filename)
+    txt_output_file = os.path.join(output_filepath, text_transcript_filename)
+    with open(json_output_file, 'w+') as f:
+        json.dump(transcript_dict['json_transcript'], f, indent=4)
+    with open(txt_output_file, 'w+') as t:
+        t.write(transcript_dict['txt_transcription'])
 
 def execute_transcription(internal_meeting_id):
     # input internal_meeting_id
@@ -142,8 +148,8 @@ def execute_transcription(internal_meeting_id):
     for audio_dict in audio_files:
         audio_file_name = audio_dict['file_name']
         if audio_file_name.split('.')[1] == 'wav':
-            transcript = google_transcribe(audio_dict)
-            write_transcripts(audio_dict, transcript)
+            transcript_dict = google_transcribe(audio_dict)
+            write_transcripts(audio_dict, transcript_dict)
             return True
 
 # TODO: Prototyping

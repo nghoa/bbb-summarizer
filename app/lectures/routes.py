@@ -69,7 +69,7 @@ def prepare_meeting_summary():
             audio_folder_constructed = mkdir_audio_folder(internal_meeting_id)
             presentation_folder_constructed = mkdir_presentation_folder(internal_meeting_id)
             if (audio_folder_constructed and presentation_folder_constructed):
-                transcription_done = execute_transcription()
+                transcription_done = execute_transcription(internal_meeting_id)
                 if (transcription_done):
                     # TODO:
                     # align meeting

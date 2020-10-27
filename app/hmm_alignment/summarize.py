@@ -144,8 +144,20 @@ def summarize(args):
 
     return failed_articles
 
+''' 
+Namespace(data_folder='example', no_predict=False, num_processors=1, num_sents=30, out_folder='example/output', thresh=1, word_embed_path='glove.6B/glove.6B.300d.txt')
+'''
+def main():
+    args = Namespace(
+        data_folder='data',
+        no_predict=False,
+        num_processors = 1,
+        num_sents = 30,
+        out_folder = 'data/results',
+        thresh = 1,
+        word_embed_path='glove.6B/glove.6B.300d.txt'
+    )
 
-def main(args):
     predict_enable = not args.no_predict
 
     if not os.path.exists(args.out_folder):
@@ -194,19 +206,5 @@ def main(args):
         for article_name in failed_list:
             print(article_name)
 
-''' 
-Namespace(data_folder='example', no_predict=False, num_processors=1, num_sents=30, out_folder='example/output', thresh=1, word_embed_path='glove.6B/glove.6B.300d.txt')
-'''
-
 if __name__ == '__main__':
-    args = Namespace(
-        data_folder='data',
-        no_predict=False,
-        num_processors = 1,
-        num_sents = 30,
-        out_folder = 'data/results',
-        thresh = 1,
-        word_embed_path='glove.6B/glove.6B.300d.txt'
-    )
-
-    main(args)
+    main()

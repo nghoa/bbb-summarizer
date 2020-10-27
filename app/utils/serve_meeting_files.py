@@ -23,13 +23,14 @@ def get_transcription_path(internal_meeting_id):
         for file_ in files:
             transcription_file = file_
             transcription_file_path = os.path.join(src_dir, transcription_file)
-
-            return transcription_file_path
+            if (transcription_file.split('.')[1] == 'json'):
+                return transcription_file_path
 
 def read_transcription(internal_meeting_id):
     transcription_file_path = get_transcription_path(internal_meeting_id)
     with open(transcription_file_path) as json_file:
         data = json.load(json_file)
+        print(data)
         return data
 
 def get_pdf_file(internal_meeting_id):
@@ -62,11 +63,24 @@ def get_all_presentation_txt(internal_meeting_id):
     pass
 
 def get_alignment_file(internal_meeting_id):
-    pass
+    hmm_dir = os.path.join(PROJECT_APP_DIR, 'hmm_alignment')
+    hmm_alignment_dir = os.path.join(hmm_dir, 'data', 'results', 'output', 'alignment')
+    for src_dir, dirs, files in os.walk(hmm_alignment_dir):
+        for file_ in files:
+            alignment_file = file_
+            alignment_file_path = os.path.join(src_dir, alignment_file)
+            if (alignment_file.split('.')[1] == 'json'):
+                response = { 'file_name': alignment_file, 'file_path': alignment_file_path }
+
+                print(response)
+                return response
+
+
 
 if __name__ == '__main__':
     internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
-    get_wav_file(internal_meeting_id)
+    # get_alignment_file(internal_meeting_id)
+    # get_wav_file(internal_meeting_id)
     # get_pdf_file(internal_meeting_id)
-    # read_transcription(internal_meeting_id)
+    read_transcription(internal_meeting_id)
     # get_transcription(internal_meeting_id)

@@ -43,6 +43,6 @@ Step by Step:
 3. Unzip it & move `glove.6B.300d.txt` in the base dir of `glove.6B`
 
 - Start your python interpreter and do the following: 
->>> `import nltk`
->>> `nltk.download('stopwords')`
->>> `nltk.download('punkt')`
+- `import nltk`
+- `nltk.download('stopwords')`
+- `nltk.download('punkt')`
