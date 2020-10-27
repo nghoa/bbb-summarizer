@@ -72,18 +72,18 @@ def prepare_meeting_summary():
             if (audio_folder_constructed and presentation_folder_constructed):
                 transcription_done = execute_transcription(internal_meeting_id)
                 if (transcription_done):
-                    # TODO:
                     # align meeting
-                    # TODO:
-                    # redirect to summarization route
-                    # serve files there...
-                    return  ''' 
-                                <div id="overlay" style="display: none;">
-                                    <div class="w-100 d-flex justify-content-center align-items-center">
-                                        <div class="spinner"></div>
+                    alignment_done = start_alignment(internal_meeting_id)
+                    if (alignment_done):
+                        # redirect to summarization route
+                        # TODO: return #loading -> with button 
+                        return  ''' 
+                                    <div id="overlay" style="display: none;">
+                                        <div class="w-100 d-flex justify-content-center align-items-center">
+                                            <div class="spinner"></div>
+                                        </div>
                                     </div>
-                                </div>
-                            '''
+                                '''
 
 @lectures_blueprint.route('/lectures/new_loading_script')
 def replace_ajax():
