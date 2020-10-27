@@ -103,7 +103,7 @@ def get_alignment_file(internal_meeting_id):
 
 if __name__ == '__main__':
     internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
-    get_full_text_transcription_path(internal_meeting_id)
+    # get_full_text_transcription_path(internal_meeting_id)
     # get_all_presentation_txt(internal_meeting_id)
     # get_alignment_file(internal_meeting_id)
     # get_wav_file(internal_meeting_id)

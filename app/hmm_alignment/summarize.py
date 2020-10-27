@@ -148,14 +148,19 @@ def summarize(args):
 Namespace(data_folder='example', no_predict=False, num_processors=1, num_sents=30, out_folder='example/output', thresh=1, word_embed_path='glove.6B/glove.6B.300d.txt')
 '''
 def main():
+    current_dir = os.path.dirname(os.path.realpath(__file__))
+    data_dir = os.path.join(current_dir, 'data')
+    out_dir = os.path.join(current_dir, 'data', 'results')
+    word_embed_file_path = os.path.join(current_dir, 'glove.6B', 'glove.6B.300d.txt')
+
     args = Namespace(
-        data_folder='data',
+        data_folder=data_dir,
         no_predict=False,
         num_processors = 1,
         num_sents = 30,
-        out_folder = 'data/results',
+        out_folder = out_dir,
         thresh = 1,
-        word_embed_path='glove.6B/glove.6B.300d.txt'
+        word_embed_path=word_embed_file_path
     )
 
     predict_enable = not args.no_predict
@@ -205,6 +210,10 @@ def main():
         print("FAILED ARTICLES ({}):".format(num_failed))
         for article_name in failed_list:
             print(article_name)
+            return False
+
+    # Test
+    return True
 
 if __name__ == '__main__':
     main()

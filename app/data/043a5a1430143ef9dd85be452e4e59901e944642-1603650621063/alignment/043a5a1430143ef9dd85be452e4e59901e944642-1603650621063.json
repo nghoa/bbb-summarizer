@@ -1,0 +1,200 @@
+[
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "statistical methods of",
+        "Sent i": 0,
+        "Backg": 0,
+        "Spoken words": "currently",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "language technology",
+        "Sent i": 1,
+        "Backg": 0,
+        "Spoken words": "person",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "statistical methods of",
+        "Sent i": 0,
+        "Backg": 0,
+        "Spoken words": "conference",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "language technology",
+        "Sent i": 1,
+        "Backg": 0,
+        "Spoken words": "starting",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "statistical methods of",
+        "Sent i": 0,
+        "Backg": 0,
+        "Spoken words": "presentation",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "language technology",
+        "Sent i": 1,
+        "Backg": 0,
+        "Spoken words": "'m",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "statistical methods of",
+        "Sent i": 0,
+        "Backg": 0,
+        "Spoken words": "eating",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "language technology",
+        "Sent i": 1,
+        "Backg": 0,
+        "Spoken words": "see",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "master studies informatics",
+        "Sent i": 2,
+        "Backg": 0,
+        "Spoken words": "works",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "chomsky-hierarchy\t",
+        "Sent i": 4,
+        "Backg": 0,
+        "Spoken words": "uploading",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "machine\tlearning\t",
+        "Sent i": 5,
+        "Backg": 0,
+        "Spoken words": "presentation",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "syntax\trules\t",
+        "Sent i": 6,
+        "Backg": 0,
+        "Spoken words": "still",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "machine\tlearning\t",
+        "Sent i": 5,
+        "Backg": 0,
+        "Spoken words": "waiting",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 2,
+        "GT": 0,
+        "Sent Text": "syntax\trules\t",
+        "Sent i": 6,
+        "Backg": 0,
+        "Spoken words": "still waiting",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "transducers\tfor\tmorphology\t",
+        "Sent i": 7,
+        "Backg": 0,
+        "Spoken words": "okay",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "sequence\tlabeling\t",
+        "Sent i": 8,
+        "Backg": 0,
+        "Spoken words": "presentation",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "seman@c\tmethods\t",
+        "Sent i": 9,
+        "Backg": 0,
+        "Spoken words": "uploaded",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "topic\tmodels\t",
+        "Sent i": 10,
+        "Backg": 0,
+        "Spoken words": "talk",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "phrase\talignment\t",
+        "Sent i": 11,
+        "Backg": 0,
+        "Spoken words": "presentation",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "1",
+        "Sent i": 12,
+        "Backg": 0,
+        "Spoken words": "cost",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "chris biemann, eugen ruppert",
+        "Sent i": 13,
+        "Backg": 0,
+        "Spoken words": "starting",
+        "Sent ID": ""
+    },
+    {
+        "Duration": 1,
+        "GT": 0,
+        "Sent Text": "",
+        "Sent i": 16,
+        "Backg": 0,
+        "Spoken words": "summarizer",
+        "Sent ID": ""
+    }
+]

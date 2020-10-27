@@ -15,7 +15,7 @@ Follow the below instruction for setup
 - https://github.com/jiaaro/pydub#dependencies
 
 ## Using HMM Alignment
-- Reference: `https://github.com/levguy/talksumm`
+- Reference: https://github.com/levguy/talksumm
 ```
 @inproceedings{lev-etal-2019-talksumm,
     title = "{T}alk{S}umm: A Dataset and Scalable Annotation Method for Scientific Paper Summarization Based on Conference Talks",

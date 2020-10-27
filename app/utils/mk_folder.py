@@ -86,10 +86,12 @@ def mkdir_audio_folder(internal_meeting_id):
                     os.makedirs(dst_dir)
                 for file_ in files:
                     src_file = os.path.join(src_dir, file_)
-                    dst_file = os.path.join(dst_dir, file_)
+                    # TODO: rename opus file because bbb names it slightly off from the internal-meeting-id
+                    new_dst_file_name = internal_meeting_id + '.opus'
+                    dst_file = os.path.join(dst_dir, new_dst_file_name)
                     if os.path.exists(dst_file):
                         os.remove(dst_file)
-                    shutil.copy(src_file, dst_dir)
+                    shutil.copy(src_file, dst_file)     # before: dst_dir
             return True
         except OSError:
             print("OSError for that path: " + root_src_path)
@@ -97,10 +99,6 @@ def mkdir_audio_folder(internal_meeting_id):
             print("Mkdir audio folder, Everything is done!")
     else:
         print("Path for audio does not exists: " + root_src_path)
-
-# TODO:
-# Auslagern der Funktion in create_summary()
-# Auslagern der Funktion in create_alignment()
 
 def mkdir_summarization_folder(internal_meeting_id):
     alignment_dir = os.path.join(TARGET_DATA_PATH, internal_meeting_id, 'alignment')
