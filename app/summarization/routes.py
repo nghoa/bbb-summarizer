@@ -1,5 +1,5 @@
 from flask import render_template, send_file, send_from_directory, redirect, request, url_for, session, make_response
-from app.utils.serve_meeting_files import get_pdf_file, get_wav_file, read_transcription, read_alignment, cp_presentation_svgs
+from app.utils.serve_meeting_files import get_pdf_file, get_wav_file, read_transcription, read_alignment, cp_presentation_svgs, get_all_presentation_txt
 import json
 import re
  
@@ -73,15 +73,29 @@ def serve_transcription():
     return render_template('summary.html', transcription=render_output, internalMeetingId=internal_meeting_id, svgLink=firstSvgLink)
 
 
-def serve_alignment():
-    # internal_meeting_id = session['internal_meeting_id']
-    internal_meeting_id = request.args.get('internalMeetingId')     # prototype
-    data_list = read_alignment(internal_meeting_id)
-    print(data_list)
+@summarization_blueprint.route('/summarization/testplace')
+def serve_test():
+    internal_meeting_id = 'b43a5a9996343ef9dd85be452e4e59901e944642-123456311'
+    test = serve_alignment(internal_meeting_id)
+    return 'hello world'
 
 
-    # TODO:
-    # def get_presentation_text(internal_meeting_id):
+'''
+    function which gets alignment.json from hmm_alignment model
+        > cleans up alignment
+        > align the output of the model with slide
+        > returns new dict with {slide_index, spoken_words, ...}
+        > returned dict is used for mapping between slides and spoken words
+'''
+def serve_alignment(internal_meeting_id):
+    data_dict = read_alignment(internal_meeting_id)
+    # Clean Alignment dict a bit:
+    print('Length before cleaning: ', len(data_dict))
+    x = [i for i in data_dict if not (i['Sent Text']=="")]  # - clean from empty Sent Text
+    y = [i for i in x if not (i['Sent Text']=="\n")]  # - clean from empty Sent Text
+    cleaned_alignment = [i for i in y if not (i['Sent Text']=="\t")]  # - clean from empty Sent Text
+    print('Length after cleaning: ', len(cleaned_alignment))
+    
     txt_dict = get_all_presentation_txt(internal_meeting_id)
     # sort dict by file_name <slide-1.txt, slide-2.txt, ...>
     new_dict = []
@@ -90,21 +104,27 @@ def serve_alignment():
         new_dict.append({'index': index, 'file_name': dict_['file_name'], 'file_path': dict_['file_path']})
     
     sorted_dict = sorted(new_dict, key = lambda i: i['index'])
-    # Start getting full_text of pdf by concat all txt_files in sorted_manner <slide-1 + slide-2.txt + ...>
-    full_pdf_txt = ''
-    # iterate through all files
+    slide_text_dict = []
     for dict_ in sorted_dict:
         with open(dict_['file_path'], 'r+') as f:
-            txt_content = f.read()
-            full_pdf_txt += txt_content + '\n'
+            txt_content = f.read().lower()      # standardize txt_content
+            slide_text_dict.append( { 'index': dict_['index'], 'slide_content': txt_content, 'file_name': dict_['file_name']} )
 
-    file_name = internal_meeting_id + '.txt'
-    dst_dir = os.path.join(CURRENT_DIR, 'data', 'presentation_text', file_name)
-    with open(dst_dir, 'w+') as p:
-        p.write(full_pdf_txt)
+    new_alignment_dict = []
+    for alignment_dict in cleaned_alignment:
+        sent_text = alignment_dict['Sent Text'].lower()
+        sent_duration = alignment_dict['Duration']
+        spoken_words = alignment_dict['Spoken words']
+        sent_i = alignment_dict['Sent i']       # used for relative measurement
+        for slide_dict in slide_text_dict:
+            slide_content = slide_dict['slide_content'].lower()
+            slide_name = slide_dict['file_name']
+            if (sent_text in slide_content and not sent_text == ''):
+                print('Sent Text: ' + sent_text)
+                print('Sent Duration: ', sent_duration, '---Sent i: ', sent_i)
+                print('Slide Name: ' + slide_name)
 
-
-    return 'hello world'
+    return True
 
 
 # TODO:
