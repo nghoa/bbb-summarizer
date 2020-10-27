@@ -1,8 +1,10 @@
 import os
 import json
+import shutil
 
 PROJECT_APP_DIR = os.path.dirname(os.path.abspath(os.path.join(__file__ ,"..")))
 DATA_DIR = os.path.join(PROJECT_APP_DIR, 'data')
+STATIC_FOLDER = os.path.join(PROJECT_APP_DIR, 'static')
 
 def get_audio_file(internal_meeting_id):
     audio_dir = os.path.join(DATA_DIR, internal_meeting_id, 'audio')
@@ -67,8 +69,20 @@ def get_wav_file(internal_meeting_id):
 
                 return response
 
-def get_presentation_svgs(internal_meeting_id):
-    pass
+def cp_presentation_svgs(internal_meeting_id):
+    presentation_dir = os.path.join(DATA_DIR, internal_meeting_id, 'presentation')
+    # presentation folder structure has a unique dir in the above level
+    for lower_dir in os.listdir(presentation_dir):
+        svgs_dir = os.path.join(presentation_dir, lower_dir, 'svgs')
+        for src_dir, dirs, files in os.walk(svgs_dir):
+            for file_ in files: 
+                src_file = os.path.join(src_dir, file_)
+                print(src_file)
+                dst_dir = os.path.join(STATIC_FOLDER, 'img', internal_meeting_id)
+                if not os.path.exists(dst_dir):
+                    os.makedirs(dst_dir)
+                shutil.copy(src_file, dst_dir)
+                return True
 
 def get_all_presentation_txt(internal_meeting_id):
     presentation_dir = os.path.join(DATA_DIR, internal_meeting_id, 'presentation')
@@ -125,9 +139,10 @@ def alignment_file_exists(internal_meeting_id):
 
 
 if __name__ == '__main__':
-    # internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
-    internal_meeting_id = 'b43a5a9996343ef9dd85be452e4e59901e944642-123456311'
-    alignment_file_exists(internal_meeting_id)
+    internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
+    # internal_meeting_id = 'b43a5a9996343ef9dd85be452e4e59901e944642-123456311'
+    cp_presentation_svgs(internal_meeting_id)
+    # alignment_file_exists(internal_meeting_id)
     # get_full_text_transcription_path(internal_meeting_id)
     # get_all_presentation_txt(internal_meeting_id)
     # get_alignment_file(internal_meeting_id)

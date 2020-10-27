@@ -3,6 +3,10 @@
 {% block scripts %}
 <link href="{{ url_for('static', filename='css/summary.css') }}" rel="stylesheet">
 <script src="{{ url_for('static', filename='js/summary.js') }}"></script>
+<!-- Get internal Meeting Id-->
+<script>
+    var internalMeetingId = '{{ internalMeetingId }}'
+</script>
 {% endblock %}
 
 <!-- Head of html -->
@@ -22,8 +26,24 @@
     <div class="container-fluid">
         <div class="row first-row">
             <div class="col pdf-container">
-                <iframe class="pdf-iframe" src="{{ url_for('.show_static_pdf') }}" type="application/pdf"
-                    frameborder="0"></iframe>
+                <!-- <iframe id="pdf-iframe" src="{{ url_for('.show_static_pdf') }}" type="application/pdf" frameborder="0"></iframe> -->
+                <object id="meetingPresentation" type="image/svg+xml"
+                    data={{ svgLink }}></object>
+                <!-- Navigation with pagination through pdf files -->
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-md-center">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous" onclick="previousPage(internalMeetingId)">
+                                <span aria-hidden="true">&laquo; Back </span>
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next" onclick="nextPage(internalMeetingId)">
+                                <span aria-hidden="true">Next &raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
             <div class="col">
                 <div class="card">
@@ -55,14 +75,15 @@
                         {% for sentence in transcription.sentences %}
                         <div class="row">
                             <p class="transcription_paragraph">
-                                <div class="col-3">
-                                    (<a href="#" class="startTime"
-                                        onclick="setCurTime({{ sentence.start_time }})">{{ sentence.start_time }}</a> -
-                                    <a href="#" class="endTime" onclick="setCurTime({{ sentence.end_time }})">{{ sentence.end_time }}</a>):
-                                </div>
-                                <div class="col-9">
-                                    <span id="{{ sentence.index }}" class="highlight">{{ sentence.sentence }}</span>
-                                </div>
+                            <div class="col-3">
+                                (<a href="#" class="startTime"
+                                    onclick="setCurTime({{ sentence.start_time }})">{{ sentence.start_time }}</a> -
+                                <a href="#" class="endTime"
+                                    onclick="setCurTime({{ sentence.end_time }})">{{ sentence.end_time }}</a>):
+                            </div>
+                            <div class="col-9">
+                                <span id="{{ sentence.index }}" class="highlight">{{ sentence.sentence }}</span>
+                            </div>
                             </p>
                         </div>
                         {% endfor %}

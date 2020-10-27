@@ -26,9 +26,14 @@ audio {
     padding-bottom: 1rem;
 }
 
-.pdf-iframe {
+#pdf-iframe {
     height: 100%;
     width: 100%; 
+}
+
+#meetingPresentation {
+    height: 90%;
+    width: 100%;
 }
 
 .highlight {
