@@ -100,9 +100,19 @@ def get_alignment_file(internal_meeting_id):
                 return response
 
 
+def alignment_file_exists(internal_meeting_id):
+    alignment_dir = os.path.join(DATA_DIR, internal_meeting_id, 'alignment')
+    for file_ in os.listdir(alignment_dir):
+        if (file_.split('.')[1] == 'json'):
+            return True
+
+
 
 if __name__ == '__main__':
-    internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
+    # internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
+    internal_meeting_id = 'b43a5a9996343ef9dd85be452e4e59901e944642-123456311'
+
+    alignment_file_exists(internal_meeting_id)
     # get_full_text_transcription_path(internal_meeting_id)
     # get_all_presentation_txt(internal_meeting_id)
     # get_alignment_file(internal_meeting_id)

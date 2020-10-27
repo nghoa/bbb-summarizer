@@ -6,6 +6,7 @@ from app.apis.bigbluebutton import get_meetings
 from app.apis.pb_connect import meeting_has_ended
 from app.utils.mk_folder import mkdir_data_folder, mkdir_presentation_folder, mkdir_audio_folder
 from app.utils.gcp_transcription import execute_transcription
+from app.utils.serve_meeting_files import alignment_file_exists
 from app.hmm_alignment.start_summarization import start_alignment
 from . import lectures_blueprint
 from .get_stuff import get_config
@@ -61,8 +62,8 @@ def prepare_meeting_summary():
     # meeting_has_ended function
     internal_meeting_id = request.args.get('internalMeetingId')
     meeting_end = meeting_has_ended(internal_meeting_id)
-    if (meeting_end):
-
+    alignment_file_exists = alignment_file_exists(internal_meeting_id)
+    if (meeting_end and not alignment_file_exists):
         ###### after meeting has ended do following:
         # mkdir folders
         data_folder_constructed = mkdir_data_folder()
@@ -84,110 +85,31 @@ def prepare_meeting_summary():
                                         </div>
                                     </div>
                                 '''
-
-@lectures_blueprint.route('/lectures/new_loading_script')
-def replace_ajax():
-    return ''
-
+    else:
+        return  ''' 
+                <div id="overlay" style="display: none;">
+                    <div class="w-100 d-flex justify-content-center align-items-center">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+                '''
 
 ### Test setup
 @lectures_blueprint.route('/lectures/workplace')
 def test_workplace():
     # internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
     internal_meeting_id = 'b43a5a9996343ef9dd85be452e4e59901e944642-123456311'
-    test = start_alignment(internal_meeting_id)
     ## TODO: test
     transcription_done = execute_transcription(internal_meeting_id)
-        if (transcription_done):
-            # align meeting
-            alignment_done = start_alignment(internal_meeting_id)
+    if (transcription_done):
+        # align meeting
+        alignment_done = start_alignment(internal_meeting_id)
+        return 'Everything done'
+
+
+@lectures_blueprint.route('/lectures/workplace/test')
+def test_set():
+    internal_meeting_id = 'b43a5a9996343ef9dd85be452e4e59901e944642-123456311'
+    alignment_file_not_exists = alignment_file_exists(internal_meeting_id)
+    print(not alignment_file_not_exists)
     return 'hello world'
-
-
-
-# TODO
-#### ------- Working Space ------- #####
-
-# TODO: Testing another ajax 
-@lectures_blueprint.route('/lectures/ajax')
-def lecture_ajax():
-    return render_template('lecture_ajax.html')
-
-# TODO:
-####### ---------- Testspace -------------------
-@lectures_blueprint.route('/lectures/stuff')
-def stuff():
-    test = get_config()
-    print(test)
-    return test
-
-# TODO: instead of using submit as an Event Trigger -> I want to use a backend eventHandler -> meeting_has_ended to replace the specific svg
-# Test interactive ajax after submitting a form
-@lectures_blueprint.route('/lectures/interactive')
-def interactivate():
-    return render_template('interactive.html')
-
-@lectures_blueprint.route('/background_process')
-def background_process():
-    try:
-        lang = request.args.get('proglang', 0, type=str)
-        if lang.lower() == 'python':
-            return jsonify(result='Your are wise')
-        else:
-            return jsonify(result='Try again.')
-    except Exception as e:
-        return str(e)
-
-
-
-# TODO:
-# Archive
-
-# Testing out redirect from confnum -> lecture with metadata
-@lectures_blueprint.route('/lectures/testplace/data')
-def get_meeting_info_test():
-    conf_num = request.args.get('confnum')
-    start_number = "1603483882428"
-    f_start_number = float(start_number)
-    start_time = datetime.datetime.fromtimestamp(f_start_number / 1e3).strftime('%d-%m-%Y %H:%M:%S')
-
-    metadata_dict = {
-        "conference_number": conf_num,
-        "conference_name": "Conference Name Test",
-        "internal_meeting_id": "Internal Meeting ID test",
-        "start_time": start_time,
-        "current_presenter": "Lorem Ipsum"
-    }
-    metadata = json.dumps(metadata_dict)
-
-    return redirect(url_for('.show_lecture_with_metadata', metadata=metadata))
-
-# AJAX Loading screen
-@lectures_blueprint.route('/lectures/ajax/prepare_meeting')
-def prepare_meeting_summary_test():
-    # meeting_has_ended function
-    time.sleep(5)
-    return  ''' 
-                <div id="overlay" style="display: none;">
-                    <div class="w-100 d-flex justify-content-center align-items-center">
-                        <div class="spinner"></div>
-                    </div>
-                </div>
-            '''
-
-# TODO: dunno for what
-@lectures_blueprint.route('/lectures/ajax/new_loading_script')
-def replace_ajax_test():
-    return ''
-
-# Prototype for simple loading screen with parsing status_code param
-@lectures_blueprint.route('/lectures/overview')
-def overview():
-    status_code = {"code": "loading"}
-    return render_template('lecture_loading.html', status_code = status_code)
-
-@lectures_blueprint.route('/lectures/overview/loaded')
-def overview_loaded():
-    time.sleep(5)
-    status_code = {"code": "done"}
-    return render_template('lecture_loading.html', status_code = status_code)

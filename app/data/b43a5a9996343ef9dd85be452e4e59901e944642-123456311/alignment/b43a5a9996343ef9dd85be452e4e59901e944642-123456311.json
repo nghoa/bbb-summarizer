@@ -1,0 +1,2297 @@
+[
+    {
+        "Sent Text": "language technology",
+        "Spoken words": "okay let 's start hello everyone thank coming testicle methods language technology",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 1,
+        "Backg": 0,
+        "Duration": 12
+    },
+    {
+        "Sent Text": "master studies informatics",
+        "Spoken words": "lecturer master 's program specifically designed english irs masters also participate next elections going talk various aspects",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 2,
+        "Backg": 0,
+        "Duration": 17
+    },
+    {
+        "Sent Text": "language technology",
+        "Spoken words": "language technology algorithmic perspective 're going look applications going look side algorithms work core going start traditional things like model language related things chomsky hierarchy going talk applications seat",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 1,
+        "Backg": 0,
+        "Duration": 29
+    },
+    {
+        "Sent Text": "chomsky-hierarchy\t",
+        "Spoken words": "tagging align fraser",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 4,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "machine\tlearning\t",
+        "Spoken words": "speaking look tax via going see applications machine learning",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 5,
+        "Backg": 0,
+        "Duration": 9
+    },
+    {
+        "Sent Text": "transducers\tfor\tmorphology\t",
+        "Spoken words": "conditional random fields generative modelsalso general",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 7,
+        "Backg": 0,
+        "Duration": 6
+    },
+    {
+        "Sent Text": "topic\tmodels\t",
+        "Spoken words": "motors picking recently standard model artificial",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 10,
+        "Backg": 0,
+        "Duration": 6
+    },
+    {
+        "Sent Text": "31/03/19 language technology group – chris biemann",
+        "Spoken words": "intelligence general language technology particular two",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 14,
+        "Backg": 0,
+        "Duration": 6
+    },
+    {
+        "Sent Text": "lecturers",
+        "Spoken words": "assistants teach practice classes",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 18,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "prof.\tdr.\tchris\tbiemann\t",
+        "Spoken words": "oregon auto parts head one hats basecamp heard base camp yet okay good many people write hands check facetime might nice idea carry projects specifically tied particular research true like know overwatch codex message groups chest stuff also mom sitting back conducting",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 20,
+        "Backg": 0,
+        "Duration": 42
+    },
+    {
+        "Sent Text": "biemann@informa+k.uni-",
+        "Spoken words": "thisso",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 21,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "31/03/19 language technology group – chris biemann",
+        "Spoken words": "good hair maybe short introduction lt group group",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 34,
+        "Backg": 0,
+        "Duration": 8
+    },
+    {
+        "Sent Text": "§  established in october 2016 at uhh, min-faculty, comp.sci.",
+        "Spoken words": "since october 2016 's 30-year",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 43,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "§  statistical semantics: capture word meaning with big-data methods",
+        "Spoken words": "looking aspects yeah stuff language computers understand language world send video semantics oh word meaning lot unsupervised methods like",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 46,
+        "Backg": 0,
+        "Duration": 19
+    },
+    {
+        "Sent Text": "§  structure discovery: unsupervised-knowledge-free methods for",
+        "Spoken words": "finding structures texts finding structures",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 47,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "language processing",
+        "Spoken words": "language",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 48,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "§  cognitive computing: human in the loop, interactive systems",
+        "Spoken words": "order operationalize sinews send notifications done cognitive computing paradigm basically putting human back equation 're going writing applications cycle applications asking put human process make assistant learns human ask human uses system",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 49,
+        "Backg": 0,
+        "Duration": 32
+    },
+    {
+        "Sent Text": "§  open source software and open data: committed to the most lenient",
+        "Spoken words": "reachesparadigm picking 's widely seen know end-user applications far regularly open source software community believe 's important yeah got tools ready",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 50,
+        "Backg": 0,
+        "Duration": 21
+    },
+    {
+        "Sent Text": "§  currently: 1 prof, 4 postdocs, 6 phd students, 1 office",
+        "Spoken words": "advance science unit 1 reemployment everything toluca lake 's know download stuff also upload stuff everyone use okay current group situation post office 6. students case particularly interested particular aspect language processing fee free approach either student",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 52,
+        "Backg": 0,
+        "Duration": 37
+    },
+    {
+        "Sent Text": "assistant",
+        "Spoken words": "assistants everyone else",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 53,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "short intro of the lt group",
+        "Spoken words": "group find someone matches",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 54,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "interestnow",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 58,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "language technology",
+        "Spoken words": "language taino language technologies let 's look bird one part language mean language mean new",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 59,
+        "Backg": 0,
+        "Duration": 15
+    },
+    {
+        "Sent Text": "•  programming\tlanguages?\t",
+        "Spoken words": "languages programming languages mean natural language languages spoken written read know sign whatever languages use human communication quite big difference eve approach language technology implemented reno compilers drum programming languages translate programming language statements machine operations translate spanish language n't work way yeah programming languages constructed someone sits thinks would good programming language look like 's",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 61,
+        "Backg": 0,
+        "Duration": 56
+    },
+    {
+        "Sent Text": "here:\t",
+        "Spoken words": "languageis",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 62,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "•  naturally\tgrown\t",
+        "Spoken words": "naturally grown",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 65,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "•  constantly\tchanging\t",
+        "Spoken words": "systems comes lot challenges know look technology side order process language language constantly changing might remember time",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 66,
+        "Backg": 0,
+        "Duration": 17
+    },
+    {
+        "Sent Text": "•  no\twell-deﬁned\tseman+cs\t",
+        "Spoken words": "verb google existent lexicon",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 67,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "•  many\tlayers\tof\tinterpreta+on\t",
+        "Spoken words": "speakers came like early 2000s late 1990s also add key",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 68,
+        "Backg": 0,
+        "Duration": 10
+    },
+    {
+        "Sent Text": "natural\tlanguage:\t",
+        "Spoken words": "difference programming language synephrine languages clear define semantics semantics programming language 's end inspection machine natural language meaning make know miscommunication happens translate whatever head literal stream natural language",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 64,
+        "Backg": 0,
+        "Duration": 29
+    },
+    {
+        "Sent Text": "•  no\twell-deﬁned\tseman+cs\t",
+        "Spoken words": "personpicks stream constructs",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 67,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "•  many\tlayers\tof\tinterpreta+on\t",
+        "Spoken words": "whatever meant reconstruct concepts course 's least two mismatched n't understand 's many many layers interpretation example could say cold could mean please close window right something pick look little bit behind",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 68,
+        "Backg": 0,
+        "Duration": 32
+    },
+    {
+        "Sent Text": "•  meaning\tdependent\ton\tcontext\t",
+        "Spoken words": "beyond word meaning meaning veritas depending context know jokes riddles place yeah take back fact birds mean different things different contexts",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 69,
+        "Backg": 0,
+        "Duration": 21
+    },
+    {
+        "Sent Text": "technologies\tcoping\twith\tthis\t",
+        "Spoken words": "technologies coping 're going talk lecture maybe one example illustrate mean",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 72,
+        "Backg": 0,
+        "Duration": 11
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "thatwhite",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 74,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "why language is hard ..",
+        "Spoken words": "language hard look example sentences see way maybe could yeah 'm sure light camera yeah maybe go like still okay camera okay better yeah okay look like sentence like",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 75,
+        "Backg": 0,
+        "Duration": 29
+    },
+    {
+        "Sent Text": "\t\t\t\the\tsat\ton\tthe\triver\tbank\tand\tcounted\this\tdough.\t",
+        "Spoken words": "said river bank account",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 76,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "\t \t\t\t\tshe\twent\tto\tthe\tbank\tand\ttook\tout\tsome\tmoney.\t",
+        "Spoken words": "style vs went bank took money 's easy understand understand still going go call",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 78,
+        "Backg": 0,
+        "Duration": 14
+    },
+    {
+        "Sent Text": "lexical\tlayer\t",
+        "Spoken words": "lexical level",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 79,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "concept\tlayer\t",
+        "Spoken words": "something like concept level two different people formalize constant level differently think agree",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 80,
+        "Backg": 0,
+        "Duration": 13
+    },
+    {
+        "Sent Text": "\t\t\t\the\tsat\ton\tthe\triver\tbank\tand\tcounted\this\tdough.\t",
+        "Spoken words": "easily disambiguate listen spirit lake bank ford river vs building organization deals finances ambiguity put hand would",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 76,
+        "Backg": 0,
+        "Duration": 17
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "hafiz synonymy contacts towel",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 74,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "why language is hard ..",
+        "Spoken words": "money means course could also mean stuff make indifferent contacts 's easy know translating one one every single word 'll finding good representation b u word level dvds levels language going look technologies deal okay maybe little language technology group 's rundown different projects research really addressing problem meaning find meanings analyzing lot texting saying lot texts mean really lot facts comment kids basically matter internet reasonable part english internet say internet full crap frankly n't see 's indexing sense n't get crap local server stuff like since induction baby find",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 75,
+        "Backg": 0,
+        "Duration": 91
+    },
+    {
+        "Sent Text": "\t\t\t\the\tsat\ton\tthe\triver\tbank\tand\tcounted\this\tdough.\t",
+        "Spoken words": "bank 1 bank 2 say question link full moon call",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 76,
+        "Backg": 0,
+        "Duration": 10
+    },
+    {
+        "Sent Text": "§  dfg: joining ontologies and distributional semantics",
+        "Spoken words": "duty representations meeting symbolic could reasoning top applications things psycho",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 86,
+        "Backg": 0,
+        "Duration": 10
+    },
+    {
+        "Sent Text": "§  dfg: semantic writing aid",
+        "Spoken words": "semantic writing hate 's student recently submitted phd",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 87,
+        "Backg": 0,
+        "Duration": 8
+    },
+    {
+        "Sent Text": "§  ibm: jobimtext: linking text to knowledge with",
+        "Spoken words": "sneezes actually need know birth process give spelling errors probably used features grammatical error connection put forward",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 90,
+        "Backg": 0,
+        "Duration": 17
+    },
+    {
+        "Sent Text": "distributional semantics",
+        "Spoken words": "antic correctional semantic paraphrasing",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 91,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "§  vw: new/s/leak: network of searchable leaks",
+        "Spoken words": "something ca n't find yet end-user applications also working companies lot project ibm currently work bunch telecom yeah 'm consulting use artificial intelligence also worked speaker finding information leeks snow panama papers wikileaks kind collections interesting problem 're looking needle haystack like",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 93,
+        "Backg": 0,
+        "Duration": 42
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "newsworthy",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 98,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "§  student project, up since 2014!",
+        "Spoken words": "story students work already know five years ago still developing 's called tigers attack go target 's like eat get graph happened today news people organizations relate something like reading call situation see already idea 's going click click bubbles actually get original articles case 're interested 'll play ideas extend talk us always focus project analysis thesis independent studies",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 99,
+        "Backg": 0,
+        "Duration": 60
+    },
+    {
+        "Sent Text": "www.tagesnetzwerk.de",
+        "Spoken words": "whatsoever okay content lectern",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 101,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "statistical methods of language technology",
+        "Spoken words": "physical methods language technology certificate methods",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 104,
+        "Backg": 0,
+        "Duration": 6
+    },
+    {
+        "Sent Text": "§  focus on methods rather than applications",
+        "Spoken words": "focus methods much applications",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 105,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "buchana",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 103,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "§  variety of techniques, focus on statistical methods",
+        "Spoken words": "look variety techniques focus statistical non-statistical mean data-driven 're learning also statistical sense build hypothesis observation lot data discuss things like",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 106,
+        "Backg": 0,
+        "Duration": 21
+    },
+    {
+        "Sent Text": "§  efficiency vs. effectiveness",
+        "Spoken words": "efficiency effectiveness faster expect salon",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 107,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "statistical methods of language technology",
+        "Spoken words": "language technology parts yes material language",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 108,
+        "Backg": 0,
+        "Duration": 6
+    },
+    {
+        "Sent Text": "§  adaptations of generally known algorithms to language data",
+        "Spoken words": "'s mostly written language excerpt n't anything speech would speech elections sometimes means adapt previously algorithms material hand language data sometimes means techniques making sense looks like language percent human genome actually looks like language maybe language four letters said 's linear spring meaning highly concentrated contextual also look",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 110,
+        "Backg": 0,
+        "Duration": 49
+    },
+    {
+        "Sent Text": "§  evaluation of techniques",
+        "Spoken words": "evaluation techniques",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 111,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "§  cores of methods being used in nl systems",
+        "Spoken words": "things pick intelligence 's perfect system test system better systems decide look formally ever tan actually important development sense decide whether change introduced system worth keeping speech trash away actually harms helps okay n't elect going",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 109,
+        "Backg": 0,
+        "Duration": 36
+    },
+    {
+        "Sent Text": "lecture: theory, concepts, algorithms",
+        "Spoken words": "talk theory concepts algorithm",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 112,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "practice class: hands-on, writing small programs, using available",
+        "Spoken words": "practice class smell like hands going paper pencil exercises going software use order make stuff happen sometimes also read programs n't restrictions language using program covered 'm using core ugliest make things programs choose whatever like 's 're going run anyways maybe one thing case anything 's unclear comment stuff want ask something 'm open internet interruption questions raise hand 'll try answer question soon get yeah want read rather listen couple books recommend",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 113,
+        "Backg": 0,
+        "Duration": 74
+    },
+    {
+        "Sent Text": "§  jurafsky, d. and martin, j. h. (2009): speech and language",
+        "Spoken words": "classic justin martin speech",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 119,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "processing. an introduction to natural language processing,",
+        "Spoken words": "language processing book",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 120,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "computational linguistics and speech recognition. second edition.",
+        "Spoken words": "one even classic",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 121,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "§  manning, c. d. and schütze, h. (1999): foundations of statistical",
+        "Spoken words": "manning switzer foundations statistical",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 123,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "natural language processing. mit press: cambridge, massachusetts",
+        "Spoken words": "natural language processing 's also german book computer linguistics similar language technology case read german better read english",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 124,
+        "Backg": 0,
+        "Duration": 18
+    },
+    {
+        "Sent Text": "literature for specialized topics will be given in-place.",
+        "Spoken words": "another main foundations basic things whenever something advanced 'll give literature place literature actually",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 129,
+        "Backg": 0,
+        "Duration": 14
+    },
+    {
+        "Sent Text": "textbooks",
+        "Spoken words": "online freely yeah books available",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 130,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "§  understand statistical methods for language processing in",
+        "Spoken words": "want learn course could decide whether stay course talk course would like learn understand statistical methods language processing",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 134,
+        "Backg": 0,
+        "Duration": 18
+    },
+    {
+        "Sent Text": "detail",
+        "Spoken words": "detail rough",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 135,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "§  feeling for language tech applications, avoiding pitfalls",
+        "Spoken words": "thing really really step-by-step convey feeling language technology applications specialist going comment typical pitfalls",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 136,
+        "Backg": 0,
+        "Duration": 14
+    },
+    {
+        "Sent Text": "§  analyze and evaluate the use of nlp in applications",
+        "Spoken words": "nuby still go know flea go something would run problems collect later would like learn earlier avoid profound knowledge analyze evaluate use language processing applications",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 139,
+        "Backg": 0,
+        "Duration": 25
+    },
+    {
+        "Sent Text": "§  see the beauty of language technology, be ready to write",
+        "Spoken words": "hopefully find nice maybe want something transfer",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 140,
+        "Backg": 0,
+        "Duration": 7
+    },
+    {
+        "Sent Text": "§  in the practice classes you will work on weekly assignments,",
+        "Spoken words": "physicist project whatsoever information practice last going going homework weekly assignments practice last going practice exercises practice class teachers develop solutions practice class exercises homework exercises similar nature 're going talk practice class rather",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 146,
+        "Backg": 0,
+        "Duration": 34
+    },
+    {
+        "Sent Text": "§  you need 50% of points to pass the course",
+        "Spoken words": "going provide solutions mobile deadline mission passed get 50 points pass course would happy serve people actually attend course usually get like seventy 80 's really case someone failed know 50 two n't know slack n't n't skip first couple exercises need points later",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 150,
+        "Backg": 0,
+        "Duration": 44
+    },
+    {
+        "Sent Text": "seid muhie yimam",
+        "Spoken words": "okay lisa simon",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 152,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "§  practical, i.e. writing a program and applying it to data",
+        "Spoken words": "'s theoretical practical",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 155,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "§  hands-on, i.e. applying a third-party program to data",
+        "Spoken words": "hands-on similar",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 156,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "practice class information",
+        "Spoken words": "fashion talked practice class information think old link sorry link",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 157,
+        "Backg": 0,
+        "Duration": 10
+    },
+    {
+        "Sent Text": "11",
+        "Spoken words": "77 27 're going cut",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 158,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "on the moodle e-learning platform:",
+        "Spoken words": "link anyway log moodle umn moodle",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 162,
+        "Backg": 0,
+        "Duration": 6
+    },
+    {
+        "Sent Text": "https://lernen.min.uni-hamburg.de/moodle/course/",
+        "Spoken words": "lebanon maine uni hamburg",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 163,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "§  the required enrolment key is: smolt2019",
+        "Spoken words": "self enroll course key need small 's 2019 's",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 165,
+        "Backg": 0,
+        "Duration": 9
+    },
+    {
+        "Sent Text": "view.php?id=27",
+        "Spoken words": "uppercase letters district medisoft",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 164,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "31/03/19 language technology group – chris biemann",
+        "Spoken words": "language technology",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 159,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "2019",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 160,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "§  the lecture slides, handouts, readings etc. can all be found",
+        "Spoken words": "find slides usually upload least day lecture case want print",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 161,
+        "Backg": 0,
+        "Duration": 10
+    },
+    {
+        "Sent Text": "view.php?id=27",
+        "Spoken words": "scribble",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 164,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "§  we use the participant’s forum there for discussion and",
+        "Spoken words": "also participant 's forum",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 166,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "q&a (encouraged!)",
+        "Spoken words": "encouraged ask questions 's anything see homework feel like maybe someone else knows maybe even ask us best channel everyone see n't know lot communication hat stool patio stuff 's way discuss quiz also",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 167,
+        "Backg": 0,
+        "Duration": 34
+    },
+    {
+        "Sent Text": "§  when:",
+        "Spoken words": "whatsapp",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 173,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "final exam",
+        "Spoken words": "group whatever one 's missy react hey final exam going standard written exam course 're going examine appointments 25th july one said 17th september",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 180,
+        "Backg": 0,
+        "Duration": 24
+    },
+    {
+        "Sent Text": "time slots for classes 2018",
+        "Spoken words": "time 's going stay like room sometimes change please check stina piece current room knees one stomach n't know content lecture exercises extent reading 're going ask question exclusively find reading material proposed reading supplementary thing better understand maybe collect come different backgrounds questions far okay practice lance going one going class half hour break one 's going monday 's going monday class 's going today 's class wants paint classes okay yeah change go like n't worry n't mean 's three people n't worry likes tina whatever station go ones 's 's fine 's two classes handle internally want avoid situations one class entirely full one entirely empty please try avoid switching classes practice math teacher real get know 's much better understand however one reasons ca n't depend one go one told without letting know okay yeah coming topics lecture 're going start today formal languages automata something know way",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 184,
+        "Backg": 0,
+        "Duration": 152
+    },
+    {
+        "Sent Text": "\tlecture\t",
+        "Spoken words": "master program okay master program okay yeah people master program assume foundational",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 196,
+        "Backg": 0,
+        "Duration": 12
+    },
+    {
+        "Sent Text": "31/03/19 language technology group – chris biemann",
+        "Spoken words": "knowledge computer science includes former language quick repetition going use particular kind",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 199,
+        "Backg": 0,
+        "Duration": 12
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "otamatone",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 202,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "§  computational morphology",
+        "Spoken words": "computational morphology study",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 204,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "§  word senses and their disambiguation",
+        "Spoken words": "word formation words changed languages agreement endings german english n't lot mythology plural logical thing question assigning labels sequences different machine learning single items 's basically one picture 's one word coming see",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 210,
+        "Backg": 0,
+        "Duration": 33
+    },
+    {
+        "Sent Text": "§  graph-based methods",
+        "Spoken words": "requires techniques standard classification protists",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 208,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "§  topic modelling",
+        "Spoken words": "let go look topic modeling soft clustering algorithm documents popular also sciences social sciences digital humanities pick things look",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 206,
+        "Backg": 0,
+        "Duration": 19
+    },
+    {
+        "Sent Text": "§  statistical machine translation",
+        "Spoken words": "works 're going look mt machine translation build google translate going look face two",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 207,
+        "Backg": 0,
+        "Duration": 14
+    },
+    {
+        "Sent Text": "§  graph-based methods",
+        "Spoken words": "methods particular way representing data advantages disadvantages discuss election distribution",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 208,
+        "Backg": 0,
+        "Duration": 10
+    },
+    {
+        "Sent Text": "§  distributional semantics",
+        "Spoken words": "semantics characterized",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 209,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "§  word senses and their disambiguation",
+        "Spoken words": "meaning words global contacts buy contacts words appear attractive data-driven paradigm needs lot text order build meaning representations going go little look problem word",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 210,
+        "Backg": 0,
+        "Duration": 24
+    },
+    {
+        "Sent Text": "137–167\t",
+        "Spoken words": "census disambiguate okay",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 219,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "•  automata\ttheory\tand\ttheory\tof\tformal\tlanguages\tare\ta\tpart\tof\t",
+        "Spoken words": "display part organizational part still questions amazing okay start content hope 'm going bore one 's kind prerequisites need know understand also like levels language complexity remember thomas garrity formal languages theoretical computer science tunnel town theory theory formal languages basically comes",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 231,
+        "Backg": 0,
+        "Duration": 42
+    },
+    {
+        "Sent Text": "•  their\tconcepts\toriginate\tin\ttheore+cal\tlinguis+cs:\tnoam\tchomsky\t",
+        "Spoken words": "linguist noam chomsky",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 233,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "theore+cal\tcomputer\tscience\t",
+        "Spoken words": "guy still alive 's like activity left political invented generative grammar escalate foundations modern computer science linguist see language technology computer science connections",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 232,
+        "Backg": 0,
+        "Duration": 23
+    },
+    {
+        "Sent Text": "why\ttalk\tabout\tit?\t",
+        "Spoken words": "might thought maybe yeah 's contribution basically look",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 235,
+        "Backg": 0,
+        "Duration": 8
+    },
+    {
+        "Sent Text": "•  complexity\tof\tsub-systems\tof\tnatural\tlanguage\tinforms\t",
+        "Spoken words": "subsystems language complex complexity reflected machines need order recognize generate automatons order grammer 's yeah important might simple subsystem language use complex",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 236,
+        "Backg": 0,
+        "Duration": 22
+    },
+    {
+        "Sent Text": "•  fundamental\tresults\tfrom\ttheore+cal\tcomputer\tscience\thave\t",
+        "Spoken words": "madison come fix",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 238,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "applica+ons\t",
+        "Spoken words": "otamatone",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 240,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "31/03/19 language technology group – chris biemann 17",
+        "Spoken words": "maybe works yeah basically sacrificing lot efficiency could done easier look two definitions 24",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 241,
+        "Backg": 0,
+        "Duration": 14
+    },
+    {
+        "Sent Text": "•  a\tlanguage\tis\ta\tcollec+on\tof\tsentences\tof\tﬁnite\tlength\t",
+        "Spoken words": "formal language sense collection sentences find length",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 244,
+        "Backg": 0,
+        "Duration": 7
+    },
+    {
+        "Sent Text": "all\tconstructed\tfrom\ta\tﬁnite\talphabet\tof\tsymbols\t",
+        "Spoken words": "constructed planet alphabet symbols",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 245,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "•  a\tlanguage\tis\ta\tcollec+on\tof\tsentences\tof\tﬁnite\tlength\t",
+        "Spoken words": "'s language already violating n't infinite sentence length okay die finish",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 244,
+        "Backg": 0,
+        "Duration": 11
+    },
+    {
+        "Sent Text": "all\tconstructed\tfrom\ta\tﬁnite\talphabet\tof\tsymbols\t",
+        "Spoken words": "hang alphabet symbols holding kids always know people inventing symbols",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 245,
+        "Backg": 0,
+        "Duration": 10
+    },
+    {
+        "Sent Text": "•  a\tgrammar\tcan\tbe\tregarded\tas\ta\tdevice\tthat\t",
+        "Spoken words": "like would thought hashtag actress 's good part every day 's total language years ago regarded device potentially",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 246,
+        "Backg": 0,
+        "Duration": 18
+    },
+    {
+        "Sent Text": "enumerates\tthe\tsentence\tof\ta\tlanguage\t",
+        "Spoken words": "enumerate sentences 's associated language 's basically function strange language",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 247,
+        "Backg": 0,
+        "Duration": 10
+    },
+    {
+        "Sent Text": "whose\trange\tis\texactly\tl\t",
+        "Spoken words": "yeah 's grandma says might remember quadruple",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 249,
+        "Backg": 0,
+        "Duration": 7
+    },
+    {
+        "Sent Text": "•  σ\ta\tﬁnite\tset\tof\tterminals,\tdisjoint\tfrom\tφ\t",
+        "Spoken words": "set numbers terminals finite set none terminals basically helper constructs help construct structure sentences actually generate string finite terminal symbols language language always consisting terminal symbols number 'll help us going",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 255,
+        "Backg": 0,
+        "Duration": 31
+    },
+    {
+        "Sent Text": "•  r\ta\tﬁnite\tset\tof\tproduc+on\trules\tof\tthe\tform\t\t",
+        "Spoken words": "examples case n't recall rules basically look like production rules possibly empty string sequence",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 256,
+        "Backg": 0,
+        "Duration": 14
+    },
+    {
+        "Sent Text": "\t",
+        "Spoken words": "non-terminal tennille symbols rewrite possible lie empty string non-heme",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 257,
+        "Backg": 0,
+        "Duration": 9
+    },
+    {
+        "Sent Text": "•  s,\telement\tof\tφ\t:\tstart\tsymbol\t",
+        "Spoken words": "north end terminal symbols order start need particular notice switch start symbol interpreted sentence going",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 259,
+        "Backg": 0,
+        "Duration": 15
+    },
+    {
+        "Sent Text": "derivation, formal language,",
+        "Spoken words": "rude basically take sentence whatever language almost stuff basically notion derive",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 263,
+        "Backg": 0,
+        "Duration": 11
+    },
+    {
+        "Sent Text": "1.  v\tis\tdirectly\tderivable\tfrom\tu,\tnoted\t\t\t\t\t\t\t\t\t\t,\tif\t",
+        "Spoken words": "ability string vs directly drivable",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 266,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "u\t=\tawb,\tv=azb\tand\tw→z\tis\ta\tproduc+on\trule\tin\tr.\t",
+        "Spoken words": "string respect rules means rule transforms string strength usually happens",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 267,
+        "Backg": 0,
+        "Duration": 10
+    },
+    {
+        "Sent Text": "\t",
+        "Spoken words": "unsub",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 268,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "2.  v\tis\tderivable\tfrom\tu,\tnoted\t\t\t\t\t\t\t\t\t\t,\tif\tthere\tare\twords\tw0..wk,\tsuch\t",
+        "Spoken words": "strings clean star like 's derivable means sequence rules transforms particular string particular string weed putting together look everything still",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 269,
+        "Backg": 0,
+        "Duration": 20
+    },
+    {
+        "Sent Text": "\t",
+        "Spoken words": "drivable starbucks",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 271,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "is\tthe\tformal\tlanguage\tgenerated\tby\tg.\t",
+        "Spoken words": "symbol exactly form language generated grammar yeah",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 273,
+        "Backg": 0,
+        "Duration": 7
+    },
+    {
+        "Sent Text": "an\tautomaton\tis\ta\tdevice\tthat\tdecides,\twhether\ta\tgiven\tsentence\t",
+        "Spoken words": "side piece little machines would able decide whether given sentence",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 274,
+        "Backg": 0,
+        "Duration": 10
+    },
+    {
+        "Sent Text": "belongs\tto\ta\tformal\tlanguage.\t\t",
+        "Spoken words": "belongs given",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 275,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "the\tcomplexity\tof\tthe\tgenera+ng\tgrammar\tinﬂuences\t",
+        "Spoken words": "grammar depending complexity language complexity protective grammar need",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 286,
+        "Backg": 0,
+        "Duration": 8
+    },
+    {
+        "Sent Text": "generates\t",
+        "Spoken words": "less machinery gives rise hierarchy maybe high-level pictures basically happens camera generate",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 291,
+        "Backg": 0,
+        "Duration": 12
+    },
+    {
+        "Sent Text": "is\taccepted\tby\t",
+        "Spoken words": "say language language accepted rejected",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 292,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "very\tcomplex\tautomata.\trestric+ons\ton\tthe\tform\tof\t",
+        "Spoken words": "automaton course complex month complex complexity need four types building floors starts 0 yeah science gorgeous type-0",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 298,
+        "Backg": 0,
+        "Duration": 17
+    },
+    {
+        "Sent Text": "grammar\tis\tcalled\ttype-0\t\t",
+        "Spoken words": "grammar basically respect additional restrictions roof part grammar 's like gave definition string mountains tunnels rule says okay convert another string non",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 301,
+        "Backg": 0,
+        "Duration": 22
+    },
+    {
+        "Sent Text": "by\ta\tturing\tmachine.\t\t",
+        "Spoken words": "terminals tunnels allowed empty right side lot stuff stuff empty yeah machine need accept turing machine specifically 's computable turing machine",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 303,
+        "Backg": 0,
+        "Duration": 21
+    },
+    {
+        "Sent Text": "enumerable\tlanguages.\t",
+        "Spoken words": "accepted language classes called recursively enumerable languages way complex natural languages going look mentioned completeness type one little restriction taiwan context-sensitive grammar coronavirus grammar context",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 305,
+        "Backg": 0,
+        "Duration": 25
+    },
+    {
+        "Sent Text": "31/03/19 language technology group – chris biemann 22",
+        "Spoken words": "sensitive rooms look like either alpha gamma context around 8 year 8",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 306,
+        "Backg": 0,
+        "Duration": 12
+    },
+    {
+        "Sent Text": "type-1-grammar: context-sensitive",
+        "Spoken words": "non-terminal symbol transform",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 308,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "•  either\tαaγ→αβγ\twith\tα,β,γ\t∈\t(φ∪σ)*,\ta∈φ,\tβ≠ε\t\t\t",
+        "Spoken words": "better could combination non terminals terminals could empty come",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 311,
+        "Backg": 0,
+        "Duration": 9
+    },
+    {
+        "Sent Text": "•  or\ts→ε.\t",
+        "Spoken words": "pmt push emptiness optional",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 312,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "if\ts→ε,\tthen\ts\tcannot\tappear\tin\tthe\trighthand\tside\tof\trules\tin\tr.\t",
+        "Spoken words": "rule saying rule starts goes empty basically make sure empty words grandma technicality n't worry one called context-sensitive apply rules specific contacts",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 313,
+        "Backg": 0,
+        "Duration": 22
+    },
+    {
+        "Sent Text": "the\tlanguage\tof\ta\ttype-1\tgrammar\tis\taccepted\tby\ta\tlinear\tbounded\t",
+        "Spoken words": "context given alpha gamma alpha gamma empty n't empty need phone otamatone need linear bounded otamatone",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 315,
+        "Backg": 0,
+        "Duration": 16
+    },
+    {
+        "Sent Text": "automaton\t(a\tnondeterminis+c\tturing\tmachine\twhose\ttape\tis\t",
+        "Spoken words": "basically turing machine going take steak 's need input type computation tape remember tapes turing machine yeah",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 316,
+        "Backg": 0,
+        "Duration": 17
+    },
+    {
+        "Sent Text": "bounded\tby\ta\tconstant\t+mes\tthe\tlength\tof\tthe\tinput).\t",
+        "Spoken words": "slang linear factor input turning machines infinite infinite types course hear complexity basically respected effect estimate amount space need",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 317,
+        "Backg": 0,
+        "Duration": 19
+    },
+    {
+        "Sent Text": "a\tgrammar\tg\t=\t(φ,σ,r,s)\tis\tcontext-free,\tiﬀ\tall\tproduc+on\trules\tin\tr\tobey\tthe\tform\t",
+        "Spoken words": "order make competition tattoo grammar context-free even respected 'm tell n't context basically rules left hand side single non-terminal right hand side generate string terminals non terminals called contact always replace non-terminal rule",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 322,
+        "Backg": 0,
+        "Duration": 33
+    },
+    {
+        "Sent Text": "context\tfree\tgrammars\tare\talso\tcalled\tphrase\tstructure\tgrammars.\t",
+        "Spoken words": "matter context occurs also called face structure promise",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 324,
+        "Backg": 0,
+        "Duration": 8
+    },
+    {
+        "Sent Text": "\t",
+        "Spoken words": "chunky richmond hot 60s underlying syntax",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 325,
+        "Backg": 0,
+        "Duration": 6
+    },
+    {
+        "Sent Text": "context-free\tlanguages\tare\tclosed\tunder\tthe\tfollowing\topera+ons:\t",
+        "Spoken words": "human language glad 'm okay former things close click fix mcdonald 's close",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 326,
+        "Backg": 0,
+        "Duration": 13
+    },
+    {
+        "Sent Text": "•  union:\tif\tf\tand\tg\tare\tcontext-free,\tso\tis\tf∪g\t",
+        "Spoken words": "union nation cleanest like many sequence could combine several buns contact glamorous union",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 327,
+        "Backg": 0,
+        "Duration": 13
+    },
+    {
+        "Sent Text": "•  kleene\tstar:\tif\tg\tis\tcontext-free,\tso\tis\tg*\t",
+        "Spoken words": "also context-free grammars difference put completeness n't really live really hurt us pain talked one",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 329,
+        "Backg": 0,
+        "Duration": 15
+    },
+    {
+        "Sent Text": "\t",
+        "Spoken words": "otamatone fanuc",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 330,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "•  intersec+on:\tfrom\tf\tand\tg\tare\tcontext-free\tdoes\tnot\tfollow\tthat\tf∩g\tis.\t",
+        "Spoken words": "control thing rules somehow represented invitation goes info tape try accept",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 332,
+        "Backg": 0,
+        "Duration": 11
+    },
+    {
+        "Sent Text": "31/03/19 language technology group – chris biemann 24",
+        "Spoken words": "language memory memory organized",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 335,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "stack-on",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 336,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "•  alphabet\tφ\tof\tstates\t\t",
+        "Spoken words": "second could write could",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 340,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "•  alphabet\tσ\tof\tinput\tsymbols,\tdisjunct\twith\tφ\t",
+        "Spoken words": "symbols need things need initial sex symbol transition relation rules basically transforms read",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 341,
+        "Backg": 0,
+        "Duration": 13
+    },
+    {
+        "Sent Text": "•  start\tstate\ts\t∈\tφ\t",
+        "Spoken words": "come right also happens sec start state course set final states usually kind state machine whenever reach one final states accept otherwise 's rejected things look like look like yeah send text please mean stuff teach school right sentence like shot",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 345,
+        "Backg": 0,
+        "Duration": 41
+    },
+    {
+        "Sent Text": "\t",
+        "Spoken words": "elephant pajamas",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 347,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "31/03/19 language technology group – chris biemann 25",
+        "Spoken words": "actually drive structure kind toy grammar kind poor grandma already illustrates convention said using grammatical processing language technology first know",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 348,
+        "Backg": 0,
+        "Duration": 20
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "okay bold-faced non-terminal",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 349,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "phrase structure grammars",
+        "Spoken words": "symbols terminal symbols case roots language spit part structure ones c produced non-terminal sequences terminal symbols feet lexicon basically responsible last level text three classes birds respect grandma sometimes called parts speech basically lexicon nouns alexa verbs lexicon prepositions lexicon terminals course lexical much longer real language grammar course structures much larger much complicated real languages story example grammar know starts symbol elite interpretation also influenced linguistic categories sentence perfectly generates hear noun phrase verb phrase noun phrase consist single noun verb phrase consists verb noun phrase prepositional phrase verb shot noun phrase could also determiner noun note right symbol could also elephant elephant ear category like tree prepositional phrase preposition ounce size announced symbol yeah read sentence structure basically",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 351,
+        "Backg": 0,
+        "Duration": 120
+    },
+    {
+        "Sent Text": "i\t shot\t an\t elephant\t in\t my\t pajamas\t",
+        "Spoken words": "shooting elephant wore pajamas one joke point groucho marx marx brothers 30s said shot elephant pajamas probably got pajamas 'll never know grammar could also generate structure basically texas prepositional pajamas part shooting subject elephant ambiguous course sentence first n't know joke would n't probably thought elephant versus pajamas pyjamas right interpretations head physically n't match",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 356,
+        "Backg": 0,
+        "Duration": 56
+    },
+    {
+        "Sent Text": "•  syntax\ttrees\tcan\t(almost)\tbe\tmodeled\twith\t",
+        "Spoken words": "'re considering however whole different layer processing look grammar look syntax equally valid n't matter 's nonsense 's syntax chomsky illustrated",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 373,
+        "Backg": 0,
+        "Duration": 21
+    },
+    {
+        "Sent Text": "•  one\tsurface\tsentence\tcan\thave\tseveral\t",
+        "Spoken words": "sentence colorless green ideas",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 375,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "n \t→\ti\t|\telephant\t|\tpajamas\t",
+        "Spoken words": "sleep furiously wild",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 390,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "n't make sense 's grammatically correct see views know 's statistics universal grandma n't actually see",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 16
+    },
+    {
+        "Sent Text": "context-free syntax trees with",
+        "Spoken words": "capacity syntax opposed capacity semantics",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 398,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "think 's like ugly wrong view mine shared many high-profile people dumb n't understand sophistic n't understand structure got one ambiguity happy send humidity already little toy",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 27
+    },
+    {
+        "Sent Text": "a\tgrammar\tg\t=\t(φ,σ,r,s)\tis\tright\tlinear\t(le_\tlinear),\t\tiﬀ\tall\tthe\tproduc+on\trules\tin\t",
+        "Spoken words": "grammar might want protect like millions rules fear",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 404,
+        "Backg": 0,
+        "Duration": 8
+    },
+    {
+        "Sent Text": "lef\t(right)\tlinear\tgrammars\tgenerate\tregular\tlanguages:\t",
+        "Spoken words": "normal want model like like many ambiguities might hard part natural language opposed programming language programming language ever never designed programming language kind ambiguities occur going happen right hit computer tell ca n't change language cope okay make complete hierarchy type 3 grammar switch regular languages left-right linear language rules even simpler either produce terminal signal symbol long time see take long time assemble say end single n't know 's string terminal 3 single mom terminal symbol whether order like would left right linearity",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 410,
+        "Backg": 0,
+        "Duration": 84
+    },
+    {
+        "Sent Text": "these\tlanguages\tcan\tbe\tdescribed\tthrough\tregular\texpressions.\t\t",
+        "Spoken words": "expressiveness n't make difference protective complexity effect languages grandma 's raped regular languages know regular expressions class languages exactly coat regular expressions inductive tense regular expressions never written regular expression okay know right basically intersect donate star yeah 's way write expressions basically happens background",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 416,
+        "Backg": 0,
+        "Duration": 45
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "compiles",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 418,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "finite state automaton",
+        "Spoken words": "finite state automata",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 419,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "•  input\talphabet\tσ,\tdisjunct\twith\tφ\t",
+        "Spoken words": "device recognize even simpler tuning machines push tub time machine 'll stay input symbol",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 423,
+        "Backg": 0,
+        "Duration": 14
+    },
+    {
+        "Sent Text": "•  one\tstart\tstate\ts∈φ\t",
+        "Spoken words": "basically leads different state basically rule saying okay start state n't put go next state formulating anything tape go know step step walk kind hamilton states final notation going final stage look like cool hear everything final except one author",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 425,
+        "Backg": 0,
+        "Duration": 40
+    },
+    {
+        "Sent Text": "•  input\talphabet\tσ,\tdisjunct\twith\tφ\t",
+        "Spoken words": "profess input issue find final state accepts input weiser protected systems",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 423,
+        "Backg": 0,
+        "Duration": 11
+    },
+    {
+        "Sent Text": "these\tlanguages\tcan\tbe\tdescribed\tthrough\tregular\texpressions.\t\t",
+        "Spoken words": "language languages mythology also something called tongue piercing going look lectures course actually captured regular languages talk 's actually important know",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 416,
+        "Backg": 0,
+        "Duration": 21
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "suffolk nephrology compile",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 418,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "finite state automaton",
+        "Spoken words": "finite state automata",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 419,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "hear finest could come time would actually recognize english muffin bird like yeah one take maybe yeah n't know table could accept noun detective say okay maybe table eyes table eyes group course 's stabilisation act stabilizing n't make sense humor defensive",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 42
+    },
+    {
+        "Sent Text": "context-free syntax trees with",
+        "Spoken words": "cosmetology semantics able finesse world like",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 398,
+        "Backg": 0,
+        "Duration": 6
+    },
+    {
+        "Sent Text": "phrase structure grammars",
+        "Spoken words": "captures english actually abbreviation know changing shape words order make fit different syntactic contacts maybe adding meaning reflected mythology okay hurricane talking basically",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 399,
+        "Backg": 0,
+        "Duration": 23
+    },
+    {
+        "Sent Text": "\t",
+        "Spoken words": "type-0 recursively enumerable",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 409,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "lef\t(right)\tlinear\tgrammars\tgenerate\tregular\tlanguages:\t",
+        "Spoken words": "languages accepted turning machines everything computable cuz know stuff computable everything computed killing machines eventually computer since class contacts pictures part 's know 've diagram 's overlapping 's sticks upset contact languages accepted donna summer regular language accepted finite state automata written would know natural language kind context weed little bit context tentativeness know 's satisfying perspective theory mean language language filter theory look language see fair 's actually would implement",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 410,
+        "Backg": 0,
+        "Duration": 71
+    },
+    {
+        "Sent Text": "-\tgroucho\tmarx\t",
+        "Spoken words": "isa mildly context-sensitive things street dining grammer 's also deterministic contacts p grandma 's soda",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 397,
+        "Backg": 0,
+        "Duration": 15
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "10 minutes contact lee want programming languages n't want none determinism n't want multiple alternatives ever otherwise processing defective 'll needed natural language okay learn one thing light jackets one basically yeah",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 32
+    },
+    {
+        "Sent Text": "31/03/19 language technology group – chris biemann 27",
+        "Spoken words": "programming languages design contacts fishing party signal",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 400,
+        "Backg": 0,
+        "Duration": 7
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "obituaries please define semantics languages yamilee context-sensitive",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 401,
+        "Backg": 0,
+        "Duration": 7
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "many possible prices single sentence big booty inherent another tactic level put levels even know hearing speaking level semantics interpretation means get another layer infinite regress basically communicating messages people okay much introductory psychic questions says 'm going fast please tell 'm ready like re-explain stuff rather physically losing track anna coming back ethan go next one",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 57
+    },
+    {
+        "Sent Text": "context-free syntax trees with",
+        "Spoken words": "bridges finite state morphology learned morphology soda like bird",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 398,
+        "Backg": 0,
+        "Duration": 9
+    },
+    {
+        "Sent Text": "phrase structure grammars",
+        "Spoken words": "formation regular language hear one confucius kind stretched transducers actually change surface representation words see text representation already motorcycle markers identified later applications use reflecting levels language known",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 399,
+        "Backg": 0,
+        "Duration": 28
+    },
+    {
+        "Sent Text": "context-free syntax trees with",
+        "Spoken words": "linguistics witches phonology morphology syntax semantics pragmatics place basically building pipelines",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 398,
+        "Backg": 0,
+        "Duration": 11
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "say first clean everything know",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "p \t→\tin\t",
+        "Spoken words": "mythology deposit pricing model posted mario would assume mythology already prepared produces paris semantic small would assume 's already syntactic parts performance samantha corporations basically first step",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 392,
+        "Backg": 0,
+        "Duration": 27
+    },
+    {
+        "Sent Text": "d \t→\tmy\t|\tan\t|\ta\t|\tthe\t",
+        "Spoken words": "pipeliner linguistic taipan texts",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 393,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "yeah question texts come stuff yeah go wind direction language processing also talked technical parts getting stuff application oriented parts okay n't think going look contract trees think yeah take dax think took 're going lose 1 lecture 1st may wednesday first may yeah public holiday yeah 's cut content make fit okay 'm fine upside morphologies mythology fine estate example fairly regular let 's assume find state technology appropriate way dealing want automatic mythology component well want ways want analysis given volume morphemes also want generation given system muffler tip markers actual surface analyzing text also generating text thank automatic summarization think chatbots complaint actually live life sex realize response get system okay mean surface form always stuff observed flexible basically like exactly whitney actually depending paradigm follow depending know conventions 'm going teaching particular conventions particular people butts level would understandable surface like runs could",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 147
+    },
+    {
+        "Sent Text": "phrase structure grammars",
+        "Spoken words": "stem physically meaning finding unit word run verb present tense third person singular mean marcus plural noun",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 399,
+        "Backg": 0,
+        "Duration": 17
+    },
+    {
+        "Sent Text": "type-3 grammar: regular,",
+        "Spoken words": "run sentence scored several home runs game begin decide 's verb ca n't like largest could large active adjectives superlative one n't break regular ones",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 402,
+        "Backg": 0,
+        "Duration": 25
+    },
+    {
+        "Sent Text": "a\tgrammar\tg\t=\t(φ,σ,r,s)\tis\tright\tlinear\t(le_\tlinear),\t\tiﬀ\tall\tthe\tproduc+on\trules\tin\t",
+        "Spoken words": "better actually comparative good 's always case would seven 're happy",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 404,
+        "Backg": 0,
+        "Duration": 11
+    },
+    {
+        "Sent Text": "r\tobey\tthe\tforms\t",
+        "Spoken words": "surface form symptoms lettuce german examples lot verbs imperfect third person singular german also interpreted detectives",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 405,
+        "Backg": 0,
+        "Duration": 16
+    },
+    {
+        "Sent Text": "lef\t(right)\tlinear\tgrammars\tgenerate\tregular\tlanguages:\t",
+        "Spoken words": "regular regular ambiguity morphology german speak german could n't speak german n't pick ignore five men course enumerate verse language 's closed control language final list put hash table done right n't work one hand going copy lot stuff behavior nouns like third like 's noun plural form always wright want rule 's hour add collisions yeah yeah might need slow xs else n't work place approaches",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 410,
+        "Backg": 0,
+        "Duration": 67
+    },
+    {
+        "Sent Text": "\t",
+        "Spoken words": "feminization unknown variks",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 409,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "•  if\tset\tl\tis\tregular,\tthen\talso\tl*.\t",
+        "Spoken words": "wrote birth list 's 2002 birth google appears 're worthless tails happens might think like people like analysis social media like twitter february activities producing new birds one hashtags like intentional also new word sentiment language actually everyday n't stay normal thing want something principles test utilize 's called final stage",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 415,
+        "Backg": 0,
+        "Duration": 51
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "transfuser",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 418,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "finite state automaton",
+        "Spoken words": "almost fine except input output tape finest transducer set states finite state machine states",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 419,
+        "Backg": 0,
+        "Duration": 14
+    },
+    {
+        "Sent Text": "•  input\talphabet\tσ,\tdisjunct\twith\tφ\t",
+        "Spoken words": "input alphabet output alphabet sake mythology imagine yeah maybe side input decide output maybe input output computer",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 423,
+        "Backg": 0,
+        "Duration": 17
+    },
+    {
+        "Sent Text": "•  set\tof\tstates\tφ\t",
+        "Spoken words": "actually n't matter goes ways yeah means set four states federal phone stays position function position function basically following looks state fair looks",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 422,
+        "Backg": 0,
+        "Duration": 23
+    },
+    {
+        "Sent Text": "•  input\talphabet\tσ,\tdisjunct\twith\tφ\t",
+        "Spoken words": "input symbol also look input symbol react empty input produces output symbol",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 423,
+        "Backg": 0,
+        "Duration": 12
+    },
+    {
+        "Sent Text": "•  one\tstart\tstate\ts∈φ\t",
+        "Spoken words": "also choose producing goes next state state machine yeah 's fun side hamilton two tapes say fsp second suicide since",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 425,
+        "Backg": 0,
+        "Duration": 20
+    },
+    {
+        "Sent Text": "•  input\talphabet\tσ,\tdisjunct\twith\tφ\t",
+        "Spoken words": "juices input string ask",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 423,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "•  transi+on\tfunc+on\tδ:\tφ×σ→φ\t",
+        "Spoken words": "tune-in",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 424,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "•  one\tstart\tstate\ts∈φ\t",
+        "Spoken words": "string conditions sequence position execute starting start date final state actually produces buy seeing",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 425,
+        "Backg": 0,
+        "Duration": 14
+    },
+    {
+        "Sent Text": "regular\tlanguages\tcover\t\t",
+        "Spoken words": "input x class languages kind machinery recognizes set regular relations license 's bad 's regular yeah language relations 's fake",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 427,
+        "Backg": 0,
+        "Duration": 20
+    },
+    {
+        "Sent Text": "•  input\talphabet\tσ,\tdisjunct\twith\tφ\t",
+        "Spoken words": "input output actually 's similar regular e92 say ya pairs drinks respective input output symbols",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 423,
+        "Backg": 0,
+        "Duration": 15
+    },
+    {
+        "Sent Text": "regular\tlanguages\tcover\t\t",
+        "Spoken words": "call regular relation regular relations concatenate regular relations unite regular relations clean star operations fan side hamilton regular nothing else union compare nighttime bring closure early photos definitions unlike regular languages friends",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 427,
+        "Backg": 0,
+        "Duration": 32
+    },
+    {
+        "Sent Text": "•  transi+on\tfunc+on\tδ:\tφ×σ→φ\t",
+        "Spoken words": "countrymen tatian nissan",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 424,
+        "Backg": 0,
+        "Duration": 3
+    },
+    {
+        "Sent Text": "•  one\tstart\tstate\ts∈φ\t",
+        "Spoken words": "north stuff stuff going one thing go north button fax inversion problem projection composition composition following turn something something else turn one 13th basically applying",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 425,
+        "Backg": 0,
+        "Duration": 25
+    },
+    {
+        "Sent Text": "regular\tlanguages\tcover\t\t",
+        "Spoken words": "regular relations composition relation yeah identity regular language x x axis regular relation trivial reasons n't need big machinery copy two regular languages also cross product regular language regular language sting combinations actually captured finance rate computer understand composition looks like would basically regular",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 427,
+        "Backg": 0,
+        "Duration": 44
+    },
+    {
+        "Sent Text": "•  one\tstart\tstate\ts∈φ\t",
+        "Spoken words": "another files used inhibit already see little bit notation remember final state machines states names finalized states double nba fergie marta business start state yeah 's",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 425,
+        "Backg": 0,
+        "Duration": 26
+    },
+    {
+        "Sent Text": "•  transi+on\tfunc+on\tδ:\tφ×σ→φ\t",
+        "Spoken words": "q00",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 424,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "•  one\tstart\tstate\ts∈φ\t",
+        "Spoken words": "start state finite state machine set timer single symbol conditions final seconds use two symbols interpreted 'm reading 'm riding car 'm going",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 425,
+        "Backg": 0,
+        "Duration": 23
+    },
+    {
+        "Sent Text": "•  transi+on\tfunc+on\tδ:\tφ×σ→φ\t",
+        "Spoken words": "shoebox 2:02",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 424,
+        "Backg": 0,
+        "Duration": 2
+    },
+    {
+        "Sent Text": "•  one\tstart\tstate\ts∈φ\t",
+        "Spoken words": "1 read many b 's like riding many wise stay final state final state reach amount accidents anything outputs afternoon empty",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 425,
+        "Backg": 0,
+        "Duration": 21
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "read wise would write end combined quickly think could look like kind string secret reviews maybe come one basically post basically cut middleman composes single one happens throws speech n't anything output type directly goes b z happens wife example 's pretty clear compose example compost yeah 's actually",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 49
+    },
+    {
+        "Sent Text": "type-3 grammar: regular,",
+        "Spoken words": "works regular relations regular relations closed composition important talk large-scale final stations using morphology",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 402,
+        "Backg": 0,
+        "Duration": 14
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "alice looking example first please add german example n't speak opportunity learn anymore yeah something verbs barton means eat numata right austin incubate hatch yeah capturing regular german looking g something n't english life examples german could say 's aesthetic musically goes rest produces okay verb switches perfect form past form first yeah first passed 's app basically first person singular switch rustica could also yeah tons tuesdays time using contestants edition hear recognize eight years 's various ways last key nothing happens something get accepted end course keep track maybe another one uses clarity weird thing clouds ecology 's boundary 's boiman basically spell name loud want go brown buy man tom 20 minutes town show tremont song 's kind political pattern basically would call police beginning dude 're allowed position copy ones eat end order accept could actually illustrate contrast word list kind sentence uses invented sixties seventies actually issue quitting word list computer today expand burglars english fanfic births know n't know mobile phones back days really nation okay yeah examples ready mentioned afternoon position situations several choices end would much easier ambiguities much easier 's worth mystic language ambiguous 're going try ignore embrace raised mechanism order able keep ambiguities around long need usually happens huey deez get resolved end process end closest could mean end case mythology process also could mean resolved mythological beauty end semantic process much later would machinery actually allows us keep around alternatives decide sometimes ca n't even decide see runs without context could overview countryside okay yeah context go prison front set timer might remember basically 's still accepts language n't know retrospect path took 's complex different paths know accepting symbols might result different output springs basically 'd keep track set current states since opened output keep track set current output types come crazy think physical machine except least one final state reached know exercise keeping track possible states 's mystic leona keep track time n't matter actually go nowhere matters least one end final state say ok successful transition accepted treated otamatone let 's example running already talked run runs actually funny thing run hesiod runs right two",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 360
+    },
+    {
+        "Sent Text": "phrase structure grammars",
+        "Spoken words": "forms run verb form",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 399,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "takoda",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 401,
+        "Backg": 0,
+        "Duration": 1
+    },
+    {
+        "Sent Text": "type-3 grammar: regular,",
+        "Spoken words": "home run us cause 2",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 402,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "left/right linear",
+        "Spoken words": "homeruns surface forms noun face simple transducer would analyze surface form",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 403,
+        "Backg": 0,
+        "Duration": 11
+    },
+    {
+        "Sent Text": "a\tgrammar\tg\t=\t(φ,σ,r,s)\tis\tright\tlinear\t(le_\tlinear),\t\tiﬀ\tall\tthe\tproduc+on\trules\tin\t",
+        "Spoken words": "return something like lexus representation showed earlier basically make sure 's run 's either run epsilon reach site 's one reach state produce either noun verb depending like third person marker verb case nun third person mark english 's either person laurel newest single case happens transfuse input string receiver runs context 's useful think 's actually something 's called move algorithm actually",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 404,
+        "Backg": 0,
+        "Duration": 63
+    },
+    {
+        "Sent Text": "type-3 grammar: regular,",
+        "Spoken words": "used contacts 3 also play regular languages belt maybe read basically keeps track currently input tape every dog respective output type red thoughts starts star stadium 's easing",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 402,
+        "Backg": 0,
+        "Duration": 28
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "rights goes state move n't n't end becomes interesting actually epsilon sensations splits sense happens need second thoughts one color yellow rosa let 's keep red ghost town two different output types one actually riding v one writing see hip see excellent condition whenever see excellent condition actually vocation couple thoughts rest actually flips red blue speakers reading anything feeling anything 's situation 'm reading anything write singular form one would blue appear verb friends four okay read beat green blue nowhere go basically fall weekend 'll delete yellow red bts write respective market winchester person web case floral known case keep around done states marked final output technical means order produce two lexical forms one service form initial example 'd like earlier okay yeah basically two outputs place yeah think little bit would represent programming kind non-trivial always like text okay technicality final sentence using people made called two level mythology morphology actually much research computational nephrology sexy 's kind salt get photos regular language 's one things early process conversation isabel people sat compiled rules every language ever learn foreign language might remember tables nations n't know latin school example first one remember like tons conditions tons kinds stuff reflect things 's find everyone entered everything know languages interesting enough move interesting case commercial interests linguistic interest today basically nothing much happening major feature 2g handle handle like multiple definitions motorola fashion properties fire sentence uses beneficial us 'm producing far single mythology fst basically try hold entire muffler dual language one final stage transducer seen sides basically small parts thought could imagine making words language going huge okay complex humans read order humans manually code express burleson spelling rules separately baby regular way adding marcus abandon acceptance exceptions 're doubling letters want ads n't know ization birds already ends n't want double may bad example german compound noun make long words like hostess hungry something like sometimes put 'm come properly formation putting together ss spelling rule like split tees call intermediate level basically know due level 26 going surface phone intermediate-level still looks like surface morphemes spelled would regular strings going go intermediate lexical level basically funny markers floral third person stuff pc actually got linguistic information people invented boss linguist venturing competition things back days compression english yet actually means keep stuff apart keep simpler end like technical perspective going compiled together one giant finance rates computer want print 's covering vaults 's complex books like single machine actually due fact composition basically making three two earlier composition use certain situations use union okay n't get look example buy baddies whenever 's 's blue grayish 's traffic marching book read like surface form foxes would intermediate form taxes one adding want make plural fox fox would say right put actually happens put",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 467
+    },
+    {
+        "Sent Text": "p \t→\tin\t",
+        "Spoken words": "r b market saying word let go surface intermediate analyze one lexical level nice part spending irregularities taken care",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 392,
+        "Backg": 0,
+        "Duration": 19
+    },
+    {
+        "Sent Text": "d \t→\tmy\t|\tan\t|\ta\t|\tthe\t",
+        "Spoken words": "irregularities morphemes versus lexical marcus",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 393,
+        "Backg": 0,
+        "Duration": 5
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "taking care appeared n't take account arbors put letter order make floor happens end beard stuff ca n't pronounce wise level 's going yeah lisa yeah 's fox examples lexical mean goes ways 's like sending way go top basically would want generate fox dyslexic representation would first find way fox put market order go acceptance date little bit different location n't columns sweating like think expect one consume much like final one yeah depending whether see carrot symbol carrot symbol places whether 's one z x n't add eeyore device eat 80s basically yeah default generate e basically takes care neverbeast find z sedan ex inside words n't care versus one right carrot yeah depending date turn right eat 're would add exactly n't something could home exercise could cuz 're going exercise things want walk steps 's exactly state numbers state diagram 's basically go way 's called like ways ways times yeah always invite use ways okay basically",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 161
+    },
+    {
+        "Sent Text": "phrase structure grammars",
+        "Spoken words": "subsystem captures language phenomenon inserting e adding plural english nouns depending last letter movie called stem kind base word one step",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 399,
+        "Backg": 0,
+        "Duration": 21
+    },
+    {
+        "Sent Text": "",
+        "Spoken words": "sister vitaquest mythology subsistence",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 401,
+        "Backg": 0,
+        "Duration": 4
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "like single session things got basically lexicon fst basically part handles string input string part speech weather tomorrow suburban expect kind things different definition stipulations paradigms name whatever 's called different languages basically handle specific subject phenomena take separately declared year intersect one giant thing big advantage right want like write declarative fashion find error n't know third person point blending french n't look entire thing change change little component eureka pilot compiled us would actually",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 76
+    },
+    {
+        "Sent Text": "-\tgroucho\tmarx\t",
+        "Spoken words": "intersections composition definition large sections says 's alexa khan science influences spelling intersection finite sets sister composition basically compiling",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 397,
+        "Backg": 0,
+        "Duration": 19
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "listen one big thing yeah beehives way would",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 8
+    },
+    {
+        "Sent Text": "v \t→\tshot\t",
+        "Spoken words": "execute sequence yeah said earlier intersection like fifties closed intersection tuna general case 's 's trick basically keep stuffed equal lengths intersect technical trick treat epsilon regular symbol n't drop stuff whenever want empty happens every letter one pape",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 391,
+        "Backg": 0,
+        "Duration": 39
+    },
+    {
+        "Sent Text": "p \t→\tin\t",
+        "Spoken words": "corresponds every letter 221 letter type length kept length restriction intersection",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 392,
+        "Backg": 0,
+        "Duration": 11
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "actually possible okay panda yeah reasons intersection question last time get section happens n't answer right away modify slides forgot next time intersection union question 's like intuitive lee 's one kind thing 's another kind thing 's another kind thing would play together 's 's little different would actually spelling constraints basically capture particular kind feeling like think fox news example n't constrain others n't apply n't constrain others basically shutting prisoner set notation make set little smaller little smaller n't affect rest sets basically want union spelling rules technically intersect constraints sterling okay questions far okay stuff applied talked days still like underlying lot",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 106
+    },
+    {
+        "Sent Text": "phrase structure grammars",
+        "Spoken words": "basis technology use lexicon data structure example spelling correction although simpler methods could think funeral rewriting wrong misspelled thing correctly spell think could also use everything ruled segmentation segmentation usually splitting two sentences question word start end actually word sounds trivial right trivial think sequences application quotation 's a. quotation words contain special characters like company folded dissolved interesting yahoo spell",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 399,
+        "Backg": 0,
+        "Duration": 61
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "turn heart right 's part roots yeah definitely go deeply success sentences yahoo converted sentences make sense something talk later also early days stay sitting decoding speech recognition expect continue representations save file get fun sort representation infant tape want produce food names funny kind letters sometimes see lexington said tell pronounce things actually read yeah decoding speech recognition abundant 15 since 80s yeah yeah yeah principle possible use thing everywhere fairly regular structure situation like transform one thing end pack okay yeah think 're almost done time maybe fast forward happens next look particular kind",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 96
+    },
+    {
+        "Sent Text": "context-free syntax trees with",
+        "Spoken words": "search tree next kind search tree tree like effective storing dictionary might remember search fees algorithms data structure lecturers things specialized things targeted language know find alphabet many letters binary binary star",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 398,
+        "Backg": 0,
+        "Duration": 32
+    },
+    {
+        "Sent Text": "phrase structure grammars",
+        "Spoken words": "language also could used classification tasks place transform ya morphologically derivative forms base form",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 399,
+        "Backg": 0,
+        "Duration": 14
+    },
+    {
+        "Sent Text": "pajamas\ti'll\tnever\tknow!\t",
+        "Spoken words": "end birds mean know effective 's going next 're done search trees vegan yeah also look graph think 're going efficient way storing list words dictionary list rules much effective noticed list words fort sam play hash table 're done leaving level subvert information go one step language model sign language model certificate wise decide likely sentence spec background corpus many many sentences done 're looking word frequencies frequencies sequences birds 're also going see first sensation neural network revolution actually led efficient models gather basically revolutionize language technology state hope going see next week time place thank listening 's one question today first practice lots yes okay n't see 's see next week hope like",
+        "GT": 0,
+        "Sent ID": "",
+        "Sent i": 396,
+        "Backg": 0,
+        "Duration": 116
+    }
+]
