@@ -110,6 +110,4 @@ def test_workplace():
 @lectures_blueprint.route('/lectures/workplace/test')
 def test_set():
     internal_meeting_id = 'b43a5a9996343ef9dd85be452e4e59901e944642-123456311'
-    alignment_file_not_exists = alignment_file_exists(internal_meeting_id)
-    print(not alignment_file_not_exists)
     return 'hello world'

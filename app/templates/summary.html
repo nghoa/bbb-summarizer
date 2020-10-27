@@ -54,14 +54,14 @@
                     <div class="card-body">
                         {% for sentence in transcription.sentences %}
                         <div class="row">
-                            <p>
+                            <p class="transcription_paragraph">
                                 <div class="col-3">
-                                    (<a href="#"
+                                    (<a href="#" class="startTime"
                                         onclick="setCurTime({{ sentence.start_time }})">{{ sentence.start_time }}</a> -
-                                    <a href="#" onclick="setCurTime({{ sentence.end_time }})">{{ sentence.end_time }}</a>):
+                                    <a href="#" class="endTime" onclick="setCurTime({{ sentence.end_time }})">{{ sentence.end_time }}</a>):
                                 </div>
                                 <div class="col-9">
-                                    <span>{{ sentence.sentence }}</span>
+                                    <span id="{{ sentence.index }}" class="highlight">{{ sentence.sentence }}</span>
                                 </div>
                             </p>
                         </div>
@@ -73,7 +73,7 @@
         </div>
 
         <div class="row">
-            <audio controls preload="auto" id="audio">
+            <audio controls preload="auto" id="audio" ontimeupdate="getCurTime()">
                 <source src="{{ url_for('.serve_wav_file') }}" type="audio/wav">
             </audio>
         </div>
