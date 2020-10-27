@@ -1,0 +1,15 @@
+Type-2 grammar: context-free
+A	grammar	G	=	(Φ,Σ,R,S)	is	context-free,	iﬀ	all	produc+on	rules	in	R	obey	the	form	
+A→α	with	A∈Φ,	α	∈	(Φ∪Σ)*.		
+Context	free	grammars	are	also	called	phrase	structure	grammars.	
+	
+Context-free	languages	are	closed	under	the	following	opera+ons:	
+•  Union:	if	F	and	G	are	context-free,	so	is	F∪G	
+•  Concatena+on:	if	F	and	G	are	context-free,	so	is	FG	
+•  Kleene	Star:	if	G	is	context-free,	so	is	G*	
+	
+Context-free	languages	are	not	closed	under	the	following	opera+ons:	
+•  Intersec+on:	from	F	and	G	are	context-free	does	not	follow	that	F∩G	is.	
+•  Complement:	from	G	context-free	does	not	follow	that	¬G	is.		
+•  Diﬀerence:	from	F	and	G	are	context-free	does	not	follow	that	F\G	is.	
+31/03/19 Language Technology Group – Chris Biemann 24

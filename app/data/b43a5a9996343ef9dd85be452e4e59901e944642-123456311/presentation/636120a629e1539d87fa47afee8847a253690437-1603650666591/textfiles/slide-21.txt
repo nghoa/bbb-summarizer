@@ -1,0 +1,9 @@
+Generation and Acceptance
+The	complexity	of	the	genera+ng	grammar	inﬂuences	
+the	complexity	of	the	accep+ng	automaton	
+Language	
+Grammar	
+Automaton	
+generates	
+is	accepted	by	
+31/03/19 Language Technology Group – Chris Biemann 21

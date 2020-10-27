@@ -1,0 +1,13 @@
+CHOMSKY HIERARCHY OF FORMAL
+LANGUAGES
+FORMAL	LANGUAGES	AND	AUTOMATA	
+•  Chomsky,	Noam	(1959).	"On	certain	formal	proper+es	of	grammars".	Informa+on	and	Control	2	(2):	
+137–167	
+•  Klabunde,	R.	(2004):	Automatentheorie	und	Formale	Sprachen.	In:	Carstensen,	K.U.,	Ebert,	Ch.,	
+Endriss,	C.,	Jekat,	S.,	Klabunde,	R.	and	Langer,	H.	(Editors):	Computerlinguis+k	und	Sprachtechnologie.	
+Eine	Einführung.	2.	Auﬂage.	Spektrum:	Heidelberg		
+•  Hopcrof,	J.E.,	Motwani,	R.	and	Ullman,	J.D.	(2006):	Introduc+on	to	Automata	Theory,	Languages,	and	
+Computa+on.	Third	Edi+on.	Pearson:	New	Jersey	
+	
+31/03/19 16
+31/03/19 Language Technology Group – Chris Biemann

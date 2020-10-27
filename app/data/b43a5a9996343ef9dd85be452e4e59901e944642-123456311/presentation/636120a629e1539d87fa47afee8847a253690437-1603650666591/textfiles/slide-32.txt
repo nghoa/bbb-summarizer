@@ -1,0 +1,12 @@
+FINITE STATE MORPHOLOGY
+Transducers,	Compact	Patricia	Tries	and	DAWGs	
+•  Jurafsky,	D.	and	Mar+n,	J.	H.	(2009):	Speech	and	Language	Processing.	An	Introduc+on	to	Natural	
+Language	Processing,	Computa+onal	Linguis+cs	and	Speech	Recogni+on.	Second	Edi+on.	Pearson:	
+New	Jersey:	Chapter	3.2	
+•  Carstensen,	K.U.,	Ebert,	Ch.,	Endriss,	C.,	Jekat,	S.,	Klabunde,	R.	and	Langer,	H.	(Editors)	(2004):	
+Computerlinguis+k	und	Sprachtechnologie.	Eine	Einführung.	2.	Auﬂage.	Spektrum:	Heidelberg,	pages	
+198-205	
+•  G.	Heyer,	U.	Quasthoﬀ,	T.	Wi€g	(Eds.)	(2006):	Wissensrohstoﬀ	Text,	Bochum,	w3L.	Kapitel	3.4	
+	
+31/03/19 Language Technology Group – Chris Biemann 32
+coming	up	next		

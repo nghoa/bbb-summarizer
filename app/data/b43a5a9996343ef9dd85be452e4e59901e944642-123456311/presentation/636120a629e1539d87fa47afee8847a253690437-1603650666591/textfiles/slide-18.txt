@@ -1,0 +1,8 @@
+DEFINITIONS
+•  A	LANGUAGE	is	a	collec+on	of	sentences	of	ﬁnite	length	
+all	constructed	from	a	ﬁnite	alphabet	of	symbols	
+•  A	GRAMMAR	can	be	regarded	as	a	device	that	
+enumerates	the	sentence	of	a	language	
+•  A	grammar	of	language	L	can	be	regarded	as	a	func+on	
+whose	range	is	exactly	L	
+31/03/19 Language Technology Group – Chris Biemann 18

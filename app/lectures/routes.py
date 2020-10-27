@@ -93,8 +93,14 @@ def replace_ajax():
 ### Test setup
 @lectures_blueprint.route('/lectures/workplace')
 def test_workplace():
-    internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
+    # internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
+    internal_meeting_id = 'b43a5a9996343ef9dd85be452e4e59901e944642-123456311'
     test = start_alignment(internal_meeting_id)
+    ## TODO: test
+    transcription_done = execute_transcription(internal_meeting_id)
+        if (transcription_done):
+            # align meeting
+            alignment_done = start_alignment(internal_meeting_id)
     return 'hello world'
 
 

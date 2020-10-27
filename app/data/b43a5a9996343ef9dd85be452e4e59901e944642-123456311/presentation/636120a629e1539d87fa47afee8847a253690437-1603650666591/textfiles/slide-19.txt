@@ -1,0 +1,10 @@
+Formal Grammar
+A	formal	grammar	is	a	quad-tuple	G	=	(Φ,Σ,R,S)	where	
+•  Φ	is	a	ﬁnite	set	of	non-terminals	
+•  Σ	a	ﬁnite	set	of	terminals,	disjoint	from	Φ	
+•  R	a	ﬁnite	set	of	produc+on	rules	of	the	form		
+	
+	
+•  S,	Element	of	Φ	:	start	symbol	
+α ∈ (Φ∪ Σ)* → β ∈ (Φ∪ Σ) * with α ≠ ε and α ∉ Σ *
+31/03/19 Language Technology Group – Chris Biemann 19
