@@ -1,5 +1,5 @@
 from flask import render_template, send_file, send_from_directory, redirect, request, url_for, session
-from app.utils.serve_meeting_files import get_pdf_file, get_wav_file, read_transcription
+from app.utils.serve_meeting_files import get_pdf_file, get_wav_file, read_transcription, read_alignment
 import json
  
 from . import summarization_blueprint
@@ -86,3 +86,12 @@ def serve_transcription():
         })
 
     return render_template('summary.html', transcription=render_output)
+
+@summarization_blueprint.route('/summarization/alignment')
+def serve_alignment():
+    # internal_meeting_id = session['internal_meeting_id']
+    internal_meeting_id = request.args.get('internalMeetingId')     # prototype
+    data = read_alignment(internal_meeting_id)
+    print(data)
+
+    return 'hello world'
