@@ -12,8 +12,10 @@ function getCurTime() {
         // Dom structure is: startTime, endTime, startTime, endTime, ...
         if (test == 0) {
             var startTime = parseInt(allTimeTags[i].innerHTML);
+            var floatStartTime = parseFloat(allTimeTags[i].innerHTML);
         } else {
             var endTime = parseInt(allTimeTags[i].innerHTML);
+            var floatEndTime = parseFloat(allTimeTags[i].innerHTML);
         }
         // highlight the span which is the nextSiblingElement of endTime
         if (startTime < currentTime && currentTime < endTime) {
@@ -22,7 +24,15 @@ function getCurTime() {
             for (var j=0; j < allParagraphTags.length; j++) {
                 var stringTime = allParagraphTags[j].nextElementSibling.children[1].innerHTML;
                 if (correct_endTime == stringTime) {
-                    var highlight_id = allParagraphTags[j].nextElementSibling.nextElementSibling.children[0].id;
+                    var sentence = allParagraphTags[j].nextElementSibling.nextElementSibling.children[0];
+                    // In Case that nothing is particular found
+                    slideIndex = sentence.getAttribute("slideindex")
+                    // console.log(slideIndex)
+                    if (slideIndex !== 'None') {
+                        jumpToPage(slideIndex);
+                        sentence.setAttribute("slideindex", "None")
+                    }
+                    var highlight_id = sentence.id;
                     // Clean up everything as white before highlighting again
                     $(".highlight").css("background-color", "#ffffff");          
                     // Highlight in orange                       

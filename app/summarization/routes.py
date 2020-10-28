@@ -52,7 +52,8 @@ def serve_transcription():
                 'index': sentence_index,
                 'sentence': sentence,
                 'start_time': start_time,
-                'end_time': end_time
+                'end_time': end_time,
+                'slide_index': None
             })
             sentence_index += 1
             # Reset sentence
@@ -65,20 +66,14 @@ def serve_transcription():
             'index': sentence_index,
             'sentence': sentence,
             'start_time': start_time,
-            'end_time': end_time
+            'end_time': end_time,
+            'slide_index': None
         })
 
     firstSvgLink = url_for('static', filename='img/b43a5a9996343ef9dd85be452e4e59901e944642-123456311/slide1.svg')
+    new_render_output = handle_alignment(render_output, internal_meeting_id)
 
-    return render_template('summary.html', transcription=render_output, internalMeetingId=internal_meeting_id, svgLink=firstSvgLink)
-
-
-@summarization_blueprint.route('/summarization/testplace')
-def serve_test():
-    internal_meeting_id = 'b43a5a9996343ef9dd85be452e4e59901e944642-123456311'
-    test = serve_alignment(internal_meeting_id)
-    return 'hello world'
-
+    return render_template('summary.html', transcription=new_render_output, internalMeetingId=internal_meeting_id, svgLink=firstSvgLink)
 
 '''
     function which gets alignment.json from hmm_alignment model
@@ -89,12 +84,12 @@ def serve_test():
 '''
 def serve_alignment(internal_meeting_id):
     data_dict = read_alignment(internal_meeting_id)
-    # Clean Alignment dict a bit:
-    print('Length before cleaning: ', len(data_dict))
-    x = [i for i in data_dict if not (i['Sent Text']=="")]  # - clean from empty Sent Text
-    y = [i for i in x if not (i['Sent Text']=="\n")]  # - clean from empty Sent Text
-    cleaned_alignment = [i for i in y if not (i['Sent Text']=="\t")]  # - clean from empty Sent Text
-    print('Length after cleaning: ', len(cleaned_alignment))
+
+    # Clean Alignment dict:
+    x = [i for i in data_dict if not (i['Sent Text']=="")]            # - clean from empty Sent Text
+    y = [i for i in x if not (i['Sent Text']=="\n")]                  # - clean newLine Sent Text
+    cleaned_alignment = [i for i in y if not (i['Sent Text']=="\t")]  # - clean tab empty Sent Text
+    sorted_cleaned_alignment = sorted(cleaned_alignment, key = lambda i: i['Sent i'])           # Sort alignment
     
     txt_dict = get_all_presentation_txt(internal_meeting_id)
     # sort dict by file_name <slide-1.txt, slide-2.txt, ...>
@@ -110,21 +105,50 @@ def serve_alignment(internal_meeting_id):
             txt_content = f.read().lower()      # standardize txt_content
             slide_text_dict.append( { 'index': dict_['index'], 'slide_content': txt_content, 'file_name': dict_['file_name']} )
 
+    # Alignment between spoken words and slides
     new_alignment_dict = []
-    for alignment_dict in cleaned_alignment:
-        sent_text = alignment_dict['Sent Text'].lower()
-        sent_duration = alignment_dict['Duration']
-        spoken_words = alignment_dict['Spoken words']
-        sent_i = alignment_dict['Sent i']       # used for relative measurement
-        for slide_dict in slide_text_dict:
-            slide_content = slide_dict['slide_content'].lower()
-            slide_name = slide_dict['file_name']
+    
+    # take first occurent of alignment
+    for align_dict in sorted_cleaned_alignment:
+        sent_text = align_dict['Sent Text'].lower()
+        sent_duration = align_dict['Duration']
+        spoken_words = align_dict['Spoken words']
+        sent_i = align_dict['Sent i']                 # used for relative measurement
+        for slide in slide_text_dict:
+            slide_index = slide['index']
+            slide_content = slide['slide_content'].lower()
+            slide_name = slide['file_name']
             if (sent_text in slide_content and not sent_text == ''):
-                print('Sent Text: ' + sent_text)
-                print('Sent Duration: ', sent_duration, '---Sent i: ', sent_i)
-                print('Slide Name: ' + slide_name)
+                new_alignment_dict.append({ "slide_index": slide_index, "spoken_words": spoken_words })
+                break
 
-    return True
+    return new_alignment_dict
+
+def handle_alignment(transcript_dict, internal_meeting_id):
+    alignment_dict = serve_alignment(internal_meeting_id)
+    
+    for alignment in alignment_dict:
+        spoken_words = alignment['spoken_words']
+        spoken_words_array = spoken_words.split(' ')
+        for j in range(len(transcript_dict['sentences'])):
+            sentence = transcript_dict['sentences'][j]['sentence']
+            sentence_array = sentence.split(' ')
+            count = 0
+            for sentence_word in sentence_array:
+                for spoken_word in spoken_words_array:
+                    if (sentence_word == spoken_word):
+                        count += 1
+            if (len(sentence_array) > len(spoken_words_array)):
+                threshold = len(spoken_words_array) / 2
+            else:
+                threshold = len(sentence_array) / 2
+            # threshold currently by 50%
+            if (count > threshold):
+                slide_index = alignment['slide_index']
+                transcript_dict['sentences'][j]['slide_index'] = slide_index
+                break
+    
+    return transcript_dict
 
 
 # TODO:
