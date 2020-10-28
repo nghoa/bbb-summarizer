@@ -84,6 +84,11 @@ def prepare_meeting_summary():
                                             <div class="spinner"></div>
                                         </div>
                                     </div>
+                                    <div class="btn-group">
+									    <a href="">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Go to Alignment</button>
+                                        </a>
+								    </div>
                                 '''
     else:
         return  ''' 
@@ -91,6 +96,11 @@ def prepare_meeting_summary():
                     <div class="w-100 d-flex justify-content-center align-items-center">
                         <div class="spinner"></div>
                     </div>
+                </div>
+                <div class="btn-group">
+                    <a href="">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Go to Alignment</button>
+                    </a>
                 </div>
                 '''
 
@@ -106,8 +116,3 @@ def test_workplace():
         alignment_done = start_alignment(internal_meeting_id)
         return 'Everything done'
 
-
-@lectures_blueprint.route('/lectures/workplace/test')
-def test_set():
-    internal_meeting_id = 'b43a5a9996343ef9dd85be452e4e59901e944642-123456311'
-    return 'hello world'

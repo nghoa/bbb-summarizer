@@ -5,15 +5,14 @@ import re
  
 from . import summarization_blueprint
 
-
-# TODO: redirect from lecture.html
 # Entrypoint to summarizationclear
 # get internal_meeting_id
 @summarization_blueprint.route('/summarization/data')
 def get_internal_meeting_id():
     internal_meeting_id = request.args.get('internalMeetingId')
     # Copy svgs for html serving
-    cp_presentation_svgs(internal_meeting_id)
+    # TODO:
+    # cp_presentation_svgs(internal_meeting_id)
     session['internal_meeting_id'] = internal_meeting_id
     return redirect(url_for('.serve_transcription', internalMeetingId=internal_meeting_id))
 
