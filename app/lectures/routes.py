@@ -83,12 +83,9 @@ def prepare_meeting_summary():
         </div>
     '''.format(url_string)
 
-    # return without the needs to process everything
-    if (alignment_exists):
-        return response
-
+    # TODO: meeting_end needs to be optimized for multiple users
     meeting_end = meeting_has_ended(internal_meeting_id)
-    if (meeting_end):
+    if (meeting_end and not alignment_exists):
         ###### after meeting has ended do following:
         # mkdir folders
         data_folder_constructed = mkdir_data_folder()
@@ -101,7 +98,10 @@ def prepare_meeting_summary():
                     # align meeting
                     alignment_done = start_alignment(internal_meeting_id)
                     if (alignment_done):
-                        return  response
+                        return response
+    else:
+         # return without the needs to process everything
+        return response
 
 ### Test setup
 @lectures_blueprint.route('/lectures/workplace')

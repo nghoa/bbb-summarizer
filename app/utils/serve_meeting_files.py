@@ -102,15 +102,15 @@ def get_all_presentation_txt(internal_meeting_id):
 def get_alignment_file(internal_meeting_id):
     hmm_dir = os.path.join(PROJECT_APP_DIR, 'hmm_alignment')
     hmm_alignment_dir = os.path.join(hmm_dir, 'data', 'results', 'output', 'alignment')
-    for src_dir, dirs, files in os.walk(hmm_alignment_dir):
-        for file_ in files:
-            alignment_file = file_
-            alignment_file_path = os.path.join(src_dir, alignment_file)
-            if (alignment_file.split('.')[1] == 'json'):
-                response = { 'file_name': alignment_file, 'file_path': alignment_file_path }
+    if (os.path.exists(hmm_alignment_dir)):
+        for src_dir, dirs, files in os.walk(hmm_alignment_dir):
+            for file_ in files:
+                alignment_file = file_
+                alignment_file_path = os.path.join(src_dir, alignment_file)
+                if (alignment_file.split('.')[1] == 'json'):
+                    response = { 'file_name': alignment_file, 'file_path': alignment_file_path }
 
-                print(response)
-                return response
+                    return response
 
 def get_alignment_from_meeting(internal_meeting_id):
     alignment_dir = os.path.join(DATA_DIR, internal_meeting_id, 'alignment')
@@ -132,9 +132,12 @@ def read_alignment(internal_meeting_id):
 
 def alignment_file_exists(internal_meeting_id):
     alignment_dir = os.path.join(DATA_DIR, internal_meeting_id, 'alignment')
-    for file_ in os.listdir(alignment_dir):
-        if (file_.split('.')[1] == 'json'):
-            return True
+    if (os.path.exists(alignment_dir)):
+        for file_ in os.listdir(alignment_dir):
+            if (file_.split('.')[1] == 'json'):
+                return True
+    else:
+        return False
 
 
 
