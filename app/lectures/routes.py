@@ -54,6 +54,7 @@ def show_lecture_with_metadata():
     metadata_json = json.loads(metadata)
 
     # through ajax the /lectures/prepare_meeting_data route will be immediately triggered
+    # triggered in lecture.html
     return render_template('lecture.html', metadata = metadata_json)
 
 
@@ -61,9 +62,33 @@ def show_lecture_with_metadata():
 def prepare_meeting_summary():
     # meeting_has_ended function
     internal_meeting_id = request.args.get('internalMeetingId')
+    alignment_exists = alignment_file_exists(internal_meeting_id)
+
+    # Redirect response
+    url = url_for('summarization.get_internal_meeting_id')
+    params = '?internalMeetingId={}'.format(internal_meeting_id)
+    url_with_params = url + params
+    url_string = "\"{} \"".format(url_with_params)
+
+    response = '''
+        <div id="overlay" style="display: none;">
+            <div class="w-100 d-flex justify-content-center align-items-center">
+                <div class="spinner"></div>
+            </div>
+        </div>
+        <div class="btn-group">
+            <a href={}>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Go to Alignment</button>
+            </a>
+        </div>
+    '''.format(url_string)
+
+    # return without the needs to process everything
+    if (alignment_exists):
+        return response
+
     meeting_end = meeting_has_ended(internal_meeting_id)
-    alignment_file_exists = alignment_file_exists(internal_meeting_id)
-    if (meeting_end and not alignment_file_exists):
+    if (meeting_end):
         ###### after meeting has ended do following:
         # mkdir folders
         data_folder_constructed = mkdir_data_folder()
@@ -76,37 +101,11 @@ def prepare_meeting_summary():
                     # align meeting
                     alignment_done = start_alignment(internal_meeting_id)
                     if (alignment_done):
-                        # redirect to summarization route
-                        # TODO: return #loading -> with button 
-                        return  ''' 
-                                    <div id="overlay" style="display: none;">
-                                        <div class="w-100 d-flex justify-content-center align-items-center">
-                                            <div class="spinner"></div>
-                                        </div>
-                                    </div>
-                                    <div class="btn-group">
-									    <a href="">
-                                            <button type="button" class="btn btn-sm btn-outline-secondary">Go to Alignment</button>
-                                        </a>
-								    </div>
-                                '''
-    else:
-        return  ''' 
-                <div id="overlay" style="display: none;">
-                    <div class="w-100 d-flex justify-content-center align-items-center">
-                        <div class="spinner"></div>
-                    </div>
-                </div>
-                <div class="btn-group">
-                    <a href="">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Go to Alignment</button>
-                    </a>
-                </div>
-                '''
+                        return  response
 
 ### Test setup
 @lectures_blueprint.route('/lectures/workplace')
-def test_workplace():
+def force_alignment_with_internal():
     # internal_meeting_id = '043a5a1430143ef9dd85be452e4e59901e944642-1603650621063'
     internal_meeting_id = 'b43a5a9996343ef9dd85be452e4e59901e944642-123456311'
     ## TODO: test
@@ -115,4 +114,3 @@ def test_workplace():
         # align meeting
         alignment_done = start_alignment(internal_meeting_id)
         return 'Everything done'
-

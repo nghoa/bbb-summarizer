@@ -11,8 +11,7 @@ from . import summarization_blueprint
 def get_internal_meeting_id():
     internal_meeting_id = request.args.get('internalMeetingId')
     # Copy svgs for html serving
-    # TODO:
-    # cp_presentation_svgs(internal_meeting_id)
+    cp_presentation_svgs(internal_meeting_id)
     session['internal_meeting_id'] = internal_meeting_id
     return redirect(url_for('.serve_transcription', internalMeetingId=internal_meeting_id))
 
