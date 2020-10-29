@@ -1,0 +1,27 @@
+Looking for the best path
+Hopeless	path	prefixes	are	dropped	from	consideration
+(1.0)
+N(1.0) V(0.0)
+NV(0.1)
+NN(0.2)
+NNV(0.02)
+NNN(0.04) NVN(0.01) NVV(0.05)
+NNNV(0.004)
+NNNN(0.008) NVVN(0.005) NVVV(0.025)
+NNNNV(0.0024)
+NNNNN(0.0032) NVVVN(0.005) NVVVV(0.005)
+e
+b
+b
+b
+a
+N V
+a:0,4
+b:0.2
+b:0,1
+a:0,3
+a:0,2
+b:0,5
+a:0,2
+b:0,1
+08.05.19 Language Technology Group – Chris Biemann

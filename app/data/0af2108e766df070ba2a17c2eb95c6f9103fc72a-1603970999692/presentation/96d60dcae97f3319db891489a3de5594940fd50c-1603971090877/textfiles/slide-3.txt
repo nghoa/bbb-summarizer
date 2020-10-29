@@ -1,0 +1,39 @@
+Hidden States
+The	path	through	this	non-deterministic	WFSA	is	not	determined	by	the	sequence	
+of	symbols.	There	are	“hidden”	states.
+ab
+l3
+l2
+l1
+bb
+ba
+e:l1
+e:l2
+e:l3
+a:P(a)
+b:P(b)
+a:P(a|b)
+b:P(b|b)
+a:P(a|ab)
+b:P(b|ab)
+Pli
+(wt
+|wt−2
+wt−1
+) = λ1
+P1
+(wt
+) + λ2
+P2
+(wt
+|wt−1
+) + λ3
+P3
+(wt
+|wt−2
+wt−1
+) where 0 ≤ λi
+≤1 and λi
+i
+∑ =1
+08.05.19 Language Technology Group – Chris Biemann

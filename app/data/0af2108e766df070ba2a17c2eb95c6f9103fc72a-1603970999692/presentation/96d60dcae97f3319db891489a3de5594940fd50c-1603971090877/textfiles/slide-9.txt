@@ -1,0 +1,26 @@
+Forward procedure
+1.	Initialization
+2.	Induction
+3.	Total
+Complexity:	O(T*N2)	multiplications.	Much	better!	
+αi
+(1) = πi
+for 1≤ i ≤ N
+αj
+(t +1) = αi
+(t)⋅P(
+i=1
+N
+∑ zi
+st
+ →
+ zj
+) for 1≤ t ≤ T, 1≤ j ≤ N
+P(s1
+,...,sT
+) = αi
+(T +1
+i=1
+n
+∑ )
+08.05.19 Language Technology Group – Chris Biemann

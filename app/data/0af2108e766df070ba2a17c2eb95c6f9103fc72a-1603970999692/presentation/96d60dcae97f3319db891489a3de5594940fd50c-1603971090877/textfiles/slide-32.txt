@@ -1,0 +1,8 @@
+Applications of HMMs II:
+Other
+• Molecule	Folding:	Prediction	of	structure	
+based	on	sequence
+• Pattern	recognition,	e.g.	face	emotion	
+recognition
+• Prediction	tasks,	e.g.	stock	market
+08.05.19 Language Technology Group – Chris Biemann

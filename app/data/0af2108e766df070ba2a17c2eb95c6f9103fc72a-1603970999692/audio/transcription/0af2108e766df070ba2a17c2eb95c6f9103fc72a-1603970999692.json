@@ -1,0 +1,3794 @@
+{
+    "transcribed_words": [
+        {
+            "end_time": 0.5,
+            "start_time": 0.2,
+            "word": "you"
+        },
+        {
+            "end_time": 0.7000000000000001,
+            "start_time": 0.5,
+            "word": "are"
+        },
+        {
+            "end_time": 0.9,
+            "start_time": 0.7000000000000001,
+            "word": "currently"
+        },
+        {
+            "end_time": 1.2,
+            "start_time": 0.9,
+            "word": "the"
+        },
+        {
+            "end_time": 1.4,
+            "start_time": 1.2,
+            "word": "only"
+        },
+        {
+            "end_time": 1.9,
+            "start_time": 1.4,
+            "word": "person"
+        },
+        {
+            "end_time": 1.9,
+            "start_time": 1.9,
+            "word": "in"
+        },
+        {
+            "end_time": 2.1,
+            "start_time": 1.9,
+            "word": "this"
+        },
+        {
+            "end_time": 2.5,
+            "start_time": 2.1,
+            "word": "conference"
+        },
+        {
+            "end_time": 8.8,
+            "start_time": 8.1,
+            "word": "okay"
+        },
+        {
+            "end_time": 9.2,
+            "start_time": 8.8,
+            "word": "hello"
+        },
+        {
+            "end_time": 9.5,
+            "start_time": 9.2,
+            "word": "everyone"
+        },
+        {
+            "end_time": 10.7,
+            "start_time": 9.5,
+            "word": "so"
+        },
+        {
+            "end_time": 12.8,
+            "start_time": 10.7,
+            "word": "this"
+        },
+        {
+            "end_time": 13.6,
+            "start_time": 12.8,
+            "word": "part"
+        },
+        {
+            "end_time": 14.0,
+            "start_time": 13.6,
+            "word": "of"
+        },
+        {
+            "end_time": 14.4,
+            "start_time": 14.0,
+            "word": "the"
+        },
+        {
+            "end_time": 17.5,
+            "start_time": 14.4,
+            "word": "transcription"
+        },
+        {
+            "end_time": 17.6,
+            "start_time": 17.5,
+            "word": "of"
+        },
+        {
+            "end_time": 18.5,
+            "start_time": 17.6,
+            "word": "presentation"
+        },
+        {
+            "end_time": 19.0,
+            "start_time": 18.5,
+            "word": "I"
+        },
+        {
+            "end_time": 19.2,
+            "start_time": 19.0,
+            "word": "would"
+        },
+        {
+            "end_time": 19.4,
+            "start_time": 19.2,
+            "word": "not"
+        },
+        {
+            "end_time": 20.2,
+            "start_time": 19.4,
+            "word": "ask"
+        },
+        {
+            "end_time": 20.4,
+            "start_time": 20.2,
+            "word": "you"
+        },
+        {
+            "end_time": 20.8,
+            "start_time": 20.4,
+            "word": "the"
+        },
+        {
+            "end_time": 22.2,
+            "start_time": 20.8,
+            "word": "alignment"
+        },
+        {
+            "end_time": 22.4,
+            "start_time": 22.2,
+            "word": "with"
+        },
+        {
+            "end_time": 23.0,
+            "start_time": 22.4,
+            "word": "another"
+        },
+        {
+            "end_time": 23.9,
+            "start_time": 23.0,
+            "word": "kind"
+        },
+        {
+            "end_time": 23.9,
+            "start_time": 23.9,
+            "word": "of"
+        },
+        {
+            "end_time": 24.3,
+            "start_time": 23.9,
+            "word": "presentation"
+        },
+        {
+            "end_time": 25.2,
+            "start_time": 24.3,
+            "word": "which"
+        },
+        {
+            "end_time": 26.4,
+            "start_time": 25.2,
+            "word": "is"
+        },
+        {
+            "end_time": 27.1,
+            "start_time": 26.4,
+            "word": "now"
+        },
+        {
+            "end_time": 27.8,
+            "start_time": 27.1,
+            "word": "made"
+        },
+        {
+            "end_time": 28.0,
+            "start_time": 27.8,
+            "word": "by"
+        },
+        {
+            "end_time": 28.2,
+            "start_time": 28.0,
+            "word": "myself"
+        },
+        {
+            "end_time": 29.5,
+            "start_time": 28.2,
+            "word": "so"
+        },
+        {
+            "end_time": 30.1,
+            "start_time": 29.5,
+            "word": "the"
+        },
+        {
+            "end_time": 30.4,
+            "start_time": 30.1,
+            "word": "reason"
+        },
+        {
+            "end_time": 30.5,
+            "start_time": 30.4,
+            "word": "for"
+        },
+        {
+            "end_time": 32.3,
+            "start_time": 30.5,
+            "word": "us"
+        },
+        {
+            "end_time": 33.1,
+            "start_time": 32.3,
+            "word": "because"
+        },
+        {
+            "end_time": 33.6,
+            "start_time": 33.1,
+            "word": "at"
+        },
+        {
+            "end_time": 34.1,
+            "start_time": 33.6,
+            "word": "gcp"
+        },
+        {
+            "end_time": 35.8,
+            "start_time": 34.1,
+            "word": "thankfully"
+        },
+        {
+            "end_time": 40.2,
+            "start_time": 39.7,
+            "word": "give"
+        },
+        {
+            "end_time": 40.3,
+            "start_time": 40.2,
+            "word": "me"
+        },
+        {
+            "end_time": 40.4,
+            "start_time": 40.3,
+            "word": "access"
+        },
+        {
+            "end_time": 41.0,
+            "start_time": 40.4,
+            "word": "again"
+        },
+        {
+            "end_time": 41.1,
+            "start_time": 41.0,
+            "word": "to"
+        },
+        {
+            "end_time": 41.8,
+            "start_time": 41.1,
+            "word": "myself"
+        },
+        {
+            "end_time": 42.0,
+            "start_time": 41.8,
+            "word": "or"
+        },
+        {
+            "end_time": 42.6,
+            "start_time": 42.0,
+            "word": "to"
+        },
+        {
+            "end_time": 43.0,
+            "start_time": 42.6,
+            "word": "my"
+        },
+        {
+            "end_time": 43.9,
+            "start_time": 43.0,
+            "word": "machine"
+        },
+        {
+            "end_time": 46.4,
+            "start_time": 43.9,
+            "word": "provided"
+        },
+        {
+            "end_time": 52.1,
+            "start_time": 46.4,
+            "word": "the"
+        },
+        {
+            "end_time": 52.6,
+            "start_time": 52.1,
+            "word": "functionality"
+        },
+        {
+            "end_time": 53.2,
+            "start_time": 52.6,
+            "word": "of"
+        },
+        {
+            "end_time": 54.2,
+            "start_time": 53.2,
+            "word": "the"
+        },
+        {
+            "end_time": 54.5,
+            "start_time": 54.2,
+            "word": "Illini"
+        },
+        {
+            "end_time": 55.4,
+            "start_time": 54.5,
+            "word": "functionality"
+        },
+        {
+            "end_time": 56.7,
+            "start_time": 56.3,
+            "word": "we"
+        },
+        {
+            "end_time": 56.9,
+            "start_time": 56.7,
+            "word": "are"
+        },
+        {
+            "end_time": 57.2,
+            "start_time": 56.9,
+            "word": "stopping"
+        },
+        {
+            "end_time": 57.4,
+            "start_time": 57.2,
+            "word": "by"
+        },
+        {
+            "end_time": 58.4,
+            "start_time": 57.4,
+            "word": "uploading"
+        },
+        {
+            "end_time": 59.2,
+            "start_time": 58.4,
+            "word": "the"
+        },
+        {
+            "end_time": 59.8,
+            "start_time": 59.2,
+            "word": "crustacean"
+        },
+        {
+            "end_time": 66.2,
+            "start_time": 65.0,
+            "word": "okay"
+        },
+        {
+            "end_time": 66.4,
+            "start_time": 66.2,
+            "word": "the"
+        },
+        {
+            "end_time": 66.7,
+            "start_time": 66.4,
+            "word": "presentation"
+        },
+        {
+            "end_time": 67.1,
+            "start_time": 66.7,
+            "word": "is"
+        },
+        {
+            "end_time": 67.5,
+            "start_time": 67.1,
+            "word": "currently"
+        },
+        {
+            "end_time": 68.3,
+            "start_time": 67.5,
+            "word": "uploading"
+        },
+        {
+            "end_time": 68.6,
+            "start_time": 68.3,
+            "word": "so"
+        },
+        {
+            "end_time": 69.1,
+            "start_time": 68.6,
+            "word": "let's"
+        },
+        {
+            "end_time": 69.3,
+            "start_time": 69.1,
+            "word": "just"
+        },
+        {
+            "end_time": 69.6,
+            "start_time": 69.3,
+            "word": "wait"
+        },
+        {
+            "end_time": 69.7,
+            "start_time": 69.6,
+            "word": "and"
+        },
+        {
+            "end_time": 69.9,
+            "start_time": 69.7,
+            "word": "see"
+        },
+        {
+            "end_time": 70.3,
+            "start_time": 69.9,
+            "word": "what"
+        },
+        {
+            "end_time": 70.4,
+            "start_time": 70.3,
+            "word": "happens"
+        },
+        {
+            "end_time": 75.7,
+            "start_time": 74.6,
+            "word": "okay"
+        },
+        {
+            "end_time": 76.1,
+            "start_time": 75.7,
+            "word": "great"
+        },
+        {
+            "end_time": 76.8,
+            "start_time": 76.1,
+            "word": "so"
+        },
+        {
+            "end_time": 77.1,
+            "start_time": 76.8,
+            "word": "the"
+        },
+        {
+            "end_time": 77.4,
+            "start_time": 77.1,
+            "word": "presentation"
+        },
+        {
+            "end_time": 77.9,
+            "start_time": 77.4,
+            "word": "was"
+        },
+        {
+            "end_time": 78.0,
+            "start_time": 77.9,
+            "word": "not"
+        },
+        {
+            "end_time": 78.5,
+            "start_time": 78.0,
+            "word": "loaded"
+        },
+        {
+            "end_time": 78.8,
+            "start_time": 78.5,
+            "word": "I"
+        },
+        {
+            "end_time": 79.1,
+            "start_time": 78.8,
+            "word": "will"
+        },
+        {
+            "end_time": 79.3,
+            "start_time": 79.1,
+            "word": "talk"
+        },
+        {
+            "end_time": 79.4,
+            "start_time": 79.3,
+            "word": "a"
+        },
+        {
+            "end_time": 79.5,
+            "start_time": 79.4,
+            "word": "little"
+        },
+        {
+            "end_time": 79.8,
+            "start_time": 79.5,
+            "word": "bit"
+        },
+        {
+            "end_time": 79.8,
+            "start_time": 79.8,
+            "word": "about"
+        },
+        {
+            "end_time": 80.2,
+            "start_time": 79.8,
+            "word": "the"
+        },
+        {
+            "end_time": 80.5,
+            "start_time": 80.2,
+            "word": "presentation"
+        },
+        {
+            "end_time": 81.3,
+            "start_time": 80.5,
+            "word": "and"
+        },
+        {
+            "end_time": 81.6,
+            "start_time": 81.3,
+            "word": "see"
+        },
+        {
+            "end_time": 82.2,
+            "start_time": 81.6,
+            "word": "whether"
+        },
+        {
+            "end_time": 82.8,
+            "start_time": 82.2,
+            "word": "lines"
+        },
+        {
+            "end_time": 82.9,
+            "start_time": 82.8,
+            "word": "a"
+        },
+        {
+            "end_time": 83.1,
+            "start_time": 82.9,
+            "word": "lot"
+        },
+        {
+            "end_time": 83.9,
+            "start_time": 83.1,
+            "word": "I"
+        },
+        {
+            "end_time": 84.2,
+            "start_time": 83.9,
+            "word": "will"
+        },
+        {
+            "end_time": 84.9,
+            "start_time": 84.2,
+            "word": "start"
+        },
+        {
+            "end_time": 85.8,
+            "start_time": 84.9,
+            "word": "without"
+        },
+        {
+            "end_time": 86.2,
+            "start_time": 85.8,
+            "word": "reading"
+        },
+        {
+            "end_time": 87.2,
+            "start_time": 86.2,
+            "word": "Radiology"
+        },
+        {
+            "end_time": 87.4,
+            "start_time": 87.2,
+            "word": "but"
+        },
+        {
+            "end_time": 88.9,
+            "start_time": 87.4,
+            "word": "I"
+        },
+        {
+            "end_time": 89.3,
+            "start_time": 88.9,
+            "word": "will"
+        },
+        {
+            "end_time": 89.4,
+            "start_time": 89.3,
+            "word": "not"
+        },
+        {
+            "end_time": 90.4,
+            "start_time": 89.4,
+            "word": "read"
+        },
+        {
+            "end_time": 90.6,
+            "start_time": 90.4,
+            "word": "I"
+        },
+        {
+            "end_time": 90.7,
+            "start_time": 90.6,
+            "word": "want"
+        },
+        {
+            "end_time": 91.0,
+            "start_time": 90.7,
+            "word": "to"
+        },
+        {
+            "end_time": 91.2,
+            "start_time": 91.0,
+            "word": "watch"
+        },
+        {
+            "end_time": 91.9,
+            "start_time": 91.2,
+            "word": "the"
+        },
+        {
+            "end_time": 92.3,
+            "start_time": 91.9,
+            "word": "presentation"
+        },
+        {
+            "end_time": 93.0,
+            "start_time": 92.3,
+            "word": "just"
+        },
+        {
+            "end_time": 93.6,
+            "start_time": 93.0,
+            "word": "because"
+        },
+        {
+            "end_time": 95.3,
+            "start_time": 93.6,
+            "word": "the"
+        },
+        {
+            "end_time": 95.9,
+            "start_time": 95.3,
+            "word": "alignment"
+        },
+        {
+            "end_time": 96.0,
+            "start_time": 95.9,
+            "word": "would"
+        },
+        {
+            "end_time": 96.1,
+            "start_time": 96.0,
+            "word": "be"
+        },
+        {
+            "end_time": 96.5,
+            "start_time": 96.1,
+            "word": "affected"
+        },
+        {
+            "end_time": 96.6,
+            "start_time": 96.5,
+            "word": "so"
+        },
+        {
+            "end_time": 98.2,
+            "start_time": 96.6,
+            "word": "meaning"
+        },
+        {
+            "end_time": 98.4,
+            "start_time": 98.2,
+            "word": "that"
+        },
+        {
+            "end_time": 98.8,
+            "start_time": 98.4,
+            "word": "if"
+        },
+        {
+            "end_time": 98.9,
+            "start_time": 98.8,
+            "word": "I"
+        },
+        {
+            "end_time": 99.1,
+            "start_time": 98.9,
+            "word": "beat"
+        },
+        {
+            "end_time": 99.1,
+            "start_time": 99.1,
+            "word": "it"
+        },
+        {
+            "end_time": 99.4,
+            "start_time": 99.1,
+            "word": "album"
+        },
+        {
+            "end_time": 99.6,
+            "start_time": 99.4,
+            "word": "on"
+        },
+        {
+            "end_time": 99.8,
+            "start_time": 99.6,
+            "word": "Towanda"
+        },
+        {
+            "end_time": 100.2,
+            "start_time": 99.8,
+            "word": "and"
+        },
+        {
+            "end_time": 100.4,
+            "start_time": 100.2,
+            "word": "it's"
+        },
+        {
+            "end_time": 100.5,
+            "start_time": 100.4,
+            "word": "pretty"
+        },
+        {
+            "end_time": 100.8,
+            "start_time": 100.5,
+            "word": "easy"
+        },
+        {
+            "end_time": 101.0,
+            "start_time": 100.8,
+            "word": "to"
+        },
+        {
+            "end_time": 101.3,
+            "start_time": 101.0,
+            "word": "fall"
+        },
+        {
+            "end_time": 101.4,
+            "start_time": 101.3,
+            "word": "tomorrow"
+        },
+        {
+            "end_time": 101.8,
+            "start_time": 101.4,
+            "word": "to"
+        },
+        {
+            "end_time": 102.5,
+            "start_time": 101.8,
+            "word": "recognize"
+        },
+        {
+            "end_time": 103.6,
+            "start_time": 102.5,
+            "word": "the"
+        },
+        {
+            "end_time": 105.1,
+            "start_time": 103.6,
+            "word": "alarm"
+        },
+        {
+            "end_time": 105.2,
+            "start_time": 105.1,
+            "word": "in"
+        },
+        {
+            "end_time": 105.7,
+            "start_time": 105.2,
+            "word": "between"
+        },
+        {
+            "end_time": 106.9,
+            "start_time": 105.7,
+            "word": "settlers"
+        },
+        {
+            "end_time": 107.4,
+            "start_time": 106.9,
+            "word": "and"
+        },
+        {
+            "end_time": 110.2,
+            "start_time": 107.4,
+            "word": "the"
+        },
+        {
+            "end_time": 110.9,
+            "start_time": 110.2,
+            "word": "station"
+        },
+        {
+            "end_time": 111.4,
+            "start_time": 110.9,
+            "word": "slides"
+        },
+        {
+            "end_time": 111.9,
+            "start_time": 111.4,
+            "word": "therefore"
+        },
+        {
+            "end_time": 112.0,
+            "start_time": 111.9,
+            "word": "I"
+        },
+        {
+            "end_time": 112.2,
+            "start_time": 112.0,
+            "word": "will"
+        },
+        {
+            "end_time": 112.5,
+            "start_time": 112.2,
+            "word": "modify"
+        },
+        {
+            "end_time": 113.2,
+            "start_time": 112.5,
+            "word": "everything"
+        },
+        {
+            "end_time": 113.4,
+            "start_time": 113.2,
+            "word": "which"
+        },
+        {
+            "end_time": 113.6,
+            "start_time": 113.4,
+            "word": "is"
+        },
+        {
+            "end_time": 114.1,
+            "start_time": 113.6,
+            "word": "what"
+        },
+        {
+            "end_time": 114.2,
+            "start_time": 114.1,
+            "word": "I'm"
+        },
+        {
+            "end_time": 114.5,
+            "start_time": 114.2,
+            "word": "saying"
+        },
+        {
+            "end_time": 116.0,
+            "start_time": 114.5,
+            "word": "so"
+        },
+        {
+            "end_time": 116.9,
+            "start_time": 116.0,
+            "word": "the"
+        },
+        {
+            "end_time": 123.9,
+            "start_time": 116.9,
+            "word": "shop."
+        },
+        {
+            "end_time": 125.7,
+            "start_time": 123.9,
+            "word": "I"
+        },
+        {
+            "end_time": 126.2,
+            "start_time": 125.7,
+            "word": "think"
+        },
+        {
+            "end_time": 126.8,
+            "start_time": 126.2,
+            "word": "it's"
+        },
+        {
+            "end_time": 128.4,
+            "start_time": 127.5,
+            "word": "it's"
+        },
+        {
+            "end_time": 128.8,
+            "start_time": 128.4,
+            "word": "this"
+        },
+        {
+            "end_time": 129.9,
+            "start_time": 128.8,
+            "word": "apart"
+        },
+        {
+            "end_time": 130.7,
+            "start_time": 129.9,
+            "word": "really"
+        },
+        {
+            "end_time": 130.9,
+            "start_time": 130.7,
+            "word": "well"
+        },
+        {
+            "end_time": 131.3,
+            "start_time": 130.9,
+            "word": "just"
+        },
+        {
+            "end_time": 131.8,
+            "start_time": 131.3,
+            "word": "because"
+        },
+        {
+            "end_time": 132.2,
+            "start_time": 131.8,
+            "word": "the"
+        },
+        {
+            "end_time": 132.7,
+            "start_time": 132.2,
+            "word": "Aladdin"
+        },
+        {
+            "end_time": 133.4,
+            "start_time": 132.7,
+            "word": "modest"
+        },
+        {
+            "end_time": 134.2,
+            "start_time": 133.4,
+            "word": "in"
+        },
+        {
+            "end_time": 134.3,
+            "start_time": 134.2,
+            "word": "the"
+        },
+        {
+            "end_time": 134.6,
+            "start_time": 134.3,
+            "word": "end"
+        },
+        {
+            "end_time": 136.7,
+            "start_time": 134.6,
+            "word": "which"
+        },
+        {
+            "end_time": 137.2,
+            "start_time": 136.7,
+            "word": "was"
+        },
+        {
+            "end_time": 139.4,
+            "start_time": 137.2,
+            "word": "configured"
+        },
+        {
+            "end_time": 140.0,
+            "start_time": 139.4,
+            "word": "correctly"
+        },
+        {
+            "end_time": 140.6,
+            "start_time": 140.0,
+            "word": "so"
+        },
+        {
+            "end_time": 140.7,
+            "start_time": 140.6,
+            "word": "that"
+        },
+        {
+            "end_time": 141.0,
+            "start_time": 140.7,
+            "word": "it"
+        },
+        {
+            "end_time": 141.2,
+            "start_time": 141.0,
+            "word": "can"
+        },
+        {
+            "end_time": 141.7,
+            "start_time": 141.2,
+            "word": "align"
+        },
+        {
+            "end_time": 142.2,
+            "start_time": 141.7,
+            "word": "words"
+        },
+        {
+            "end_time": 143.5,
+            "start_time": 142.2,
+            "word": "or"
+        },
+        {
+            "end_time": 143.7,
+            "start_time": 143.5,
+            "word": "sentences"
+        },
+        {
+            "end_time": 144.3,
+            "start_time": 143.7,
+            "word": "that"
+        },
+        {
+            "end_time": 144.6,
+            "start_time": 144.3,
+            "word": "aside"
+        },
+        {
+            "end_time": 145.6,
+            "start_time": 144.6,
+            "word": "so"
+        },
+        {
+            "end_time": 146.4,
+            "start_time": 145.6,
+            "word": "I"
+        },
+        {
+            "end_time": 146.6,
+            "start_time": 146.4,
+            "word": "will"
+        },
+        {
+            "end_time": 146.9,
+            "start_time": 146.6,
+            "word": "also"
+        },
+        {
+            "end_time": 147.3,
+            "start_time": 146.9,
+            "word": "jump"
+        },
+        {
+            "end_time": 147.6,
+            "start_time": 147.3,
+            "word": "around"
+        },
+        {
+            "end_time": 147.9,
+            "start_time": 147.6,
+            "word": "in"
+        },
+        {
+            "end_time": 148.0,
+            "start_time": 147.9,
+            "word": "the"
+        },
+        {
+            "end_time": 148.5,
+            "start_time": 148.0,
+            "word": "presentation"
+        },
+        {
+            "end_time": 149.5,
+            "start_time": 148.5,
+            "word": "just"
+        },
+        {
+            "end_time": 149.7,
+            "start_time": 149.5,
+            "word": "to"
+        },
+        {
+            "end_time": 150.1,
+            "start_time": 149.7,
+            "word": "make"
+        },
+        {
+            "end_time": 150.1,
+            "start_time": 150.1,
+            "word": "sure"
+        },
+        {
+            "end_time": 150.4,
+            "start_time": 150.1,
+            "word": "that"
+        },
+        {
+            "end_time": 150.8,
+            "start_time": 150.4,
+            "word": "the"
+        },
+        {
+            "end_time": 152.2,
+            "start_time": 150.8,
+            "word": "that"
+        },
+        {
+            "end_time": 152.4,
+            "start_time": 152.2,
+            "word": "the"
+        },
+        {
+            "end_time": 153.0,
+            "start_time": 152.4,
+            "word": "alignment"
+        },
+        {
+            "end_time": 153.3,
+            "start_time": 153.0,
+            "word": "n"
+        },
+        {
+            "end_time": 154.3,
+            "start_time": 153.3,
+            "word": "may"
+        },
+        {
+            "end_time": 154.5,
+            "start_time": 154.3,
+            "word": "be"
+        },
+        {
+            "end_time": 155.2,
+            "start_time": 154.5,
+            "word": "recognized"
+        },
+        {
+            "end_time": 155.5,
+            "start_time": 155.2,
+            "word": "that"
+        },
+        {
+            "end_time": 156.0,
+            "start_time": 155.5,
+            "word": "I've"
+        },
+        {
+            "end_time": 156.4,
+            "start_time": 156.0,
+            "word": "jumped"
+        },
+        {
+            "end_time": 156.9,
+            "start_time": 156.4,
+            "word": "out"
+        },
+        {
+            "end_time": 157.2,
+            "start_time": 156.9,
+            "word": "of"
+        },
+        {
+            "end_time": 157.3,
+            "start_time": 157.2,
+            "word": "the"
+        },
+        {
+            "end_time": 157.7,
+            "start_time": 157.3,
+            "word": "topic"
+        },
+        {
+            "end_time": 160.9,
+            "start_time": 157.7,
+            "word": "in"
+        },
+        {
+            "end_time": 164.0,
+            "start_time": 160.9,
+            "word": "back"
+        },
+        {
+            "end_time": 164.1,
+            "start_time": 164.0,
+            "word": "of"
+        },
+        {
+            "end_time": 164.7,
+            "start_time": 164.1,
+            "word": "work"
+        },
+        {
+            "end_time": 165.1,
+            "start_time": 164.7,
+            "word": "stand"
+        },
+        {
+            "end_time": 165.3,
+            "start_time": 165.1,
+            "word": "up"
+        },
+        {
+            "end_time": 166.9,
+            "start_time": 165.3,
+            "word": "we"
+        },
+        {
+            "end_time": 167.4,
+            "start_time": 166.9,
+            "word": "are"
+        },
+        {
+            "end_time": 168.1,
+            "start_time": 167.4,
+            "word": "what"
+        },
+        {
+            "end_time": 168.4,
+            "start_time": 168.1,
+            "word": "are"
+        },
+        {
+            "end_time": 168.7,
+            "start_time": 168.4,
+            "word": "its"
+        },
+        {
+            "end_time": 168.9,
+            "start_time": 168.7,
+            "word": "components"
+        },
+        {
+            "end_time": 169.7,
+            "start_time": 168.9,
+            "word": "sell"
+        },
+        {
+            "end_time": 170.4,
+            "start_time": 169.7,
+            "word": "one"
+        },
+        {
+            "end_time": 170.5,
+            "start_time": 170.4,
+            "word": "of"
+        },
+        {
+            "end_time": 170.8,
+            "start_time": 170.5,
+            "word": "them"
+        },
+        {
+            "end_time": 171.0,
+            "start_time": 170.8,
+            "word": "is"
+        },
+        {
+            "end_time": 172.4,
+            "start_time": 171.0,
+            "word": "the"
+        },
+        {
+            "end_time": 172.6,
+            "start_time": 172.4,
+            "word": "back"
+        },
+        {
+            "end_time": 172.8,
+            "start_time": 172.6,
+            "word": "of"
+        },
+        {
+            "end_time": 173.2,
+            "start_time": 172.8,
+            "word": "change"
+        },
+        {
+            "end_time": 174.6,
+            "start_time": 174.1,
+            "word": "which"
+        },
+        {
+            "end_time": 175.2,
+            "start_time": 174.6,
+            "word": "needs"
+        },
+        {
+            "end_time": 175.2,
+            "start_time": 175.2,
+            "word": "to"
+        },
+        {
+            "end_time": 175.3,
+            "start_time": 175.2,
+            "word": "be"
+        },
+        {
+            "end_time": 175.9,
+            "start_time": 175.3,
+            "word": "trained"
+        },
+        {
+            "end_time": 176.6,
+            "start_time": 175.9,
+            "word": "so"
+        },
+        {
+            "end_time": 176.9,
+            "start_time": 176.6,
+            "word": "that"
+        },
+        {
+            "end_time": 177.5,
+            "start_time": 176.9,
+            "word": "in"
+        },
+        {
+            "end_time": 177.6,
+            "start_time": 177.5,
+            "word": "the"
+        },
+        {
+            "end_time": 177.8,
+            "start_time": 177.6,
+            "word": "end"
+        },
+        {
+            "end_time": 178.3,
+            "start_time": 177.8,
+            "word": "it"
+        },
+        {
+            "end_time": 179.6,
+            "start_time": 178.3,
+            "word": "so"
+        },
+        {
+            "end_time": 180.0,
+            "start_time": 179.6,
+            "word": "hot"
+        },
+        {
+            "end_time": 180.6,
+            "start_time": 180.0,
+            "word": "will"
+        },
+        {
+            "end_time": 180.7,
+            "start_time": 180.6,
+            "word": "it"
+        },
+        {
+            "end_time": 180.9,
+            "start_time": 180.7,
+            "word": "get"
+        },
+        {
+            "end_time": 181.6,
+            "start_time": 180.9,
+            "word": "strength"
+        },
+        {
+            "end_time": 183.1,
+            "start_time": 181.6,
+            "word": "by"
+        },
+        {
+            "end_time": 184.1,
+            "start_time": 183.1,
+            "word": "counting"
+        },
+        {
+            "end_time": 184.1,
+            "start_time": 184.1,
+            "word": "the"
+        },
+        {
+            "end_time": 184.8,
+            "start_time": 184.1,
+            "word": "engrams"
+        },
+        {
+            "end_time": 186.0,
+            "start_time": 184.8,
+            "word": "and"
+        },
+        {
+            "end_time": 187.3,
+            "start_time": 186.0,
+            "word": "normalizing"
+        },
+        {
+            "end_time": 188.1,
+            "start_time": 187.3,
+            "word": "all"
+        },
+        {
+            "end_time": 188.3,
+            "start_time": 188.1,
+            "word": "of"
+        },
+        {
+            "end_time": 188.7,
+            "start_time": 188.3,
+            "word": "its"
+        },
+        {
+            "end_time": 189.7,
+            "start_time": 188.7,
+            "word": "probabilities"
+        },
+        {
+            "end_time": 191.5,
+            "start_time": 189.7,
+            "word": "and"
+        },
+        {
+            "end_time": 194.7,
+            "start_time": 191.5,
+            "word": "can"
+        },
+        {
+            "end_time": 194.8,
+            "start_time": 194.7,
+            "word": "be"
+        },
+        {
+            "end_time": 195.4,
+            "start_time": 194.8,
+            "word": "used"
+        },
+        {
+            "end_time": 196.2,
+            "start_time": 195.4,
+            "word": "to"
+        },
+        {
+            "end_time": 198.5,
+            "start_time": 196.2,
+            "word": "watch"
+        },
+        {
+            "end_time": 198.6,
+            "start_time": 198.5,
+            "word": "a"
+        },
+        {
+            "end_time": 198.8,
+            "start_time": 198.6,
+            "word": "different"
+        },
+        {
+            "end_time": 199.0,
+            "start_time": 198.8,
+            "word": "kind"
+        },
+        {
+            "end_time": 199.2,
+            "start_time": 199.0,
+            "word": "of"
+        },
+        {
+            "end_time": 200.0,
+            "start_time": 199.2,
+            "word": "ejaculation"
+        },
+        {
+            "end_time": 200.2,
+            "start_time": 200.0,
+            "word": "and"
+        },
+        {
+            "end_time": 200.7,
+            "start_time": 200.2,
+            "word": "train"
+        },
+        {
+            "end_time": 201.0,
+            "start_time": 200.7,
+            "word": "their"
+        },
+        {
+            "end_time": 202.5,
+            "start_time": 201.0,
+            "word": "the"
+        },
+        {
+            "end_time": 203.0,
+            "start_time": 202.5,
+            "word": "weight"
+        },
+        {
+            "end_time": 203.4,
+            "start_time": 203.0,
+            "word": "of"
+        },
+        {
+            "end_time": 205.6,
+            "start_time": 205.2,
+            "word": "yeah"
+        },
+        {
+            "end_time": 207.5,
+            "start_time": 206.7,
+            "word": "so"
+        },
+        {
+            "end_time": 210.0,
+            "start_time": 207.5,
+            "word": "knock"
+        },
+        {
+            "end_time": 210.1,
+            "start_time": 210.0,
+            "word": "off"
+        },
+        {
+            "end_time": 210.7,
+            "start_time": 210.1,
+            "word": "body"
+        },
+        {
+            "end_time": 210.9,
+            "start_time": 210.7,
+            "word": "and"
+        },
+        {
+            "end_time": 211.4,
+            "start_time": 210.9,
+            "word": "consists"
+        },
+        {
+            "end_time": 211.5,
+            "start_time": 211.4,
+            "word": "of"
+        },
+        {
+            "end_time": 212.6,
+            "start_time": 211.5,
+            "word": "a"
+        },
+        {
+            "end_time": 214.1,
+            "start_time": 212.6,
+            "word": "specific"
+        },
+        {
+            "end_time": 214.6,
+            "start_time": 214.1,
+            "word": "amount"
+        },
+        {
+            "end_time": 214.8,
+            "start_time": 214.6,
+            "word": "of"
+        },
+        {
+            "end_time": 215.7,
+            "start_time": 214.8,
+            "word": "states"
+        },
+        {
+            "end_time": 216.5,
+            "start_time": 215.7,
+            "word": "which"
+        },
+        {
+            "end_time": 217.6,
+            "start_time": 216.5,
+            "word": "I"
+        },
+        {
+            "end_time": 218.3,
+            "start_time": 217.6,
+            "word": "do"
+        },
+        {
+            "end_time": 218.6,
+            "start_time": 218.3,
+            "word": "have"
+        },
+        {
+            "end_time": 219.3,
+            "start_time": 218.6,
+            "word": "additional"
+        },
+        {
+            "end_time": 221.6,
+            "start_time": 221.0,
+            "word": "State"
+        },
+        {
+            "end_time": 222.2,
+            "start_time": 221.6,
+            "word": "probability"
+        },
+        {
+            "end_time": 222.5,
+            "start_time": 222.2,
+            "word": "distribution"
+        },
+        {
+            "end_time": 225.0,
+            "start_time": 222.5,
+            "word": "it"
+        },
+        {
+            "end_time": 225.4,
+            "start_time": 225.0,
+            "word": "also"
+        },
+        {
+            "end_time": 225.9,
+            "start_time": 225.4,
+            "word": "contains"
+        },
+        {
+            "end_time": 226.8,
+            "start_time": 225.9,
+            "word": "and"
+        },
+        {
+            "end_time": 229.7,
+            "start_time": 226.8,
+            "word": "number"
+        },
+        {
+            "end_time": 229.8,
+            "start_time": 229.7,
+            "word": "of"
+        },
+        {
+            "end_time": 230.4,
+            "start_time": 229.8,
+            "word": "the"
+        },
+        {
+            "end_time": 230.7,
+            "start_time": 230.4,
+            "word": "alphabet"
+        },
+        {
+            "end_time": 231.8,
+            "start_time": 230.7,
+            "word": "which"
+        },
+        {
+            "end_time": 232.1,
+            "start_time": 231.8,
+            "word": "are"
+        },
+        {
+            "end_time": 234.7,
+            "start_time": 232.1,
+            "word": "presents"
+        },
+        {
+            "end_time": 234.9,
+            "start_time": 234.7,
+            "word": "a"
+        },
+        {
+            "end_time": 235.3,
+            "start_time": 234.9,
+            "word": "simple"
+        },
+        {
+            "end_time": 235.7,
+            "start_time": 235.3,
+            "word": "symbols"
+        },
+        {
+            "end_time": 235.9,
+            "start_time": 235.7,
+            "word": "here"
+        },
+        {
+            "end_time": 237.1,
+            "start_time": 235.9,
+            "word": "and"
+        },
+        {
+            "end_time": 237.4,
+            "start_time": 237.1,
+            "word": "if"
+        },
+        {
+            "end_time": 237.6,
+            "start_time": 237.4,
+            "word": "you"
+        },
+        {
+            "end_time": 238.0,
+            "start_time": 237.6,
+            "word": "have"
+        },
+        {
+            "end_time": 238.2,
+            "start_time": 238.0,
+            "word": "a"
+        },
+        {
+            "end_time": 238.6,
+            "start_time": 238.2,
+            "word": "different"
+        },
+        {
+            "end_time": 238.9,
+            "start_time": 238.6,
+            "word": "kind"
+        },
+        {
+            "end_time": 239.0,
+            "start_time": 238.9,
+            "word": "of"
+        },
+        {
+            "end_time": 239.5,
+            "start_time": 239.0,
+            "word": "transition"
+        },
+        {
+            "end_time": 241.4,
+            "start_time": 239.5,
+            "word": "probability"
+        },
+        {
+            "end_time": 242.4,
+            "start_time": 241.4,
+            "word": "switches"
+        },
+        {
+            "end_time": 242.7,
+            "start_time": 242.4,
+            "word": "model"
+        },
+        {
+            "end_time": 243.0,
+            "start_time": 242.7,
+            "word": "here"
+        },
+        {
+            "end_time": 243.2,
+            "start_time": 243.0,
+            "word": "by"
+        },
+        {
+            "end_time": 243.3,
+            "start_time": 243.2,
+            "word": "this"
+        },
+        {
+            "end_time": 243.9,
+            "start_time": 243.3,
+            "word": "function"
+        },
+        {
+            "end_time": 245.1,
+            "start_time": 243.9,
+            "word": "so"
+        },
+        {
+            "end_time": 245.5,
+            "start_time": 245.1,
+            "word": "how"
+        },
+        {
+            "end_time": 245.6,
+            "start_time": 245.5,
+            "word": "about"
+        },
+        {
+            "end_time": 245.9,
+            "start_time": 245.6,
+            "word": "the"
+        },
+        {
+            "end_time": 246.3,
+            "start_time": 245.9,
+            "word": "training"
+        },
+        {
+            "end_time": 246.5,
+            "start_time": 246.3,
+            "word": "of"
+        },
+        {
+            "end_time": 247.0,
+            "start_time": 246.5,
+            "word": "this"
+        },
+        {
+            "end_time": 247.3,
+            "start_time": 247.0,
+            "word": "model"
+        },
+        {
+            "end_time": 247.7,
+            "start_time": 247.3,
+            "word": "works"
+        },
+        {
+            "end_time": 248.4,
+            "start_time": 247.7,
+            "word": "the"
+        },
+        {
+            "end_time": 248.9,
+            "start_time": 248.4,
+            "word": "training"
+        },
+        {
+            "end_time": 249.3,
+            "start_time": 248.9,
+            "word": "is"
+        },
+        {
+            "end_time": 250.1,
+            "start_time": 249.3,
+            "word": "or"
+        },
+        {
+            "end_time": 250.4,
+            "start_time": 250.1,
+            "word": "has"
+        },
+        {
+            "end_time": 250.5,
+            "start_time": 250.4,
+            "word": "a"
+        },
+        {
+            "end_time": 250.9,
+            "start_time": 250.5,
+            "word": "fixed"
+        },
+        {
+            "end_time": 251.3,
+            "start_time": 250.9,
+            "word": "structure"
+        },
+        {
+            "end_time": 252.9,
+            "start_time": 251.3,
+            "word": "and"
+        },
+        {
+            "end_time": 254.1,
+            "start_time": 252.9,
+            "word": "can"
+        },
+        {
+            "end_time": 254.3,
+            "start_time": 254.1,
+            "word": "be"
+        },
+        {
+            "end_time": 255.1,
+            "start_time": 254.3,
+            "word": "optimized"
+        },
+        {
+            "end_time": 256.3,
+            "start_time": 255.1,
+            "word": "eye"
+        },
+        {
+            "end_time": 256.9,
+            "start_time": 256.3,
+            "word": "different"
+        },
+        {
+            "end_time": 257.6,
+            "start_time": 256.9,
+            "word": "parameters"
+        },
+        {
+            "end_time": 258.6,
+            "start_time": 257.6,
+            "word": "according"
+        },
+        {
+            "end_time": 258.8,
+            "start_time": 258.6,
+            "word": "to"
+        },
+        {
+            "end_time": 260.0,
+            "start_time": 258.8,
+            "word": "to"
+        },
+        {
+            "end_time": 260.4,
+            "start_time": 260.0,
+            "word": "what"
+        },
+        {
+            "end_time": 260.7,
+            "start_time": 260.4,
+            "word": "kind"
+        },
+        {
+            "end_time": 260.8,
+            "start_time": 260.7,
+            "word": "of"
+        },
+        {
+            "end_time": 261.2,
+            "start_time": 260.8,
+            "word": "sedation"
+        },
+        {
+            "end_time": 261.5,
+            "start_time": 261.2,
+            "word": "is"
+        },
+        {
+            "end_time": 261.7,
+            "start_time": 261.5,
+            "word": "going"
+        },
+        {
+            "end_time": 261.8,
+            "start_time": 261.7,
+            "word": "to"
+        },
+        {
+            "end_time": 261.9,
+            "start_time": 261.8,
+            "word": "be"
+        },
+        {
+            "end_time": 263.2,
+            "start_time": 262.6,
+            "word": "so"
+        },
+        {
+            "end_time": 264.0,
+            "start_time": 263.2,
+            "word": "usually"
+        },
+        {
+            "end_time": 264.2,
+            "start_time": 264.0,
+            "word": "we"
+        },
+        {
+            "end_time": 264.3,
+            "start_time": 264.2,
+            "word": "are"
+        },
+        {
+            "end_time": 264.9,
+            "start_time": 264.3,
+            "word": "seeing"
+        },
+        {
+            "end_time": 265.0,
+            "start_time": 264.9,
+            "word": "a"
+        },
+        {
+            "end_time": 265.3,
+            "start_time": 265.0,
+            "word": "specific"
+        },
+        {
+            "end_time": 267.1,
+            "start_time": 266.6,
+            "word": "State"
+        },
+        {
+            "end_time": 267.8,
+            "start_time": 267.1,
+            "word": "let's"
+        },
+        {
+            "end_time": 267.9,
+            "start_time": 267.8,
+            "word": "say"
+        },
+        {
+            "end_time": 268.2,
+            "start_time": 267.9,
+            "word": "for"
+        },
+        {
+            "end_time": 268.2,
+            "start_time": 268.2,
+            "word": "example"
+        },
+        {
+            "end_time": 268.8,
+            "start_time": 268.2,
+            "word": "the"
+        },
+        {
+            "end_time": 269.3,
+            "start_time": 268.8,
+            "word": "weather"
+        },
+        {
+            "end_time": 269.4,
+            "start_time": 269.3,
+            "word": "is"
+        },
+        {
+            "end_time": 269.6,
+            "start_time": 269.4,
+            "word": "good"
+        },
+        {
+            "end_time": 270.4,
+            "start_time": 269.6,
+            "word": "so"
+        },
+        {
+            "end_time": 270.7,
+            "start_time": 270.4,
+            "word": "this"
+        },
+        {
+            "end_time": 270.8,
+            "start_time": 270.7,
+            "word": "is"
+        },
+        {
+            "end_time": 270.9,
+            "start_time": 270.8,
+            "word": "an"
+        },
+        {
+            "end_time": 271.4,
+            "start_time": 270.9,
+            "word": "observation"
+        },
+        {
+            "end_time": 272.2,
+            "start_time": 271.4,
+            "word": "and"
+        },
+        {
+            "end_time": 272.5,
+            "start_time": 272.2,
+            "word": "then"
+        },
+        {
+            "end_time": 272.6,
+            "start_time": 272.5,
+            "word": "we"
+        },
+        {
+            "end_time": 272.7,
+            "start_time": 272.6,
+            "word": "need"
+        },
+        {
+            "end_time": 272.9,
+            "start_time": 272.7,
+            "word": "to"
+        },
+        {
+            "end_time": 273.3,
+            "start_time": 272.9,
+            "word": "come"
+        },
+        {
+            "end_time": 273.4,
+            "start_time": 273.3,
+            "word": "back"
+        },
+        {
+            "end_time": 273.7,
+            "start_time": 273.4,
+            "word": "at"
+        },
+        {
+            "end_time": 274.2,
+            "start_time": 273.7,
+            "word": "8"
+        },
+        {
+            "end_time": 275.3,
+            "start_time": 274.2,
+            "word": "how"
+        },
+        {
+            "end_time": 275.7,
+            "start_time": 275.3,
+            "word": "does"
+        },
+        {
+            "end_time": 277.0,
+            "start_time": 275.7,
+            "word": "which"
+        },
+        {
+            "end_time": 277.5,
+            "start_time": 277.0,
+            "word": "kind"
+        },
+        {
+            "end_time": 277.6,
+            "start_time": 277.5,
+            "word": "of"
+        },
+        {
+            "end_time": 278.0,
+            "start_time": 277.6,
+            "word": "states"
+        },
+        {
+            "end_time": 278.1,
+            "start_time": 278.0,
+            "word": "are"
+        },
+        {
+            "end_time": 278.6,
+            "start_time": 278.1,
+            "word": "needed"
+        },
+        {
+            "end_time": 278.9,
+            "start_time": 278.6,
+            "word": "so"
+        },
+        {
+            "end_time": 279.0,
+            "start_time": 278.9,
+            "word": "that"
+        },
+        {
+            "end_time": 280.2,
+            "start_time": 279.0,
+            "word": "you"
+        },
+        {
+            "end_time": 281.4,
+            "start_time": 280.2,
+            "word": "have"
+        },
+        {
+            "end_time": 281.9,
+            "start_time": 281.4,
+            "word": "this"
+        },
+        {
+            "end_time": 282.3,
+            "start_time": 281.9,
+            "word": "time"
+        },
+        {
+            "end_time": 282.5,
+            "start_time": 282.3,
+            "word": "off"
+        },
+        {
+            "end_time": 283.1,
+            "start_time": 282.5,
+            "word": "of"
+        },
+        {
+            "end_time": 284.1,
+            "start_time": 283.1,
+            "word": "observation"
+        },
+        {
+            "end_time": 284.2,
+            "start_time": 284.1,
+            "word": "at"
+        },
+        {
+            "end_time": 284.3,
+            "start_time": 284.2,
+            "word": "the"
+        },
+        {
+            "end_time": 284.5,
+            "start_time": 284.3,
+            "word": "end"
+        },
+        {
+            "end_time": 285.5,
+            "start_time": 284.5,
+            "word": "there"
+        },
+        {
+            "end_time": 285.8,
+            "start_time": 285.5,
+            "word": "are"
+        },
+        {
+            "end_time": 286.3,
+            "start_time": 285.8,
+            "word": "different"
+        },
+        {
+            "end_time": 286.6,
+            "start_time": 286.3,
+            "word": "training"
+        },
+        {
+            "end_time": 287.2,
+            "start_time": 286.6,
+            "word": "algorithm"
+        },
+        {
+            "end_time": 287.3,
+            "start_time": 287.2,
+            "word": "out"
+        },
+        {
+            "end_time": 287.5,
+            "start_time": 287.3,
+            "word": "there"
+        },
+        {
+            "end_time": 288.2,
+            "start_time": 287.5,
+            "word": "so"
+        },
+        {
+            "end_time": 288.5,
+            "start_time": 288.2,
+            "word": "we"
+        },
+        {
+            "end_time": 289.3,
+            "start_time": 288.5,
+            "word": "have"
+        },
+        {
+            "end_time": 290.2,
+            "start_time": 289.3,
+            "word": "here"
+        },
+        {
+            "end_time": 290.6,
+            "start_time": 290.2,
+            "word": "we've"
+        },
+        {
+            "end_time": 290.9,
+            "start_time": 290.6,
+            "word": "listed"
+        },
+        {
+            "end_time": 292.1,
+            "start_time": 290.9,
+            "word": "or"
+        },
+        {
+            "end_time": 292.6,
+            "start_time": 292.1,
+            "word": "Alexa"
+        },
+        {
+            "end_time": 292.8,
+            "start_time": 292.6,
+            "word": "it"
+        },
+        {
+            "end_time": 293.0,
+            "start_time": 292.8,
+            "word": "is"
+        },
+        {
+            "end_time": 293.3,
+            "start_time": 293.0,
+            "word": "listed"
+        },
+        {
+            "end_time": 294.3,
+            "start_time": 293.3,
+            "word": "there"
+        },
+        {
+            "end_time": 294.7,
+            "start_time": 294.3,
+            "word": "are"
+        },
+        {
+            "end_time": 296.2,
+            "start_time": 294.7,
+            "word": "listed"
+        },
+        {
+            "end_time": 296.5,
+            "start_time": 296.2,
+            "word": "and"
+        },
+        {
+            "end_time": 296.7,
+            "start_time": 296.5,
+            "word": "the"
+        },
+        {
+            "end_time": 297.3,
+            "start_time": 296.7,
+            "word": "forward"
+        },
+        {
+            "end_time": 297.9,
+            "start_time": 297.3,
+            "word": "backward"
+        },
+        {
+            "end_time": 298.4,
+            "start_time": 297.9,
+            "word": "algorithm"
+        },
+        {
+            "end_time": 303.2,
+            "start_time": 299.4,
+            "word": "the"
+        },
+        {
+            "end_time": 303.5,
+            "start_time": 303.2,
+            "word": "idea"
+        },
+        {
+            "end_time": 303.6,
+            "start_time": 303.5,
+            "word": "is"
+        },
+        {
+            "end_time": 305.6,
+            "start_time": 303.6,
+            "word": "that"
+        },
+        {
+            "end_time": 306.7,
+            "start_time": 305.6,
+            "word": "it"
+        },
+        {
+            "end_time": 307.7,
+            "start_time": 306.7,
+            "word": "starts"
+        },
+        {
+            "end_time": 307.9,
+            "start_time": 307.7,
+            "word": "with"
+        },
+        {
+            "end_time": 308.3,
+            "start_time": 307.9,
+            "word": "random"
+        },
+        {
+            "end_time": 309.3,
+            "start_time": 308.3,
+            "word": "and"
+        },
+        {
+            "end_time": 309.5,
+            "start_time": 309.3,
+            "word": "then"
+        },
+        {
+            "end_time": 309.7,
+            "start_time": 309.5,
+            "word": "we"
+        },
+        {
+            "end_time": 310.0,
+            "start_time": 309.7,
+            "word": "just"
+        },
+        {
+            "end_time": 310.6,
+            "start_time": 310.0,
+            "word": "continue"
+        },
+        {
+            "end_time": 311.5,
+            "start_time": 310.6,
+            "word": "through"
+        },
+        {
+            "end_time": 311.8,
+            "start_time": 311.5,
+            "word": "the"
+        },
+        {
+            "end_time": 312.2,
+            "start_time": 311.8,
+            "word": "training"
+        },
+        {
+            "end_time": 312.4,
+            "start_time": 312.2,
+            "word": "we"
+        },
+        {
+            "end_time": 312.9,
+            "start_time": 312.4,
+            "word": "continue"
+        },
+        {
+            "end_time": 313.2,
+            "start_time": 312.9,
+            "word": "to"
+        },
+        {
+            "end_time": 315.3,
+            "start_time": 313.2,
+            "word": "to"
+        },
+        {
+            "end_time": 315.7,
+            "start_time": 315.3,
+            "word": "choose"
+        },
+        {
+            "end_time": 315.9,
+            "start_time": 315.7,
+            "word": "the"
+        },
+        {
+            "end_time": 316.5,
+            "start_time": 315.9,
+            "word": "parameter"
+        },
+        {
+            "end_time": 316.6,
+            "start_time": 316.5,
+            "word": "is"
+        },
+        {
+            "end_time": 317.5,
+            "start_time": 316.6,
+            "word": "such"
+        },
+        {
+            "end_time": 317.8,
+            "start_time": 317.5,
+            "word": "that"
+        },
+        {
+            "end_time": 318.0,
+            "start_time": 317.8,
+            "word": "the"
+        },
+        {
+            "end_time": 318.8,
+            "start_time": 318.0,
+            "word": "probability"
+        },
+        {
+            "end_time": 319.6,
+            "start_time": 318.8,
+            "word": "of"
+        },
+        {
+            "end_time": 319.9,
+            "start_time": 319.6,
+            "word": "the"
+        },
+        {
+            "end_time": 320.5,
+            "start_time": 319.9,
+            "word": "sequence"
+        },
+        {
+            "end_time": 320.6,
+            "start_time": 320.5,
+            "word": "and"
+        },
+        {
+            "end_time": 320.8,
+            "start_time": 320.6,
+            "word": "it's"
+        },
+        {
+            "end_time": 321.4,
+            "start_time": 320.8,
+            "word": "just"
+        },
+        {
+            "end_time": 322.2,
+            "start_time": 321.4,
+            "word": "freezes"
+        },
+        {
+            "end_time": 322.8,
+            "start_time": 322.2,
+            "word": "so"
+        },
+        {
+            "end_time": 323.0,
+            "start_time": 322.8,
+            "word": "that"
+        },
+        {
+            "end_time": 324.4,
+            "start_time": 323.0,
+            "word": "station"
+        },
+        {
+            "end_time": 324.6,
+            "start_time": 324.4,
+            "word": "we"
+        },
+        {
+            "end_time": 324.7,
+            "start_time": 324.6,
+            "word": "have"
+        },
+        {
+            "end_time": 325.0,
+            "start_time": 324.7,
+            "word": "talked"
+        },
+        {
+            "end_time": 325.2,
+            "start_time": 325.0,
+            "word": "about"
+        },
+        {
+            "end_time": 325.9,
+            "start_time": 325.2,
+            "word": "will"
+        },
+        {
+            "end_time": 326.1,
+            "start_time": 325.9,
+            "word": "be"
+        },
+        {
+            "end_time": 327.6,
+            "start_time": 326.1,
+            "word": "all"
+        },
+        {
+            "end_time": 328.0,
+            "start_time": 327.6,
+            "word": "so"
+        },
+        {
+            "end_time": 328.2,
+            "start_time": 328.0,
+            "word": "I'll"
+        },
+        {
+            "end_time": 328.4,
+            "start_time": 328.2,
+            "word": "put"
+        },
+        {
+            "end_time": 328.6,
+            "start_time": 328.4,
+            "word": "it"
+        },
+        {
+            "end_time": 329.7,
+            "start_time": 328.6,
+            "word": "so"
+        },
+        {
+            "end_time": 331.2,
+            "start_time": 329.7,
+            "word": "here"
+        },
+        {
+            "end_time": 331.3,
+            "start_time": 331.2,
+            "word": "in"
+        },
+        {
+            "end_time": 331.5,
+            "start_time": 331.3,
+            "word": "this"
+        },
+        {
+            "end_time": 331.9,
+            "start_time": 331.5,
+            "word": "life"
+        },
+        {
+            "end_time": 333.1,
+            "start_time": 331.9,
+            "word": "again"
+        },
+        {
+            "end_time": 334.1,
+            "start_time": 333.1,
+            "word": "we've"
+        },
+        {
+            "end_time": 334.4,
+            "start_time": 334.1,
+            "word": "got"
+        },
+        {
+            "end_time": 335.0,
+            "start_time": 334.4,
+            "word": "a"
+        },
+        {
+            "end_time": 336.2,
+            "start_time": 335.0,
+            "word": "solution"
+        },
+        {
+            "end_time": 337.0,
+            "start_time": 336.2,
+            "word": "which"
+        },
+        {
+            "end_time": 337.5,
+            "start_time": 337.0,
+            "word": "was"
+        },
+        {
+            "end_time": 338.1,
+            "start_time": 337.5,
+            "word": "described"
+        },
+        {
+            "end_time": 339.1,
+            "start_time": 338.1,
+            "word": "as"
+        },
+        {
+            "end_time": 339.2,
+            "start_time": 339.1,
+            "word": "an"
+        },
+        {
+            "end_time": 339.6,
+            "start_time": 339.2,
+            "word": "algorithm"
+        },
+        {
+            "end_time": 341.2,
+            "start_time": 339.6,
+            "word": "with"
+        },
+        {
+            "end_time": 341.4,
+            "start_time": 341.2,
+            "word": "the"
+        },
+        {
+            "end_time": 341.6,
+            "start_time": 341.4,
+            "word": "name"
+        },
+        {
+            "end_time": 341.7,
+            "start_time": 341.6,
+            "word": "of"
+        },
+        {
+            "end_time": 342.4,
+            "start_time": 341.7,
+            "word": "expectation"
+        },
+        {
+            "end_time": 342.8,
+            "start_time": 342.4,
+            "word": "maximization"
+        },
+        {
+            "end_time": 345.0,
+            "start_time": 344.3,
+            "word": "and"
+        },
+        {
+            "end_time": 345.4,
+            "start_time": 345.0,
+            "word": "there's"
+        },
+        {
+            "end_time": 345.9,
+            "start_time": 345.4,
+            "word": "argue"
+        },
+        {
+            "end_time": 346.1,
+            "start_time": 345.9,
+            "word": "with"
+        },
+        {
+            "end_time": 346.3,
+            "start_time": 346.1,
+            "word": "them"
+        },
+        {
+            "end_time": 349.0,
+            "start_time": 347.9,
+            "word": "guarantees"
+        },
+        {
+            "end_time": 349.4,
+            "start_time": 349.0,
+            "word": "that"
+        },
+        {
+            "end_time": 352.3,
+            "start_time": 351.8,
+            "word": "that"
+        },
+        {
+            "end_time": 352.6,
+            "start_time": 352.3,
+            "word": "the"
+        },
+        {
+            "end_time": 353.2,
+            "start_time": 352.6,
+            "word": "entropy"
+        },
+        {
+            "end_time": 353.8,
+            "start_time": 353.2,
+            "word": "between"
+        },
+        {
+            "end_time": 354.3,
+            "start_time": 353.8,
+            "word": "sequence"
+        },
+        {
+            "end_time": 355.4,
+            "start_time": 354.3,
+            "word": "in"
+        },
+        {
+            "end_time": 355.4,
+            "start_time": 355.4,
+            "word": "the"
+        },
+        {
+            "end_time": 355.9,
+            "start_time": 355.4,
+            "word": "sequence"
+        },
+        {
+            "end_time": 357.0,
+            "start_time": 355.9,
+            "word": "ante-mortem"
+        },
+        {
+            "end_time": 359.3,
+            "start_time": 358.7,
+            "word": "it's"
+        },
+        {
+            "end_time": 360.3,
+            "start_time": 359.3,
+            "word": "pretty"
+        },
+        {
+            "end_time": 360.6,
+            "start_time": 360.3,
+            "word": "low"
+        },
+        {
+            "end_time": 361.5,
+            "start_time": 360.6,
+            "word": "because"
+        },
+        {
+            "end_time": 362.9,
+            "start_time": 361.5,
+            "word": "the"
+        },
+        {
+            "end_time": 364.0,
+            "start_time": 362.9,
+            "word": "algorithm"
+        },
+        {
+            "end_time": 365.2,
+            "start_time": 364.0,
+            "word": "converts"
+        },
+        {
+            "end_time": 366.0,
+            "start_time": 365.2,
+            "word": "everything"
+        },
+        {
+            "end_time": 366.7,
+            "start_time": 366.0,
+            "word": "to"
+        },
+        {
+            "end_time": 366.7,
+            "start_time": 366.7,
+            "word": "a"
+        },
+        {
+            "end_time": 367.3,
+            "start_time": 366.7,
+            "word": "local"
+        },
+        {
+            "end_time": 367.7,
+            "start_time": 367.3,
+            "word": "maximum"
+        },
+        {
+            "end_time": 368.6,
+            "start_time": 367.7,
+            "word": "which"
+        },
+        {
+            "end_time": 369.0,
+            "start_time": 368.6,
+            "word": "in"
+        },
+        {
+            "end_time": 369.1,
+            "start_time": 369.0,
+            "word": "the"
+        },
+        {
+            "end_time": 369.5,
+            "start_time": 369.1,
+            "word": "area"
+        },
+        {
+            "end_time": 375.0,
+            "start_time": 373.3,
+            "word": "jumping"
+        },
+        {
+            "end_time": 375.2,
+            "start_time": 375.0,
+            "word": "around"
+        },
+        {
+            "end_time": 375.7,
+            "start_time": 375.2,
+            "word": "again"
+        },
+        {
+            "end_time": 377.2,
+            "start_time": 375.7,
+            "word": "this"
+        },
+        {
+            "end_time": 377.9,
+            "start_time": 377.2,
+            "word": "slide"
+        },
+        {
+            "end_time": 377.9,
+            "start_time": 377.9,
+            "word": "is"
+        },
+        {
+            "end_time": 378.4,
+            "start_time": 377.9,
+            "word": "talking"
+        },
+        {
+            "end_time": 378.6,
+            "start_time": 378.4,
+            "word": "about"
+        },
+        {
+            "end_time": 379.9,
+            "start_time": 378.6,
+            "word": "a"
+        },
+        {
+            "end_time": 380.2,
+            "start_time": 379.9,
+            "word": "different"
+        },
+        {
+            "end_time": 380.8,
+            "start_time": 380.2,
+            "word": "problems"
+        },
+        {
+            "end_time": 381.1,
+            "start_time": 380.8,
+            "word": "of"
+        },
+        {
+            "end_time": 382.4,
+            "start_time": 381.1,
+            "word": "training"
+        },
+        {
+            "end_time": 385.3,
+            "start_time": 382.4,
+            "word": "is"
+        },
+        {
+            "end_time": 385.8,
+            "start_time": 385.3,
+            "word": "that"
+        },
+        {
+            "end_time": 386.3,
+            "start_time": 385.8,
+            "word": "the"
+        },
+        {
+            "end_time": 387.5,
+            "start_time": 386.3,
+            "word": "algorithm"
+        },
+        {
+            "end_time": 388.4,
+            "start_time": 387.5,
+            "word": "can't"
+        },
+        {
+            "end_time": 388.9,
+            "start_time": 388.4,
+            "word": "decide"
+        },
+        {
+            "end_time": 390.1,
+            "start_time": 388.9,
+            "word": "for"
+        },
+        {
+            "end_time": 390.2,
+            "start_time": 390.1,
+            "word": "a"
+        },
+        {
+            "end_time": 390.5,
+            "start_time": 390.2,
+            "word": "specific"
+        },
+        {
+            "end_time": 390.8,
+            "start_time": 390.5,
+            "word": "Direction"
+        },
+        {
+            "end_time": 392.1,
+            "start_time": 390.8,
+            "word": "and"
+        },
+        {
+            "end_time": 392.7,
+            "start_time": 392.1,
+            "word": "maybe"
+        },
+        {
+            "end_time": 393.4,
+            "start_time": 392.7,
+            "word": "just"
+        },
+        {
+            "end_time": 393.6,
+            "start_time": 393.4,
+            "word": "maybe"
+        },
+        {
+            "end_time": 394.2,
+            "start_time": 393.6,
+            "word": "get"
+        },
+        {
+            "end_time": 394.5,
+            "start_time": 394.2,
+            "word": "stuck"
+        },
+        {
+            "end_time": 394.9,
+            "start_time": 394.5,
+            "word": "somehow"
+        },
+        {
+            "end_time": 397.0,
+            "start_time": 396.0,
+            "word": "and"
+        },
+        {
+            "end_time": 401.7,
+            "start_time": 400.9,
+            "word": "Jeff"
+        },
+        {
+            "end_time": 402.7,
+            "start_time": 401.7,
+            "word": "and"
+        },
+        {
+            "end_time": 402.8,
+            "start_time": 402.7,
+            "word": "I"
+        },
+        {
+            "end_time": 403.2,
+            "start_time": 402.8,
+            "word": "think"
+        },
+        {
+            "end_time": 403.3,
+            "start_time": 403.2,
+            "word": "the"
+        },
+        {
+            "end_time": 403.5,
+            "start_time": 403.3,
+            "word": "most"
+        },
+        {
+            "end_time": 404.0,
+            "start_time": 403.5,
+            "word": "critical"
+        },
+        {
+            "end_time": 404.3,
+            "start_time": 404.0,
+            "word": "one"
+        },
+        {
+            "end_time": 404.5,
+            "start_time": 404.3,
+            "word": "is"
+        },
+        {
+            "end_time": 404.8,
+            "start_time": 404.5,
+            "word": "that"
+        },
+        {
+            "end_time": 408.1,
+            "start_time": 404.8,
+            "word": "bem"
+        },
+        {
+            "end_time": 408.4,
+            "start_time": 408.1,
+            "word": "just"
+        },
+        {
+            "end_time": 409.0,
+            "start_time": 408.4,
+            "word": "finished"
+        },
+        {
+            "end_time": 409.5,
+            "start_time": 409.0,
+            "word": "local"
+        },
+        {
+            "end_time": 410.1,
+            "start_time": 409.5,
+            "word": "maximum"
+        },
+        {
+            "end_time": 411.3,
+            "start_time": 410.1,
+            "word": "but"
+        },
+        {
+            "end_time": 411.9,
+            "start_time": 411.3,
+            "word": "not"
+        },
+        {
+            "end_time": 412.3,
+            "start_time": 411.9,
+            "word": "the"
+        },
+        {
+            "end_time": 412.7,
+            "start_time": 412.3,
+            "word": "global"
+        },
+        {
+            "end_time": 415.0,
+            "start_time": 414.4,
+            "word": "play"
+        },
+        {
+            "end_time": 415.6,
+            "start_time": 415.0,
+            "word": "jumping"
+        },
+        {
+            "end_time": 415.9,
+            "start_time": 415.6,
+            "word": "around"
+        },
+        {
+            "end_time": 416.3,
+            "start_time": 415.9,
+            "word": "a"
+        },
+        {
+            "end_time": 416.4,
+            "start_time": 416.3,
+            "word": "little"
+        },
+        {
+            "end_time": 416.6,
+            "start_time": 416.4,
+            "word": "bit"
+        },
+        {
+            "end_time": 416.9,
+            "start_time": 416.6,
+            "word": "again"
+        },
+        {
+            "end_time": 417.6,
+            "start_time": 416.9,
+            "word": "with"
+        },
+        {
+            "end_time": 418.2,
+            "start_time": 417.6,
+            "word": "God's"
+        },
+        {
+            "end_time": 419.3,
+            "start_time": 418.2,
+            "word": "different"
+        },
+        {
+            "end_time": 419.8,
+            "start_time": 419.3,
+            "word": "variations"
+        },
+        {
+            "end_time": 419.9,
+            "start_time": 419.8,
+            "word": "of"
+        },
+        {
+            "end_time": 423.0,
+            "start_time": 419.9,
+            "word": "so"
+        },
+        {
+            "end_time": 423.7,
+            "start_time": 423.0,
+            "word": "old"
+        },
+        {
+            "end_time": 423.8,
+            "start_time": 423.7,
+            "word": "that"
+        },
+        {
+            "end_time": 426.8,
+            "start_time": 426.4,
+            "word": "it"
+        },
+        {
+            "end_time": 426.9,
+            "start_time": 426.8,
+            "word": "is"
+        },
+        {
+            "end_time": 427.5,
+            "start_time": 426.9,
+            "word": "described"
+        },
+        {
+            "end_time": 427.6,
+            "start_time": 427.5,
+            "word": "as"
+        },
+        {
+            "end_time": 428.9,
+            "start_time": 427.6,
+            "word": "someone"
+        },
+        {
+            "end_time": 429.3,
+            "start_time": 428.9,
+            "word": "better"
+        },
+        {
+            "end_time": 429.9,
+            "start_time": 429.3,
+            "word": "interest"
+        },
+        {
+            "end_time": 431.5,
+            "start_time": 430.5,
+            "word": "for"
+        },
+        {
+            "end_time": 432.1,
+            "start_time": 431.5,
+            "word": "handling"
+        },
+        {
+            "end_time": 433.2,
+            "start_time": 432.1,
+            "word": "sparsity"
+        },
+        {
+            "end_time": 435.0,
+            "start_time": 434.4,
+            "word": "another"
+        },
+        {
+            "end_time": 435.2,
+            "start_time": 435.0,
+            "word": "one"
+        },
+        {
+            "end_time": 435.4,
+            "start_time": 435.2,
+            "word": "is"
+        },
+        {
+            "end_time": 435.8,
+            "start_time": 435.4,
+            "word": "that"
+        },
+        {
+            "end_time": 436.8,
+            "start_time": 435.8,
+            "word": "there"
+        },
+        {
+            "end_time": 437.0,
+            "start_time": 436.8,
+            "word": "are"
+        },
+        {
+            "end_time": 437.4,
+            "start_time": 437.0,
+            "word": "so"
+        },
+        {
+            "end_time": 437.7,
+            "start_time": 437.4,
+            "word": "many"
+        },
+        {
+            "end_time": 437.8,
+            "start_time": 437.7,
+            "word": "different"
+        },
+        {
+            "end_time": 440.6,
+            "start_time": 437.8,
+            "word": "psychologists"
+        },
+        {
+            "end_time": 441.5,
+            "start_time": 440.6,
+            "word": "just"
+        },
+        {
+            "end_time": 441.7,
+            "start_time": 441.5,
+            "word": "as"
+        },
+        {
+            "end_time": 442.2,
+            "start_time": 441.7,
+            "word": "this"
+        },
+        {
+            "end_time": 442.7,
+            "start_time": 442.2,
+            "word": "land"
+        },
+        {
+            "end_time": 442.8,
+            "start_time": 442.7,
+            "word": "and"
+        },
+        {
+            "end_time": 443.0,
+            "start_time": 442.8,
+            "word": "water"
+        },
+        {
+            "end_time": 444.9,
+            "start_time": 444.4,
+            "word": "and"
+        },
+        {
+            "end_time": 446.4,
+            "start_time": 444.9,
+            "word": "so"
+        },
+        {
+            "end_time": 446.7,
+            "start_time": 446.4,
+            "word": "on"
+        },
+        {
+            "end_time": 447.9,
+            "start_time": 446.7,
+            "word": "yeah"
+        },
+        {
+            "end_time": 448.5,
+            "start_time": 447.9,
+            "word": "jumping"
+        },
+        {
+            "end_time": 448.9,
+            "start_time": 448.5,
+            "word": "around"
+        },
+        {
+            "end_time": 449.4,
+            "start_time": 448.9,
+            "word": "again"
+        },
+        {
+            "end_time": 450.6,
+            "start_time": 449.4,
+            "word": "let's"
+        },
+        {
+            "end_time": 450.8,
+            "start_time": 450.6,
+            "word": "see"
+        },
+        {
+            "end_time": 451.3,
+            "start_time": 450.8,
+            "word": "what"
+        },
+        {
+            "end_time": 451.9,
+            "start_time": 451.3,
+            "word": "you"
+        },
+        {
+            "end_time": 451.9,
+            "start_time": 451.9,
+            "word": "can"
+        },
+        {
+            "end_time": 452.2,
+            "start_time": 451.9,
+            "word": "find"
+        },
+        {
+            "end_time": 455.3,
+            "start_time": 454.7,
+            "word": "keter"
+        },
+        {
+            "end_time": 455.9,
+            "start_time": 455.3,
+            "word": "is"
+        },
+        {
+            "end_time": 456.3,
+            "start_time": 455.9,
+            "word": "every"
+        },
+        {
+            "end_time": 456.8,
+            "start_time": 456.3,
+            "word": "caption"
+        },
+        {
+            "end_time": 457.2,
+            "start_time": 456.8,
+            "word": "about"
+        },
+        {
+            "end_time": 458.4,
+            "start_time": 457.2,
+            "word": "training"
+        },
+        {
+            "end_time": 458.8,
+            "start_time": 458.4,
+            "word": "train"
+        },
+        {
+            "end_time": 460.4,
+            "start_time": 459.8,
+            "word": "where"
+        },
+        {
+            "end_time": 460.4,
+            "start_time": 460.4,
+            "word": "are"
+        },
+        {
+            "end_time": 460.6,
+            "start_time": 460.4,
+            "word": "the"
+        },
+        {
+            "end_time": 463.3,
+            "start_time": 460.6,
+            "word": "probabilities"
+        },
+        {
+            "end_time": 463.9,
+            "start_time": 463.3,
+            "word": "are"
+        },
+        {
+            "end_time": 469.9,
+            "start_time": 463.9,
+            "word": "given"
+        },
+        {
+            "end_time": 471.3,
+            "start_time": 469.9,
+            "word": "different"
+        },
+        {
+            "end_time": 473.6,
+            "start_time": 471.3,
+            "word": "what"
+        },
+        {
+            "end_time": 473.7,
+            "start_time": 473.6,
+            "word": "is"
+        },
+        {
+            "end_time": 473.9,
+            "start_time": 473.7,
+            "word": "a"
+        },
+        {
+            "end_time": 474.4,
+            "start_time": 473.9,
+            "word": "different"
+        },
+        {
+            "end_time": 474.8,
+            "start_time": 474.4,
+            "word": "map"
+        },
+        {
+            "end_time": 474.9,
+            "start_time": 474.8,
+            "word": "of"
+        },
+        {
+            "end_time": 475.4,
+            "start_time": 474.9,
+            "word": "change"
+        },
+        {
+            "end_time": 476.3,
+            "start_time": 475.4,
+            "word": "without"
+        },
+        {
+            "end_time": 477.5,
+            "start_time": 476.3,
+            "word": "probabilities"
+        },
+        {
+            "end_time": 479.7,
+            "start_time": 477.5,
+            "word": "specific"
+        },
+        {
+            "end_time": 480.3,
+            "start_time": 479.7,
+            "word": "training"
+        },
+        {
+            "end_time": 480.7,
+            "start_time": 480.3,
+            "word": "sequence"
+        },
+        {
+            "end_time": 484.4,
+            "start_time": 482.1,
+            "word": "we"
+        },
+        {
+            "end_time": 484.9,
+            "start_time": 484.4,
+            "word": "also"
+        },
+        {
+            "end_time": 485.5,
+            "start_time": 484.9,
+            "word": "need"
+        },
+        {
+            "end_time": 485.8,
+            "start_time": 485.5,
+            "word": "to"
+        },
+        {
+            "end_time": 486.1,
+            "start_time": 485.8,
+            "word": "find"
+        },
+        {
+            "end_time": 486.6,
+            "start_time": 486.1,
+            "word": "out"
+        },
+        {
+            "end_time": 487.3,
+            "start_time": 486.6,
+            "word": "the"
+        },
+        {
+            "end_time": 489.1,
+            "start_time": 487.3,
+            "word": "that's"
+        },
+        {
+            "end_time": 489.4,
+            "start_time": 489.1,
+            "word": "saying"
+        },
+        {
+            "end_time": 489.5,
+            "start_time": 489.4,
+            "word": "that"
+        },
+        {
+            "end_time": 491.4,
+            "start_time": 490.8,
+            "word": "the"
+        },
+        {
+            "end_time": 493.1,
+            "start_time": 491.4,
+            "word": "optimal"
+        },
+        {
+            "end_time": 494.2,
+            "start_time": 493.1,
+            "word": "state"
+        },
+        {
+            "end_time": 494.6,
+            "start_time": 494.2,
+            "word": "of"
+        },
+        {
+            "end_time": 495.3,
+            "start_time": 494.6,
+            "word": "sequence"
+        },
+        {
+            "end_time": 498.1,
+            "start_time": 495.3,
+            "word": "and"
+        },
+        {
+            "end_time": 499.2,
+            "start_time": 498.1,
+            "word": "one"
+        },
+        {
+            "end_time": 499.6,
+            "start_time": 499.2,
+            "word": "of"
+        },
+        {
+            "end_time": 499.9,
+            "start_time": 499.6,
+            "word": "the"
+        },
+        {
+            "end_time": 500.6,
+            "start_time": 499.9,
+            "word": "method"
+        },
+        {
+            "end_time": 500.8,
+            "start_time": 500.6,
+            "word": "is"
+        },
+        {
+            "end_time": 501.7,
+            "start_time": 500.8,
+            "word": "using"
+        },
+        {
+            "end_time": 503.5,
+            "start_time": 501.7,
+            "word": "the"
+        },
+        {
+            "end_time": 504.4,
+            "start_time": 503.5,
+            "word": "interactive"
+        },
+        {
+            "end_time": 505.8,
+            "start_time": 504.4,
+            "word": "approach"
+        },
+        {
+            "end_time": 507.8,
+            "start_time": 505.8,
+            "word": "and"
+        },
+        {
+            "end_time": 508.6,
+            "start_time": 507.8,
+            "word": "heater"
+        },
+        {
+            "end_time": 510.1,
+            "start_time": 509.7,
+            "word": "this"
+        },
+        {
+            "end_time": 510.4,
+            "start_time": 510.1,
+            "word": "problem"
+        },
+        {
+            "end_time": 510.6,
+            "start_time": 510.4,
+            "word": "is"
+        },
+        {
+            "end_time": 511.0,
+            "start_time": 510.6,
+            "word": "solved"
+        },
+        {
+            "end_time": 511.1,
+            "start_time": 511.0,
+            "word": "by"
+        },
+        {
+            "end_time": 511.4,
+            "start_time": 511.1,
+            "word": "using"
+        },
+        {
+            "end_time": 512.1,
+            "start_time": 511.4,
+            "word": "the"
+        },
+        {
+            "end_time": 514.5,
+            "start_time": 513.4,
+            "word": "Kelby"
+        },
+        {
+            "end_time": 515.3,
+            "start_time": 514.5,
+            "word": "algorithm"
+        },
+        {
+            "end_time": 516.2,
+            "start_time": 515.3,
+            "word": "which"
+        },
+        {
+            "end_time": 516.4,
+            "start_time": 516.2,
+            "word": "by"
+        },
+        {
+            "end_time": 516.5,
+            "start_time": 516.4,
+            "word": "the"
+        },
+        {
+            "end_time": 516.5,
+            "start_time": 516.5,
+            "word": "way"
+        },
+        {
+            "end_time": 516.7,
+            "start_time": 516.5,
+            "word": "is"
+        },
+        {
+            "end_time": 517.2,
+            "start_time": 516.7,
+            "word": "also"
+        },
+        {
+            "end_time": 517.8,
+            "start_time": 517.2,
+            "word": "used"
+        },
+        {
+            "end_time": 518.0,
+            "start_time": 517.8,
+            "word": "in"
+        },
+        {
+            "end_time": 518.4,
+            "start_time": 518.0,
+            "word": "this"
+        },
+        {
+            "end_time": 520.1,
+            "start_time": 518.4,
+            "word": "scenario"
+        },
+        {
+            "end_time": 520.3,
+            "start_time": 520.1,
+            "word": "that"
+        },
+        {
+            "end_time": 520.5,
+            "start_time": 520.3,
+            "word": "have"
+        },
+        {
+            "end_time": 520.8,
+            "start_time": 520.5,
+            "word": "talked"
+        },
+        {
+            "end_time": 520.9,
+            "start_time": 520.8,
+            "word": "enough"
+        },
+        {
+            "end_time": 521.3,
+            "start_time": 520.9,
+            "word": "I"
+        },
+        {
+            "end_time": 521.7,
+            "start_time": 521.3,
+            "word": "work"
+        },
+        {
+            "end_time": 521.9,
+            "start_time": 521.7,
+            "word": "at"
+        },
+        {
+            "end_time": 522.2,
+            "start_time": 521.9,
+            "word": "out"
+        },
+        {
+            "end_time": 526.2,
+            "start_time": 522.2,
+            "word": "V"
+        },
+        {
+            "end_time": 528.3,
+            "start_time": 527.7,
+            "word": "meeting"
+        },
+        {
+            "end_time": 529.1,
+            "start_time": 528.3,
+            "word": "Alexa"
+        },
+        {
+            "end_time": 529.4,
+            "start_time": 529.1,
+            "word": "would"
+        },
+        {
+            "end_time": 529.5,
+            "start_time": 529.4,
+            "word": "say"
+        },
+        {
+            "end_time": 530.7,
+            "start_time": 529.5,
+            "word": "and"
+        },
+        {
+            "end_time": 531.3,
+            "start_time": 530.7,
+            "word": "see"
+        },
+        {
+            "end_time": 531.8,
+            "start_time": 531.3,
+            "word": "what"
+        },
+        {
+            "end_time": 532.0,
+            "start_time": 531.8,
+            "word": "the"
+        },
+        {
+            "end_time": 532.4,
+            "start_time": 532.0,
+            "word": "results"
+        },
+        {
+            "end_time": 532.9,
+            "start_time": 532.4,
+            "word": "are"
+        }
+    ]
+}

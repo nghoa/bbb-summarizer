@@ -1,0 +1,11 @@
+Three Tasks for HMMs
+• Given	a	model	defined	by	a	HMM,	how	do	we	efficiently
+compute the	probability	of	an	observation	sequence?
+• Given	an	observation	sequence	and	a	model	defined	by	a	HMM,	
+how	do	we	choose	the	state	sequence that	best	explains	the	
+observations?
+• Given	an	observation	sequence	and	a	space	of	possible	models	
+found	by	varying	model	parameters,	how	do	we	find	the	model	
+that	best	explains	the	observation?	This	is	is	called	training of	
+the	model.
+08.05.19 Language Technology Group – Chris Biemann

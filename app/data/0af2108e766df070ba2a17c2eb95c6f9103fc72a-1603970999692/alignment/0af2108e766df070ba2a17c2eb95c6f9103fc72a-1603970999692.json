@@ -1,0 +1,2909 @@
+[
+    {
+        "GT": 0,
+        "Spoken words": "currently",
+        "Sent i": 1,
+        "Duration": 1,
+        "Sent Text": "from\tmarkov\tchains\tto\thmms",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "person",
+        "Sent i": 2,
+        "Duration": 1,
+        "Sent Text": "• manning,\tc.\td.\tand\tschütze,\th.\t(1999):\tfoundations\tof\tstatistical\tnatural\tlanguage\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "conference",
+        "Sent i": 3,
+        "Duration": 1,
+        "Sent Text": "processing.\tmit\tpress:\tcambridge,\tmassachusetts.\tchapter\t9.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "okay hello",
+        "Sent i": 5,
+        "Duration": 2,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "everyone",
+        "Sent i": 6,
+        "Duration": 1,
+        "Sent Text": "hiding markov",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "part",
+        "Sent i": 4,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "transcription",
+        "Sent i": 5,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "presentation",
+        "Sent i": 2,
+        "Duration": 1,
+        "Sent Text": "• manning,\tc.\td.\tand\tschütze,\th.\t(1999):\tfoundations\tof\tstatistical\tnatural\tlanguage\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "would",
+        "Sent i": 3,
+        "Duration": 1,
+        "Sent Text": "processing.\tmit\tpress:\tcambridge,\tmassachusetts.\tchapter\t9.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "ask",
+        "Sent i": 4,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "alignment",
+        "Sent i": 5,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "another",
+        "Sent i": 6,
+        "Duration": 1,
+        "Sent Text": "hiding markov",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "kind",
+        "Sent i": 9,
+        "Duration": 1,
+        "Sent Text": "• back-off\tsmoothing:\tuse\tshorter\tn-grams\tfor\tinterpolated\testimation",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "presentation",
+        "Sent i": 10,
+        "Duration": 1,
+        "Sent Text": "• recap:\tmixture\tmodel:",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "made",
+        "Sent i": 11,
+        "Duration": 1,
+        "Sent Text": "• hidden\tmarkov\tmodels\t(hmms)\tcan\tbe\tused\tto\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "reason",
+        "Sent i": 12,
+        "Duration": 1,
+        "Sent Text": "– model\tthis\tinterpolation",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "us",
+        "Sent i": 13,
+        "Duration": 1,
+        "Sent Text": "– train\tthe\tλ weights",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "gcp",
+        "Sent i": 16,
+        "Duration": 1,
+        "Sent Text": "|wt−2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "thankfully",
+        "Sent i": 17,
+        "Duration": 1,
+        "Sent Text": "wt−1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "give",
+        "Sent i": 19,
+        "Duration": 1,
+        "Sent Text": "p1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "access",
+        "Sent i": 20,
+        "Duration": 1,
+        "Sent Text": "(wt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "machine",
+        "Sent i": 22,
+        "Duration": 1,
+        "Sent Text": "p2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "provided",
+        "Sent i": 23,
+        "Duration": 1,
+        "Sent Text": "(wt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "functionality",
+        "Sent i": 24,
+        "Duration": 1,
+        "Sent Text": "|wt−1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "illini",
+        "Sent i": 25,
+        "Duration": 1,
+        "Sent Text": ") + λ3",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "functionality",
+        "Sent i": 27,
+        "Duration": 1,
+        "Sent Text": "(wt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "stopping",
+        "Sent i": 28,
+        "Duration": 1,
+        "Sent Text": "|wt−2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "uploading",
+        "Sent i": 29,
+        "Duration": 1,
+        "Sent Text": "wt−1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "crustacean",
+        "Sent i": 31,
+        "Duration": 1,
+        "Sent Text": "≤1 and λi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "okay",
+        "Sent i": 32,
+        "Duration": 1,
+        "Sent Text": "i",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "presentation",
+        "Sent i": 33,
+        "Duration": 1,
+        "Sent Text": "∑ =1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "currently",
+        "Sent i": 34,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "uploading",
+        "Sent i": 35,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "let 's",
+        "Sent i": 36,
+        "Duration": 2,
+        "Sent Text": "hidden states",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "wait",
+        "Sent i": 37,
+        "Duration": 1,
+        "Sent Text": "the\tpath\tthrough\tthis\tnon-deterministic\twfsa\tis\tnot\tdetermined\tby\tthe\tsequence\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "see",
+        "Sent i": 38,
+        "Duration": 1,
+        "Sent Text": "of\tsymbols.\tthere\tare\t“hidden”\tstates.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "happens",
+        "Sent i": 39,
+        "Duration": 1,
+        "Sent Text": "ab",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "okay",
+        "Sent i": 40,
+        "Duration": 1,
+        "Sent Text": "l3",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "great",
+        "Sent i": 41,
+        "Duration": 1,
+        "Sent Text": "l2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "presentation",
+        "Sent i": 42,
+        "Duration": 1,
+        "Sent Text": "l1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "loaded",
+        "Sent i": 43,
+        "Duration": 1,
+        "Sent Text": "bb",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "talk",
+        "Sent i": 44,
+        "Duration": 1,
+        "Sent Text": "ba",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "little",
+        "Sent i": 45,
+        "Duration": 1,
+        "Sent Text": "e:l1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "bit",
+        "Sent i": 46,
+        "Duration": 1,
+        "Sent Text": "e:l2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "presentation",
+        "Sent i": 47,
+        "Duration": 1,
+        "Sent Text": "e:l3",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "see",
+        "Sent i": 48,
+        "Duration": 1,
+        "Sent Text": "a:p(a)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "whether",
+        "Sent i": 49,
+        "Duration": 1,
+        "Sent Text": "b:p(b)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "lines",
+        "Sent i": 50,
+        "Duration": 1,
+        "Sent Text": "a:p(a|b)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "lot",
+        "Sent i": 51,
+        "Duration": 1,
+        "Sent Text": "b:p(b|b)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "start",
+        "Sent i": 52,
+        "Duration": 1,
+        "Sent Text": "a:p(a|ab)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "without",
+        "Sent i": 53,
+        "Duration": 1,
+        "Sent Text": "b:p(b|ab)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "reading",
+        "Sent i": 54,
+        "Duration": 1,
+        "Sent Text": "pli",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "radiology",
+        "Sent i": 56,
+        "Duration": 1,
+        "Sent Text": "|wt−2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "read",
+        "Sent i": 59,
+        "Duration": 1,
+        "Sent Text": "p1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "want",
+        "Sent i": 60,
+        "Duration": 1,
+        "Sent Text": "(wt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "watch",
+        "Sent i": 61,
+        "Duration": 1,
+        "Sent Text": ") + λ2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "presentation",
+        "Sent i": 62,
+        "Duration": 1,
+        "Sent Text": "p2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "alignment",
+        "Sent i": 64,
+        "Duration": 1,
+        "Sent Text": "|wt−1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "would",
+        "Sent i": 66,
+        "Duration": 1,
+        "Sent Text": "p3",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "affected",
+        "Sent i": 68,
+        "Duration": 1,
+        "Sent Text": "|wt−2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "meaning",
+        "Sent i": 69,
+        "Duration": 1,
+        "Sent Text": "wt−1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "beat",
+        "Sent i": 70,
+        "Duration": 1,
+        "Sent Text": ") where 0 ≤ λi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "album",
+        "Sent i": 71,
+        "Duration": 1,
+        "Sent Text": "≤1 and λi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "towanda",
+        "Sent i": 72,
+        "Duration": 1,
+        "Sent Text": "i",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'s",
+        "Sent i": 74,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "pretty",
+        "Sent i": 76,
+        "Duration": 1,
+        "Sent Text": "hidden markov model",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "easy",
+        "Sent i": 78,
+        "Duration": 1,
+        "Sent Text": "• finite\tset\tof\tstates\tφ = {z0, ... zn}",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "fall",
+        "Sent i": 79,
+        "Duration": 1,
+        "Sent Text": "• initial\tstate\tprobability\tdistribution\tπ:πi=p(z1=zi)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "tomorrow",
+        "Sent i": 80,
+        "Duration": 1,
+        "Sent Text": "• finite\talphabet\tσ={s1, s2, ... , sm } of\tinput\tsymbols",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "recognize",
+        "Sent i": 83,
+        "Duration": 1,
+        "Sent Text": "same input symbol are valid and common.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "alarm",
+        "Sent i": 84,
+        "Duration": 1,
+        "Sent Text": "normalized over all possible combinations of state sequence and",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "settlers",
+        "Sent i": 85,
+        "Duration": 1,
+        "Sent Text": "symbols.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "station",
+        "Sent i": 86,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "slides",
+        "Sent i": 87,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "therefore",
+        "Sent i": 88,
+        "Duration": 1,
+        "Sent Text": "the probability of a sequence",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "modify",
+        "Sent i": 89,
+        "Duration": 1,
+        "Sent Text": "(1) expansion with conditional probabilities",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "everything",
+        "Sent i": 90,
+        "Duration": 1,
+        "Sent Text": "(2) markov assumption, horizon = 1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'m",
+        "Sent i": 91,
+        "Duration": 1,
+        "Sent Text": "(3) write as product",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "saying",
+        "Sent i": 92,
+        "Duration": 1,
+        "Sent Text": "(4) probability of a sequence is the sum of the probability of all possible",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "shop",
+        "Sent i": 93,
+        "Duration": 1,
+        "Sent Text": "paths through the hmm for this sequence of symbols",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "think",
+        "Sent i": 94,
+        "Duration": 1,
+        "Sent Text": "note that superscripts indicate time points, subscripts enumerate symbols of an alphabet",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'s",
+        "Sent i": 95,
+        "Duration": 1,
+        "Sent Text": "p(s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'s",
+        "Sent i": 96,
+        "Duration": 1,
+        "Sent Text": "...sn",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "apart",
+        "Sent i": 97,
+        "Duration": 1,
+        "Sent Text": ") = p(s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "really well",
+        "Sent i": 98,
+        "Duration": 2,
+        "Sent Text": "...sn",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "aladdin",
+        "Sent i": 100,
+        "Duration": 1,
+        "Sent Text": "..zn+1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "modest",
+        "Sent i": 101,
+        "Duration": 1,
+        "Sent Text": ")",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "end",
+        "Sent i": 102,
+        "Duration": 1,
+        "Sent Text": "z1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "configured",
+        "Sent i": 103,
+        "Duration": 1,
+        "Sent Text": "..zn+1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "correctly",
+        "Sent i": 104,
+        "Duration": 1,
+        "Sent Text": "∑",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "align",
+        "Sent i": 107,
+        "Duration": 1,
+        "Sent Text": ",z2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "words",
+        "Sent i": 109,
+        "Duration": 1,
+        "Sent Text": ")p(s2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "sentences",
+        "Sent i": 110,
+        "Duration": 1,
+        "Sent Text": ",z3",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "aside",
+        "Sent i": 113,
+        "Duration": 1,
+        "Sent Text": "z2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "also",
+        "Sent i": 114,
+        "Duration": 1,
+        "Sent Text": ")......p(sn",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "jump",
+        "Sent i": 115,
+        "Duration": 1,
+        "Sent Text": ",zn+1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "around",
+        "Sent i": 116,
+        "Duration": 1,
+        "Sent Text": "| s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "presentation",
+        "Sent i": 117,
+        "Duration": 1,
+        "Sent Text": "..sn−1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "make",
+        "Sent i": 119,
+        "Duration": 1,
+        "Sent Text": "..zn",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "sure",
+        "Sent i": 121,
+        "Duration": 1,
+        "Sent Text": "z1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "alignment",
+        "Sent i": 122,
+        "Duration": 1,
+        "Sent Text": "..zn+1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "n may",
+        "Sent i": 124,
+        "Duration": 2,
+        "Sent Text": "= p(s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "recognized",
+        "Sent i": 126,
+        "Duration": 1,
+        "Sent Text": "| z1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'ve",
+        "Sent i": 127,
+        "Duration": 1,
+        "Sent Text": ")p(s2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "jumped",
+        "Sent i": 128,
+        "Duration": 1,
+        "Sent Text": ",z3",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "topic",
+        "Sent i": 129,
+        "Duration": 1,
+        "Sent Text": "| z2",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "back",
+        "Sent i": 130,
+        "Duration": 1,
+        "Sent Text": ")......p(sn",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "work",
+        "Sent i": 132,
+        "Duration": 1,
+        "Sent Text": "| zn",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "stand",
+        "Sent i": 134,
+        "Duration": 1,
+        "Sent Text": "z1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "components",
+        "Sent i": 135,
+        "Duration": 1,
+        "Sent Text": "..zn+1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "sell",
+        "Sent i": 136,
+        "Duration": 1,
+        "Sent Text": "∑",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "one back",
+        "Sent i": 137,
+        "Duration": 2,
+        "Sent Text": "= p(si",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "change",
+        "Sent i": 139,
+        "Duration": 1,
+        "Sent Text": "| zi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "needs",
+        "Sent i": 140,
+        "Duration": 1,
+        "Sent Text": ")",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "trained",
+        "Sent i": 141,
+        "Duration": 1,
+        "Sent Text": "i=1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "end",
+        "Sent i": 142,
+        "Duration": 1,
+        "Sent Text": "n",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "hot",
+        "Sent i": 144,
+        "Duration": 1,
+        "Sent Text": "z1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "get",
+        "Sent i": 147,
+        "Duration": 1,
+        "Sent Text": "= p(zi si",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "strength",
+        "Sent i": 148,
+        "Duration": 1,
+        "Sent Text": " →",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "counting",
+        "Sent i": 149,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "engrams",
+        "Sent i": 150,
+        "Duration": 1,
+        "Sent Text": "zi+1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "normalizing",
+        "Sent i": 151,
+        "Duration": 1,
+        "Sent Text": ")",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "probabilities",
+        "Sent i": 152,
+        "Duration": 1,
+        "Sent Text": "i=1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "used",
+        "Sent i": 153,
+        "Duration": 1,
+        "Sent Text": "n",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "watch",
+        "Sent i": 154,
+        "Duration": 1,
+        "Sent Text": "∏",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "different",
+        "Sent i": 155,
+        "Duration": 1,
+        "Sent Text": "z1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "kind",
+        "Sent i": 156,
+        "Duration": 1,
+        "Sent Text": "..zn+1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "ejaculation",
+        "Sent i": 157,
+        "Duration": 1,
+        "Sent Text": "∑",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "train",
+        "Sent i": 158,
+        "Duration": 1,
+        "Sent Text": "(1)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "weight",
+        "Sent i": 159,
+        "Duration": 1,
+        "Sent Text": "(2)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "yeah",
+        "Sent i": 160,
+        "Duration": 1,
+        "Sent Text": "(3)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "knock",
+        "Sent i": 161,
+        "Duration": 1,
+        "Sent Text": "(4)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "body",
+        "Sent i": 162,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "consists",
+        "Sent i": 163,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "specific",
+        "Sent i": 164,
+        "Duration": 1,
+        "Sent Text": "three tasks for hmms",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "amount",
+        "Sent i": 165,
+        "Duration": 1,
+        "Sent Text": "• given\ta\tmodel\tdefined\tby\ta\thmm,\thow\tdo\twe\tefficiently",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "states",
+        "Sent i": 166,
+        "Duration": 1,
+        "Sent Text": "compute the\tprobability\tof\tan\tobservation\tsequence?",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "additional",
+        "Sent i": 167,
+        "Duration": 1,
+        "Sent Text": "• given\tan\tobservation\tsequence\tand\ta\tmodel\tdefined\tby\ta\thmm,\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "state",
+        "Sent i": 168,
+        "Duration": 1,
+        "Sent Text": "how\tdo\twe\tchoose\tthe\tstate\tsequence that\tbest\texplains\tthe\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "probability",
+        "Sent i": 169,
+        "Duration": 1,
+        "Sent Text": "observations?",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "distribution",
+        "Sent i": 170,
+        "Duration": 1,
+        "Sent Text": "• given\tan\tobservation\tsequence\tand\ta\tspace\tof\tpossible\tmodels\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "also",
+        "Sent i": 172,
+        "Duration": 1,
+        "Sent Text": "that\tbest\texplains\tthe\tobservation?\tthis\tis\tis\tcalled\ttraining of\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "contains",
+        "Sent i": 173,
+        "Duration": 1,
+        "Sent Text": "the\tmodel.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "number",
+        "Sent i": 174,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "alphabet",
+        "Sent i": 175,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "presents",
+        "Sent i": 176,
+        "Duration": 1,
+        "Sent Text": "computing the probability",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "simple",
+        "Sent i": 177,
+        "Duration": 1,
+        "Sent Text": "of an observation",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "symbols",
+        "Sent i": 178,
+        "Duration": 1,
+        "Sent Text": "• observation:\tsequence\tof\tsymbols\ts1s2... st,\tgiven\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "different",
+        "Sent i": 179,
+        "Duration": 1,
+        "Sent Text": "• naïve\tstrategy:",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "kind",
+        "Sent i": 180,
+        "Duration": 1,
+        "Sent Text": "– exhaustive\tsearch\tof\tall\tpossible\tpaths\tfor\tthat\tsequence",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "transition",
+        "Sent i": 181,
+        "Duration": 1,
+        "Sent Text": "– probabilities\tof\tsingle\tpaths:\tproduct\tof\ttransition\tprobabilities",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "probability",
+        "Sent i": 176,
+        "Duration": 1,
+        "Sent Text": "computing the probability",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "switches",
+        "Sent i": 175,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "model",
+        "Sent i": 173,
+        "Duration": 1,
+        "Sent Text": "the\tmodel.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "function",
+        "Sent i": 171,
+        "Duration": 1,
+        "Sent Text": "found\tby\tvarying\tmodel\tparameters,\thow\tdo\twe\tfind\tthe\tmodel\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "training",
+        "Sent i": 172,
+        "Duration": 1,
+        "Sent Text": "that\tbest\texplains\tthe\tobservation?\tthis\tis\tis\tcalled\ttraining of\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "model",
+        "Sent i": 173,
+        "Duration": 1,
+        "Sent Text": "the\tmodel.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "works",
+        "Sent i": 174,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "training",
+        "Sent i": 172,
+        "Duration": 1,
+        "Sent Text": "that\tbest\texplains\tthe\tobservation?\tthis\tis\tis\tcalled\ttraining of\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "fixed",
+        "Sent i": 173,
+        "Duration": 1,
+        "Sent Text": "the\tmodel.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "structure",
+        "Sent i": 174,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "optimized",
+        "Sent i": 175,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "eye",
+        "Sent i": 177,
+        "Duration": 1,
+        "Sent Text": "of an observation",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "different",
+        "Sent i": 180,
+        "Duration": 1,
+        "Sent Text": "– exhaustive\tsearch\tof\tall\tpossible\tpaths\tfor\tthat\tsequence",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "parameters",
+        "Sent i": 183,
+        "Duration": 1,
+        "Sent Text": "probabilities\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "according",
+        "Sent i": 185,
+        "Duration": 1,
+        "Sent Text": "if\tn is\tthe\tnumber\tof\tstates\tand\tt the\tlength\tof\tthe\tsequence,\tthen\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "kind",
+        "Sent i": 186,
+        "Duration": 1,
+        "Sent Text": "the\tcomputational\tcomplexity\tis\to(t*nt)!",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "sedation",
+        "Sent i": 188,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "going",
+        "Sent i": 190,
+        "Duration": 1,
+        "Sent Text": "procedures",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "usually",
+        "Sent i": 191,
+        "Duration": 1,
+        "Sent Text": "• idea:\tuse\tcommon\tshort\tsub-paths\tand\tcombine\tinto\tlarger\tsub-paths",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "seeing",
+        "Sent i": 192,
+        "Duration": 1,
+        "Sent Text": "• dynamic\tprogramming:\tstore\tintermediate\tresults\tand\tthus\tre-use\tprevious\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "specific",
+        "Sent i": 193,
+        "Duration": 1,
+        "Sent Text": "computations\tfor\tfurther\tcomputations",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "state",
+        "Sent i": 195,
+        "Duration": 1,
+        "Sent Text": "ai(t)=p(s1...st-1,zt=zi)\tis\tthe\tprobability\tof\tending\tup\tin\tstate\tzi after\tt-1 symbols.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "let",
+        "Sent i": 196,
+        "Duration": 1,
+        "Sent Text": "this\tis\tcomputed\titeratively\tfor\tall\tt in\t1..t for\tall\tstates\tzi with i in 1..n.\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'s",
+        "Sent i": 197,
+        "Duration": 1,
+        "Sent Text": "sum\tover\tai(t+1)\tis\tthe\tfinal\tresult.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "say",
+        "Sent i": 198,
+        "Duration": 1,
+        "Sent Text": "whether\twe\tstart\tfrom\tthe\tbeginning\tor\tfrom\tthe\tend\tis\tirrelevant:\tthis\tcan\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "example",
+        "Sent i": 196,
+        "Duration": 1,
+        "Sent Text": "this\tis\tcomputed\titeratively\tfor\tall\tt in\t1..t for\tall\tstates\tzi with i in 1..n.\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "weather",
+        "Sent i": 197,
+        "Duration": 1,
+        "Sent Text": "sum\tover\tai(t+1)\tis\tthe\tfinal\tresult.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "good",
+        "Sent i": 195,
+        "Duration": 1,
+        "Sent Text": "ai(t)=p(s1...st-1,zt=zi)\tis\tthe\tprobability\tof\tending\tup\tin\tstate\tzi after\tt-1 symbols.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "observation",
+        "Sent i": 193,
+        "Duration": 1,
+        "Sent Text": "computations\tfor\tfurther\tcomputations",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "need",
+        "Sent i": 194,
+        "Duration": 1,
+        "Sent Text": "forward\tprobability:",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "come",
+        "Sent i": 195,
+        "Duration": 1,
+        "Sent Text": "ai(t)=p(s1...st-1,zt=zi)\tis\tthe\tprobability\tof\tending\tup\tin\tstate\tzi after\tt-1 symbols.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "back 8",
+        "Sent i": 196,
+        "Duration": 2,
+        "Sent Text": "this\tis\tcomputed\titeratively\tfor\tall\tt in\t1..t for\tall\tstates\tzi with i in 1..n.\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "kind",
+        "Sent i": 195,
+        "Duration": 1,
+        "Sent Text": "ai(t)=p(s1...st-1,zt=zi)\tis\tthe\tprobability\tof\tending\tup\tin\tstate\tzi after\tt-1 symbols.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "states",
+        "Sent i": 196,
+        "Duration": 1,
+        "Sent Text": "this\tis\tcomputed\titeratively\tfor\tall\tt in\t1..t for\tall\tstates\tzi with i in 1..n.\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "needed",
+        "Sent i": 197,
+        "Duration": 1,
+        "Sent Text": "sum\tover\tai(t+1)\tis\tthe\tfinal\tresult.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "time",
+        "Sent i": 198,
+        "Duration": 1,
+        "Sent Text": "whether\twe\tstart\tfrom\tthe\tbeginning\tor\tfrom\tthe\tend\tis\tirrelevant:\tthis\tcan\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "observation",
+        "Sent i": 199,
+        "Duration": 1,
+        "Sent Text": "alternatively\tformulated\tas\ta\tbackward\tprobability:",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "end",
+        "Sent i": 198,
+        "Duration": 1,
+        "Sent Text": "whether\twe\tstart\tfrom\tthe\tbeginning\tor\tfrom\tthe\tend\tis\tirrelevant:\tthis\tcan\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "different",
+        "Sent i": 199,
+        "Duration": 1,
+        "Sent Text": "alternatively\tformulated\tas\ta\tbackward\tprobability:",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "training",
+        "Sent i": 200,
+        "Duration": 1,
+        "Sent Text": "βi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "algorithm",
+        "Sent i": 201,
+        "Duration": 1,
+        "Sent Text": "(t) = p(st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'ve",
+        "Sent i": 202,
+        "Duration": 1,
+        "Sent Text": "...st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "listed",
+        "Sent i": 203,
+        "Duration": 1,
+        "Sent Text": "| zt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "alexa",
+        "Sent i": 205,
+        "Duration": 1,
+        "Sent Text": ")",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "listed",
+        "Sent i": 206,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "listed",
+        "Sent i": 207,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "forward backward",
+        "Sent i": 208,
+        "Duration": 2,
+        "Sent Text": "forward procedure",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "algorithm",
+        "Sent i": 209,
+        "Duration": 1,
+        "Sent Text": "1.\tinitialization",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "idea",
+        "Sent i": 210,
+        "Duration": 1,
+        "Sent Text": "2.\tinduction",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "starts",
+        "Sent i": 211,
+        "Duration": 1,
+        "Sent Text": "3.\ttotal",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "random",
+        "Sent i": 213,
+        "Duration": 1,
+        "Sent Text": "αi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "continue training",
+        "Sent i": 214,
+        "Duration": 2,
+        "Sent Text": "(1) = πi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "continue",
+        "Sent i": 215,
+        "Duration": 1,
+        "Sent Text": "for 1≤ i ≤ n",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "choose",
+        "Sent i": 217,
+        "Duration": 1,
+        "Sent Text": "(t +1) = αi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "parameter",
+        "Sent i": 218,
+        "Duration": 1,
+        "Sent Text": "(t)⋅p(",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "probability",
+        "Sent i": 219,
+        "Duration": 1,
+        "Sent Text": "i=1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "sequence",
+        "Sent i": 220,
+        "Duration": 1,
+        "Sent Text": "n",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'s",
+        "Sent i": 222,
+        "Duration": 1,
+        "Sent Text": "st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "freezes",
+        "Sent i": 223,
+        "Duration": 1,
+        "Sent Text": " →",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "station talked",
+        "Sent i": 224,
+        "Duration": 2,
+        "Sent Text": " zj",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'ll",
+        "Sent i": 225,
+        "Duration": 1,
+        "Sent Text": ") for 1≤ t ≤ t, 1≤ j ≤ n",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "put",
+        "Sent i": 226,
+        "Duration": 1,
+        "Sent Text": "p(s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "life 've got",
+        "Sent i": 227,
+        "Duration": 3,
+        "Sent Text": ",...,st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "solution",
+        "Sent i": 229,
+        "Duration": 1,
+        "Sent Text": "(t +1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "described",
+        "Sent i": 231,
+        "Duration": 1,
+        "Sent Text": "n",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "algorithm",
+        "Sent i": 232,
+        "Duration": 1,
+        "Sent Text": "∑ )",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "name",
+        "Sent i": 233,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "expectation",
+        "Sent i": 234,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "maximization",
+        "Sent i": 236,
+        "Duration": 1,
+        "Sent Text": "1.\tinitialization",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'s",
+        "Sent i": 238,
+        "Duration": 1,
+        "Sent Text": "3.\ttotal",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "argue",
+        "Sent i": 239,
+        "Duration": 1,
+        "Sent Text": "βi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "guarantees",
+        "Sent i": 240,
+        "Duration": 1,
+        "Sent Text": "(t +1) =1 for 1≤ i ≤ n",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "entropy",
+        "Sent i": 241,
+        "Duration": 1,
+        "Sent Text": "βj",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "sequence",
+        "Sent i": 242,
+        "Duration": 1,
+        "Sent Text": "(t) = βi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "sequence",
+        "Sent i": 243,
+        "Duration": 1,
+        "Sent Text": "(t +1)⋅p(",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "ante-mortem",
+        "Sent i": 244,
+        "Duration": 1,
+        "Sent Text": "i=1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'s",
+        "Sent i": 245,
+        "Duration": 1,
+        "Sent Text": "n",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "pretty",
+        "Sent i": 246,
+        "Duration": 1,
+        "Sent Text": "∑ zj",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "low",
+        "Sent i": 247,
+        "Duration": 1,
+        "Sent Text": "st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "algorithm converts",
+        "Sent i": 248,
+        "Duration": 2,
+        "Sent Text": " →",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "everything",
+        "Sent i": 249,
+        "Duration": 1,
+        "Sent Text": " zi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "local",
+        "Sent i": 250,
+        "Duration": 1,
+        "Sent Text": ") for 1≤ t ≤ t, 1≤ j ≤ n",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "maximum",
+        "Sent i": 251,
+        "Duration": 1,
+        "Sent Text": "p(s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "area",
+        "Sent i": 252,
+        "Duration": 1,
+        "Sent Text": ",...,st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "jumping",
+        "Sent i": 254,
+        "Duration": 1,
+        "Sent Text": "βi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "around",
+        "Sent i": 255,
+        "Duration": 1,
+        "Sent Text": "(1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "slide",
+        "Sent i": 256,
+        "Duration": 1,
+        "Sent Text": "i=1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "talking different",
+        "Sent i": 257,
+        "Duration": 2,
+        "Sent Text": "n",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "problems",
+        "Sent i": 258,
+        "Duration": 1,
+        "Sent Text": "∑ )",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "training",
+        "Sent i": 259,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "algorithm",
+        "Sent i": 260,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "ca n't",
+        "Sent i": 261,
+        "Duration": 2,
+        "Sent Text": "combination to",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "decide",
+        "Sent i": 262,
+        "Duration": 1,
+        "Sent Text": "forward/backward procedure",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "specific",
+        "Sent i": 263,
+        "Duration": 1,
+        "Sent Text": "therefore:",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "direction",
+        "Sent i": 264,
+        "Duration": 1,
+        "Sent Text": "equations\tfor\tforward\tand\tbackward\tprobabilities\tare\tspecial\tcases\tof\tthis\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "maybe",
+        "Sent i": 265,
+        "Duration": 1,
+        "Sent Text": "one.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "maybe",
+        "Sent i": 266,
+        "Duration": 1,
+        "Sent Text": "p(s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "get",
+        "Sent i": 267,
+        "Duration": 1,
+        "Sent Text": "...st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "stuck",
+        "Sent i": 269,
+        "Duration": 1,
+        "Sent Text": "= zi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "somehow",
+        "Sent i": 270,
+        "Duration": 1,
+        "Sent Text": ")",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "jeff",
+        "Sent i": 271,
+        "Duration": 1,
+        "Sent Text": "= p(s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "think critical one",
+        "Sent i": 272,
+        "Duration": 3,
+        "Sent Text": "...st−1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "bem",
+        "Sent i": 273,
+        "Duration": 1,
+        "Sent Text": ",zt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "finished",
+        "Sent i": 274,
+        "Duration": 1,
+        "Sent Text": "= zi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "local",
+        "Sent i": 275,
+        "Duration": 1,
+        "Sent Text": ",st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "maximum global",
+        "Sent i": 273,
+        "Duration": 2,
+        "Sent Text": ",zt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "play jumping",
+        "Sent i": 274,
+        "Duration": 2,
+        "Sent Text": "= zi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "around",
+        "Sent i": 275,
+        "Duration": 1,
+        "Sent Text": ",st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "little bit",
+        "Sent i": 276,
+        "Duration": 2,
+        "Sent Text": "...st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "god",
+        "Sent i": 277,
+        "Duration": 1,
+        "Sent Text": ") =",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'s",
+        "Sent i": 278,
+        "Duration": 1,
+        "Sent Text": "= p(s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "different",
+        "Sent i": 279,
+        "Duration": 1,
+        "Sent Text": "...st−1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "variations",
+        "Sent i": 280,
+        "Duration": 1,
+        "Sent Text": ",zt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "old",
+        "Sent i": 281,
+        "Duration": 1,
+        "Sent Text": "= zi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "described",
+        "Sent i": 282,
+        "Duration": 1,
+        "Sent Text": ")⋅p(st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "someone",
+        "Sent i": 283,
+        "Duration": 1,
+        "Sent Text": "...st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "better",
+        "Sent i": 285,
+        "Duration": 1,
+        "Sent Text": "...st−1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "interest",
+        "Sent i": 286,
+        "Duration": 1,
+        "Sent Text": ",zt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "handling",
+        "Sent i": 287,
+        "Duration": 1,
+        "Sent Text": "= zi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "sparsity",
+        "Sent i": 288,
+        "Duration": 1,
+        "Sent Text": ") =",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "another",
+        "Sent i": 289,
+        "Duration": 1,
+        "Sent Text": "= p(s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "one",
+        "Sent i": 290,
+        "Duration": 1,
+        "Sent Text": "...st−1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "many",
+        "Sent i": 293,
+        "Duration": 1,
+        "Sent Text": ")⋅p(st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "different",
+        "Sent i": 294,
+        "Duration": 1,
+        "Sent Text": "...st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "psychologists",
+        "Sent i": 295,
+        "Duration": 1,
+        "Sent Text": "| zt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "land",
+        "Sent i": 296,
+        "Duration": 1,
+        "Sent Text": "= zi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "water",
+        "Sent i": 297,
+        "Duration": 1,
+        "Sent Text": ") =",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "yeah",
+        "Sent i": 298,
+        "Duration": 1,
+        "Sent Text": "= αi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "jumping",
+        "Sent i": 299,
+        "Duration": 1,
+        "Sent Text": "(t)⋅ βi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "around",
+        "Sent i": 301,
+        "Duration": 1,
+        "Sent Text": "p(s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "let",
+        "Sent i": 302,
+        "Duration": 1,
+        "Sent Text": "...st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'s",
+        "Sent i": 301,
+        "Duration": 1,
+        "Sent Text": "p(s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "see find",
+        "Sent i": 302,
+        "Duration": 2,
+        "Sent Text": "...st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "keter",
+        "Sent i": 303,
+        "Duration": 1,
+        "Sent Text": ") = αi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "every",
+        "Sent i": 302,
+        "Duration": 1,
+        "Sent Text": "...st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "caption training",
+        "Sent i": 303,
+        "Duration": 2,
+        "Sent Text": ") = αi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "train",
+        "Sent i": 304,
+        "Duration": 1,
+        "Sent Text": "(t)",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "probabilities",
+        "Sent i": 305,
+        "Duration": 1,
+        "Sent Text": "i=1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "given different different",
+        "Sent i": 306,
+        "Duration": 3,
+        "Sent Text": "n",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "map",
+        "Sent i": 307,
+        "Duration": 1,
+        "Sent Text": "∑ ⋅ βi",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "change",
+        "Sent i": 308,
+        "Duration": 1,
+        "Sent Text": "(t) for all 1≤ t ≤t +1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "without",
+        "Sent i": 309,
+        "Duration": 1,
+        "Sent Text": "08.05.19 language technology group – chris biemann",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "probabilities",
+        "Sent i": 310,
+        "Duration": 1,
+        "Sent Text": "",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "specific training",
+        "Sent i": 311,
+        "Duration": 2,
+        "Sent Text": "finding the best state",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "sequence",
+        "Sent i": 312,
+        "Duration": 1,
+        "Sent Text": "sequence: decoding",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "also need",
+        "Sent i": 313,
+        "Duration": 2,
+        "Sent Text": "we\twant\tto\tfind\tthe\tmost\tlikely\tcomplete\tpath\tgiven\tthe\tobservation:",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "find",
+        "Sent i": 314,
+        "Duration": 1,
+        "Sent Text": "like\tin\tthe\tprevious\tproblem,\twe\tuse\tdynamic\tprogramming\tand\tdefine\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "'s",
+        "Sent i": 315,
+        "Duration": 1,
+        "Sent Text": "the\tprobability\tof\tthe\tbest\tpath\tto\tstate\tzi after\tt symbols:",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "saying",
+        "Sent i": 316,
+        "Duration": 1,
+        "Sent Text": "the\titerative\talgorithm\tto\tsolve\tthis\tproblem\tis\tcalled\tthe\tviterbi\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "optimal",
+        "Sent i": 317,
+        "Duration": 1,
+        "Sent Text": "algorithm.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "state",
+        "Sent i": 315,
+        "Duration": 1,
+        "Sent Text": "the\tprobability\tof\tthe\tbest\tpath\tto\tstate\tzi after\tt symbols:",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "sequence one",
+        "Sent i": 316,
+        "Duration": 2,
+        "Sent Text": "the\titerative\talgorithm\tto\tsolve\tthis\tproblem\tis\tcalled\tthe\tviterbi\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "method using",
+        "Sent i": 317,
+        "Duration": 2,
+        "Sent Text": "algorithm.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "interactive",
+        "Sent i": 318,
+        "Duration": 1,
+        "Sent Text": "maxpath =",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "approach",
+        "Sent i": 317,
+        "Duration": 1,
+        "Sent Text": "algorithm.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "heater",
+        "Sent i": 318,
+        "Duration": 1,
+        "Sent Text": "maxpath =",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "problem solved",
+        "Sent i": 316,
+        "Duration": 2,
+        "Sent Text": "the\titerative\talgorithm\tto\tsolve\tthis\tproblem\tis\tcalled\tthe\tviterbi\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "using",
+        "Sent i": 317,
+        "Duration": 1,
+        "Sent Text": "algorithm.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "kelby",
+        "Sent i": 318,
+        "Duration": 1,
+        "Sent Text": "maxpath =",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "algorithm",
+        "Sent i": 317,
+        "Duration": 1,
+        "Sent Text": "algorithm.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "way",
+        "Sent i": 315,
+        "Duration": 1,
+        "Sent Text": "the\tprobability\tof\tthe\tbest\tpath\tto\tstate\tzi after\tt symbols:",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "also",
+        "Sent i": 316,
+        "Duration": 1,
+        "Sent Text": "the\titerative\talgorithm\tto\tsolve\tthis\tproblem\tis\tcalled\tthe\tviterbi\t",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "used",
+        "Sent i": 317,
+        "Duration": 1,
+        "Sent Text": "algorithm.",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "scenario",
+        "Sent i": 318,
+        "Duration": 1,
+        "Sent Text": "maxpath =",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "talked",
+        "Sent i": 320,
+        "Duration": 1,
+        "Sent Text": "z1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "enough",
+        "Sent i": 321,
+        "Duration": 1,
+        "Sent Text": "...zt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "work",
+        "Sent i": 323,
+        "Duration": 1,
+        "Sent Text": "...zt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "v",
+        "Sent i": 324,
+        "Duration": 1,
+        "Sent Text": "| s1",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "meeting",
+        "Sent i": 325,
+        "Duration": 1,
+        "Sent Text": "...st",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "alexa",
+        "Sent i": 326,
+        "Duration": 1,
+        "Sent Text": ") =",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "would say see",
+        "Sent i": 329,
+        "Duration": 3,
+        "Sent Text": "...zt",
+        "Backg": 0,
+        "Sent ID": ""
+    },
+    {
+        "GT": 0,
+        "Spoken words": "results",
+        "Sent i": 330,
+        "Duration": 1,
+        "Sent Text": "p(z1",
+        "Backg": 0,
+        "Sent ID": ""
+    }
+]

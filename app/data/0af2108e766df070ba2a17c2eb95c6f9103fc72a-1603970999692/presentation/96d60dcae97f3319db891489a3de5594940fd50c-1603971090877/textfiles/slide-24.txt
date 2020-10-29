@@ -1,0 +1,9 @@
+Problems of this training
+algorithm
+• Critical	points:	Algorithm	cannot	decide	for	a	direction	and	gets	
+stuck
+• if	training	sequence	is	not	representative,	estimated	parameters	
+will	be	suboptimal.	This	holds	especially	for	short	sequences
+• even	without	critical	points:	algorithm	finds	local	maximum,	not	
+the	global	maximum
+08.05.19 Language Technology Group – Chris Biemann

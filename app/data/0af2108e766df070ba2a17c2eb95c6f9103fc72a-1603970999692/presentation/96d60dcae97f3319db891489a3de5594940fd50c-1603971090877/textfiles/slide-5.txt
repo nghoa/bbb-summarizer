@@ -1,0 +1,75 @@
+The probability of a sequence
+(1) Expansion with conditional probabilities
+(2) Markov assumption, horizon = 1
+(3) write as product
+(4) probability of a sequence is the sum of the probability of all possible
+paths through the HMM for this sequence of symbols
+Note that superscripts indicate time points, subscripts enumerate symbols of an alphabet
+P(s1
+...sn
+) = P(s1
+...sn
+,z1
+..zn+1
+)
+z1
+..zn+1
+∑
+= P(z1
+)P(s1
+,z2
+| z1
+)P(s2
+,z3
+| s1
+,z1
+z2
+)......P(sn
+,zn+1
+| s1
+..sn−1
+,z1
+..zn
+)
+z1
+..zn+1
+∑
+= P(s1
+,z2
+| z1
+)P(s2
+,z3
+| z2
+)......P(sn
+,zn+1
+| zn
+)
+z1
+..zn+1
+∑
+= P(si
+,zi+1
+| zi
+)
+i=1
+n
+∏
+z1
+..zn+1
+∑
+= P(zi si
+ →
+
+zi+1
+)
+i=1
+n
+∏
+z1
+..zn+1
+∑
+(1)
+(2)
+(3)
+(4)
+08.05.19 Language Technology Group – Chris Biemann

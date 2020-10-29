@@ -1,0 +1,64 @@
+Two iterations
+probability	of	sequence	for	iteration	3:	0.0472
+1.
+2.
+path P(path) P(V|a,N) P(N|b,V) P(N|a,N) P(N|b,N) sum P(.|.,N)
+NVNVNN
+NVNNNN
+NNNVNN
+NNNNNN
+0.00077
+0.00442
+0.00442
+0.02548
+0.00154
+0.00442
+0.00442
+0.0
+0.00154
+0.00442
+0.00442
+0.0
+0.0
+0.00442
+0.00442
+0.05096
+0.00077
+0.00884
+0.00884
+0.07644
+sum over
+paths
+0.03509 0.01038 0.01038 0.05970 0.09489 0.165
+new P 0.06 1.0 0.36 0.58
+path P(path) P(V|a,N) P(N|b,V) P(N|a,N) P(N|b,N) sum P(.|.,N)
+NVNVNN
+NVNNNN
+NNNVNN
+NNNNNN
+0.00209
+0.00727
+0.00727
+0.02529
+0.00418
+0.00727
+0.00727
+0.0
+0.00418
+0.00727
+0.00727
+0.0
+0.0
+0.00727
+0.00727
+0.05058
+0.00209
+0.01454
+0.01454
+0.07587
+sum over
+paths
+0.04192 0.01872 0.01872 0.06512 0.10704 0.191
+new P 0.10 1.0 0.34 0.56
+training sequence:	ababb
+08.05.19 Language Technology Group – Chris Biemann

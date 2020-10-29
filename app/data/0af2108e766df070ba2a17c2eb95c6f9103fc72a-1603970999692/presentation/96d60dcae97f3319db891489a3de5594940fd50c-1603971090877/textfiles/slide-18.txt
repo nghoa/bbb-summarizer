@@ -1,0 +1,35 @@
+Markov Chain: Count,
+(smooth), and done.
+Problem	with	HMMs:
+• non-deterministic:	assume	
+that	all	possible	transitions	
+are	used	at	the	same	time?	
+• how	to	kick	it	off?	
+from state to state symbol count
+N V a 5
+N N b 3
+V N a 2
+V N b 2
+Pe
+(N a
+ →
+ V) = 5 / 8
+Pe
+(N b
+ →
+ N) = 3 / 8
+Pe
+(V a
+ →
+ N) = 2 / 4
+Pe
+(V b
+ →
+ N) = 2 / 4
+N V
+b:0.375
+a:0.625
+a:0.5
+b:0.5
+sequence:	abbaababbaaa
+08.05.19 Language Technology Group – Chris Biemann

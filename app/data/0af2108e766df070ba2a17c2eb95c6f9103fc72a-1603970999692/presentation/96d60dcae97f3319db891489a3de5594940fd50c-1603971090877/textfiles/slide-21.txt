@@ -1,0 +1,18 @@
+Solution: Expectation
+Maximization (EM)
+Top-level	EM	algorithm:
+Old_Cross_Entropy=infinite;
+Guess HMM Parameters;
+New_Cross_Entropy=Re-estimate_Parameters();
+While not (Old_Cross_Entropy » New_Cross_Entropy) {
+Old_Cross_Entropy=New_Cross_Entropy;
+New_Cross_Entropy=Re-estimate_Parameters();
+}
+If	it	is	guaranteed	that		Re-estimate_Parameters() lowers	
+the	cross	entropy	between	sequence	and	HMM,	then	the	EM	
+algorithm	converges	to	a	(local)	maximum.
+For	HMMs:	re-estimation	procedure	of	iteratively	using	path	
+probabilities	to	estimate	transition	probabilities	has	been	proved	by	
+Baum	to	lower	cross	entropy	(and	thus	increases	the	probability	of	
+the	sequence).	
+08.05.19 Language Technology Group – Chris Biemann

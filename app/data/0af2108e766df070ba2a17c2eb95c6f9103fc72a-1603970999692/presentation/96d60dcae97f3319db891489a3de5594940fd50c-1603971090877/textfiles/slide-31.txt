@@ -1,0 +1,7 @@
+Applications of HMMs I:
+Language Technology
+• Part	of	Speech	tagging:	coming	up	next!
+• Speech-to-text:	observe	sequence	of	phonemes
+some	HMM	topologies	
+for	speech	recognition
+08.05.19 Language Technology Group – Chris Biemann

@@ -9,6 +9,7 @@ CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 PROJECT_APP_DIR = os.path.dirname(os.path.abspath(os.path.join(__file__ ,"..")))
 
 def start_alignment(internal_meeting_id):
+    print('Alignment is starting now')
     transcript_done = get_transcription(internal_meeting_id)
     presentation_done = get_presentation_text(internal_meeting_id)
     if (transcript_done and presentation_done):
@@ -68,6 +69,8 @@ def start_summarization():
 def cp_alignment_file(internal_meeting_id):
     alignment_dir = os.path.join(CURRENT_DIR, 'data', 'results', 'output', 'alignment')
     dst_dir = os.path.join(PROJECT_APP_DIR, 'data', internal_meeting_id, 'alignment')
+    if not os.path.exists(dst_dir):
+        os.makedirs(dst_dir)
     for src_dir, dirs, files in os.walk(alignment_dir):
         for file_ in files:
             alignment_file = file_

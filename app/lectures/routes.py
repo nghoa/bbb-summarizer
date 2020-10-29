@@ -10,6 +10,8 @@ from app.utils.serve_meeting_files import alignment_file_exists
 from app.hmm_alignment.start_summarization import start_alignment
 from . import lectures_blueprint
 from .get_stuff import get_config
+# TODO
+import threading
 
 # Querystring from confnum => get_meetings and so on...
 ## Getting Query String
@@ -83,25 +85,31 @@ def prepare_meeting_summary():
         </div>
     '''.format(url_string)
 
+    if(alignment_exists):
+        return response
+    
     # TODO: meeting_end needs to be optimized for multiple users
     meeting_end = meeting_has_ended(internal_meeting_id)
-    if (meeting_end and not alignment_exists):
+    if (meeting_end):
         ###### after meeting has ended do following:
         # mkdir folders
         data_folder_constructed = mkdir_data_folder()
         if (data_folder_constructed):
+            print('Preparing-Phase: Constructing all necessary files and folders...')
             audio_folder_constructed = mkdir_audio_folder(internal_meeting_id)
             presentation_folder_constructed = mkdir_presentation_folder(internal_meeting_id)
             if (audio_folder_constructed and presentation_folder_constructed):
+                print('Start Transcription now...')
                 transcription_done = execute_transcription(internal_meeting_id)
                 if (transcription_done):
                     # align meeting
                     alignment_done = start_alignment(internal_meeting_id)
+                    # return response
                     if (alignment_done):
+                        print('after alignment_done')
+                        print(response)
+                        # TODO: ajax loading screen not happening 
                         return response
-    else:
-         # return without the needs to process everything
-        return response
 
 ### Test setup
 @lectures_blueprint.route('/lectures/workplace')

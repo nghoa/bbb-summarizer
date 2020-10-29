@@ -1,0 +1,12 @@
+HMM Training
+• Training:	We	have	a	fixed	structure	and	optimize	the	parameters	
+according	to	observations
+• Name	of	training	algorithm:	Baum-Welch or	Forward-Backward	
+algorithm
+• Idea:
+– start	with	random	parameters	
+– tune	parameters	such	that	the	probability	of	the	training	
+sequence	increases
+Why	is	this	necessary?	Why	can’t	we	just	train	it	like	a	Markov	
+Chain?	
+08.05.19 Language Technology Group – Chris Biemann

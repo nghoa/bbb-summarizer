@@ -1,0 +1,14 @@
+What about the Zeros?
+• Minimizing	the	cross	entropy	means:	transitions	that	never	occur	in	the	
+training	will	converge	to	0.
+• In	the	example	ababb:	sequence	“aa”	never	occurs:	P(N|a,N) goes	to	0	
+• Solution:	Smoothing	and	back-off	of	counts
+• Longer	training	sequences	always	help,	but	increase	training	time
+a:0.0
+N V
+b:0.48
+a:	0.04
+b:	1.0
+a:0.48
+ε:1.0
+08.05.19 Language Technology Group – Chris Biemann

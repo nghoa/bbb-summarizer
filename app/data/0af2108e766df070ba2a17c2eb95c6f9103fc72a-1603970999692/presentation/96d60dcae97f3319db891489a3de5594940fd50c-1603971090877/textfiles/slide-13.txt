@@ -1,0 +1,40 @@
+Viterbi Algorithm
+1.	Initialization
+2.	Induction
+store	backtrace:	per	state	j,	memorize	the	previous	state	for	δj(t+1)		
+3.	Termination:
+last	state	in	MAXPATH:
+read	sequence	according	to:	
+Ties:	resolve	randomly	or	store	n-best-list.
+δi
+(1) = πi
+for 1≤ i ≤ N
+δj
+(t +1) = max
+i=1..N
+δi
+(t) *P(zi
+st
+ →
+ zj
+) for 1≤ j ≤ N
+ψj
+(t +1) = argmax
+i=1..N
+δi
+(t) *P(zi
+st
+ →
+ zj
+) for 1≤ j ≤ N
+zmax
+T+1
+= argmax
+i=1..N
+δi
+(T +1)
+zmax
+t
+= ψzmax
+t (t +1)
+08.05.19 Language Technology Group – Chris Biemann

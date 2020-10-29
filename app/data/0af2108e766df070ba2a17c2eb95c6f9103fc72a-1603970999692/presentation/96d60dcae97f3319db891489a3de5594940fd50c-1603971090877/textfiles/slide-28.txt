@@ -1,0 +1,9 @@
+Hill climbing:
+only local maxima
+• EM	algorithm	implements	hill	climbing
+• in	case	many	local	maxima	exist,	the	result	is	heavily	dependent	on	
+initialization.	Chance	of	hitting	the	global	maximum	is	very	small
+Strategy:	Restart	a	few	times	with	different	initializations	and	observe.	
+Start
+Result
+08.05.19 Language Technology Group – Chris Biemann

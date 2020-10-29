@@ -1,0 +1,25 @@
+Variants of HMMs
+• sparsity handling:	parameter	tying	and	tied	states
+• allowing	null-emissions
+• modeling	of	(continuous)	time	spent	in	a	state
+• different	model	topologies:	number	of	states,	structural	zeros,	feed-forward,	…
+• automatic	learning	of	topology
+• continuous	HMMs:	in	contrast	to	discrete	symbols
+• state	emission	vs.	arc-emission
+s1 s4 s1
+z1 z2 zN
+…
+s5
+s3
+s1
+z1 z2
+zN
+…
+s1
+s5
+s4
+s3
+s2
+s1
+s1
+08.05.19 Language Technology Group – Chris Biemann

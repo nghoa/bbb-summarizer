@@ -1,0 +1,11 @@
+Hidden Markov Model
+A	Hidden	Markov	Model HMM=(Φ,Σ,δ, Π)	consists	of
+• finite	set	of	states	Φ = {z0, ... zn}
+• initial	state	probability	distribution	Π:πi=P(z1=zi)
+• finite	alphabet	Σ={s1, s2, ... , sm } of	input	symbols
+• transition function δ:	Φ®(ΣÈ{e})×[0,1]×Φ	
+Non-deterministic: several transitions from the same state with the
+same input symbol are valid and common.
+Normalized over all possible combinations of state sequence and
+symbols.
+08.05.19 Language Technology Group – Chris Biemann

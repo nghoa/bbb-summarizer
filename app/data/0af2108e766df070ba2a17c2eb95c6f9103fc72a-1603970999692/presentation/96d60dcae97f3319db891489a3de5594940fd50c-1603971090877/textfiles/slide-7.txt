@@ -1,0 +1,12 @@
+Computing the probability
+of an observation
+• Observation:	sequence	of	symbols	s1s2... sT,	given	
+• Naïve	strategy:
+– exhaustive	search	of	all	possible	paths	for	that	sequence
+– probabilities	of	single	paths:	product	of	transition	probabilities
+– probabilities	of	the	observation:	sum	of	single	path	
+probabilities	
+This	is	obviously	not	efficient	for	long	paths	and	many	bifurcations.	
+If	N is	the	number	of	states	and	T the	length	of	the	sequence,	then	
+the	computational	complexity	is	O(T*NT)!
+08.05.19 Language Technology Group – Chris Biemann

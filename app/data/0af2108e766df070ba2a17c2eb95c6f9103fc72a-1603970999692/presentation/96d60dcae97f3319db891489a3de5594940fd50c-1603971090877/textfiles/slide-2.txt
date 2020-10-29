@@ -1,0 +1,29 @@
+Hiding Markov
+• Training	of	Markov	Chains:	Count	n-grams,	normalize	to	probabilities
+• Sparse	data:	many	n-grams	not	in	training
+• Back-off	smoothing:	use	shorter	n-grams	for	interpolated	estimation
+• Recap:	Mixture	Model:
+• Hidden	Markov	Models	(HMMs)	can	be	used	to	
+– model	this	interpolation
+– train	the	λ weights
+Pli
+(wt
+|wt−2
+wt−1
+) = λ1
+P1
+(wt
+) + λ2
+P2
+(wt
+|wt−1
+) + λ3
+P3
+(wt
+|wt−2
+wt−1
+) where 0 ≤ λi
+≤1 and λi
+i
+∑ =1
+08.05.19 Language Technology Group – Chris Biemann

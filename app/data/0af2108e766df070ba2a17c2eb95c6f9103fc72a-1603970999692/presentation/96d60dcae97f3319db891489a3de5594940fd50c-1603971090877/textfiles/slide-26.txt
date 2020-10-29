@@ -1,0 +1,6 @@
+Dealing with critical points:
+Add noise
+Add	noise:	small	random	changes	in	transition	probabilities	lead	to	a	
+decision	but	do	not	change	overall	convergence	in	most	cases.
+critical points:	no direction,	yet not	at local maximum
+08.05.19 Language Technology Group – Chris Biemann

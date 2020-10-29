@@ -1,0 +1,4 @@
+SEQUENCE TAGGING
+HMM,	MEMM,	CRF,	LSTM
+coming	up	next
+08.05.19 Language Technology Group – Chris Biemann

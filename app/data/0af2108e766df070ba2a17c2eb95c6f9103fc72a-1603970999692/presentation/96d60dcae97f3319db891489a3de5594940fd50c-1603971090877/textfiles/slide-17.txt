@@ -1,0 +1,14 @@
+Recap:
+Training a Markov Chain
+• Given:	
+– Markov	Chain	without	transition	probabilities
+– training	sequence
+• Wanted:	
+– transition	probabilities
+N V
+b
+a
+a
+b
+training sequence: abbaababbaaa
+08.05.19 Language Technology Group – Chris Biemann

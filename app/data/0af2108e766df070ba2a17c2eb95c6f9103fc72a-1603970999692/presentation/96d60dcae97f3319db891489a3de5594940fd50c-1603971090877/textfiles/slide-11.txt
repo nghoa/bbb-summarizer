@@ -1,0 +1,49 @@
+Combination to
+forward/backward procedure
+Therefore:
+Equations	for	forward	and	backward	probabilities	are	special	cases	of	this	
+one.
+P(s1
+...sT
+,zt
+= zi
+)
+= P(s1
+...st−1
+,zt
+= zi
+,st
+...sT
+) =
+= P(s1
+...st−1
+,zt
+= zi
+)⋅P(st
+...sT
+| s1
+...st−1
+,zt
+= zi
+) =
+= P(s1
+...st−1
+,zt
+= zi
+)⋅P(st
+...sT
+| zt
+= zi
+) =
+= αi
+(t)⋅ βi
+(t).
+P(s1
+...sT
+) = αi
+(t)
+i=1
+N
+∑ ⋅ βi
+(t) for all 1≤ t ≤T +1
+08.05.19 Language Technology Group – Chris Biemann

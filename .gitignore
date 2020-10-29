@@ -14,3 +14,6 @@ WILPS-fbd52af604db.json
 *.wav
 
 *.opus
+
+data/**
+

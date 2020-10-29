@@ -1,7 +1,12 @@
 {% extends "base.html" %}
 {% block title %} Lecture Overview {% endblock %}
-{% block scripts %}
 
+<!-- Head of html -->
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block scripts %}
 <script id="loading_script">
 	$(function () {
 		// parse internal_meeting_id for prepare_meeting_data route
@@ -9,11 +14,6 @@
 		$("#modalCenter").modal("show");
 	})
 </script>
-{% endblock %}
-
-<!-- Head of html -->
-{% block head %}
-{{ super() }}
 {% endblock %}
 
 <!-- Header -->

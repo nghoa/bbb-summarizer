@@ -1,0 +1,27 @@
+Critical point example
+Parameters	are	stable	under	EM-iteration:	Critical	points	are	fix	
+points.
+training sequence:	aabb
+N
+P
+Q
+a:0.25
+b:0.25
+a:0.5
+b:0.5
+a:0.25
+b:0.25
+b:0.5
+a:0.5
+N
+P
+Q
+a:0.5
+a:1
+b:0.5
+b:1
+correct HMM
+P(aabb)=0.25
+HMM	with critical point
+P(aabb)=0.0625
+08.05.19 Language Technology Group – Chris Biemann

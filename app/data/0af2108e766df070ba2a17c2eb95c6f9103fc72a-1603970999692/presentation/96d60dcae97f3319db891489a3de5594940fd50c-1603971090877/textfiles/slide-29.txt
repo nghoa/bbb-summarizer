@@ -1,0 +1,59 @@
+Optimizing the training time
+Recall	the	calculation	of	counts	of	transitions:
+This	computes	the	sum	over	all	possible	paths	per	transition:	inefficient!
+In	analogy	to	the	Forward/Backward	procedure,	we	rather	compute	sub-
+paths.	
+Using	the	combination																																											,	we	reformulate	as:
+C(zi
+sk
+ →
+ zj
+) =
+1
+P(s1
+...sn
+)
+P(z1
+...zn+1
+,s1
+...sn+1
+)⋅η(zi
+sk
+ →
+ zj
+,z1
+...zn+1
+,s1
+...sn
+)
+z1
+...zn+1
+∑
+P(s1
+...sT
+) = αi
+(t)
+i=1
+N
+∑ ⋅ βi
+(t)
+C(zi
+sk
+ →
+ zj
+) =
+1
+P(s1
+...sn
+)
+αt
+(t)P(zi
+sk
+ →
+
+t=1
+n
+∑ zj
+)βj
+(t +1)
+08.05.19 Language Technology Group – Chris Biemann

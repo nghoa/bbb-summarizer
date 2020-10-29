@@ -1,0 +1,21 @@
+Example:
+Parameter Estimation
+training sequence:	ababb
+possible paths:
+§ NVNVNN
+§ NVNNNN
+§ NNNVNN
+§ NNNNNN
+N V
+b:0.16
+a:	0.67
+b:	1.0
+a:0.17
+N V
+b:0.48
+a:	0.04
+b:	1.0
+a:0.48
+‘true‘	HMM:	P(ababb)=0.0778 initial random estimate
+ε:1.0 ε:1.0
+08.05.19 Language Technology Group – Chris Biemann

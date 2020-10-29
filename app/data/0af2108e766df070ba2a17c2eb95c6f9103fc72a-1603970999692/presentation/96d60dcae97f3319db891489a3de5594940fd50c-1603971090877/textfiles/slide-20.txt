@@ -1,0 +1,62 @@
+Path probabilities and
+transition probabilities
+• We	count	transitions	to	compute	transition	probabilities
+• in	the	computation,	we	use	path	probabilities
+• …	but	path	probabilities	are	computed	by	transition	probabilities
+Deadlock?	
+C(zi
+sk
+ →
+ zj
+) =
+1
+P(s1
+...sT
+)
+P(z1
+...zT+1
+,s1
+...sT
+)⋅η(zi
+sk
+ →
+ zj
+,z1
+...zT+1
+,s1
+...sT
+)
+z1
+...zT+1
+∑
+P(s1
+...sT
+) = P(zt st
+ →
+ zt+1
+)
+t=1
+T
+∏
+z1
+..zT+1
+∑ Pe
+(zi
+sk
+ →
+ zj
+) =
+C(zi
+sk
+ →
+ zj
+)
+C(zi
+sk
+ →
+ zl
+)
+l=1,k=1
+n,m
+∑
+08.05.19 Language Technology Group – Chris Biemann

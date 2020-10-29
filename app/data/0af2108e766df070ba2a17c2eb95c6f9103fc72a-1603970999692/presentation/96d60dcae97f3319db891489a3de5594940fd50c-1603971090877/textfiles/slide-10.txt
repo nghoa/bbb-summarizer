@@ -1,0 +1,25 @@
+Backward procedure
+1.	Initialization
+2.	Induction
+3.	Total
+βi
+(T +1) =1 for 1≤ i ≤ N
+βj
+(t) = βi
+(t +1)⋅P(
+i=1
+N
+∑ zj
+st
+ →
+ zi
+) for 1≤ t ≤ T, 1≤ j ≤ N
+P(s1
+,...,sT
+) = πi
+βi
+(1
+i=1
+n
+∑ )
+08.05.19 Language Technology Group – Chris Biemann

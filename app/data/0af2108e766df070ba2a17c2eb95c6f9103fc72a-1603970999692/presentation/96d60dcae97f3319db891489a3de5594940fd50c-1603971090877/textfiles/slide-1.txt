@@ -1,0 +1,5 @@
+HIDDEN MARKOV MODELS
+From	Markov	Chains	to	HMMs
+• Manning,	C.	D.	and	Schütze,	H.	(1999):	Foundations	of	Statistical	Natural	Language	
+Processing.	MIT	Press:	Cambridge,	Massachusetts.	Chapter	9.
+08.05.19 Language Technology Group – Chris Biemann

@@ -1,0 +1,36 @@
+Finding the best state
+sequence: Decoding
+We	want	to	find	the	most	likely	complete	path	given	the	observation:
+Like	in	the	previous	problem,	we	use	dynamic	programming	and	define	
+the	probability	of	the	best	path	to	state	zi after	t symbols:
+The	iterative	algorithm	to	solve	this	problem	is	called	the	Viterbi	
+algorithm.
+MAXPATH =
+argmax
+z1
+...zT
+P(z1
+...zT
+| s1
+...sT
+) =
+argmax
+z1
+...zT
+P(z1
+...zT
+,s1
+...sT
+)
+δi
+(t) = max
+z1
+...zt
+P(z1
+...zt
+,s1
+...st−1
+,zt
+= zi
+)
+08.05.19 Language Technology Group – Chris Biemann

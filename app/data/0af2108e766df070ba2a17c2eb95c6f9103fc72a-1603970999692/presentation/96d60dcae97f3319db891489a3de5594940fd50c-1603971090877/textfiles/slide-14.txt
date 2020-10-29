@@ -1,0 +1,17 @@
+Viterbi Example
+Observation	sequence:	bbba
+N V
+a:0.4
+b:0.2
+b:0.1
+a:0.3 a:0.2
+b:0.5
+a:0.2
+b:0.1
+input read e b bb bbb bbba
+N - sequence N NN NNN NNNN NVVVN
+N - max. P 1.0 0.2 0.04 0.008 0.005
+V - sequence V NV NVV NVVV NVVVV
+V - max. P 0.0 0.1 0.05 0.025 0.005
+ε:1.0
+08.05.19 Language Technology Group – Chris Biemann

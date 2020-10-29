@@ -1,0 +1,18 @@
+Forward/backward
+procedures
+• Idea:	use	common	short	sub-paths	and	combine	into	larger	sub-paths
+• dynamic	programming:	store	intermediate	results	and	thus	re-use	previous	
+computations	for	further	computations
+Forward	Probability:
+ai(t)=P(s1...st-1,zt=zi)	is	the	probability	of	ending	up	in	state	zi after	t-1 symbols.
+This	is	computed	iteratively	for	all	t in	1..T for	all	states	zi with i in 1..N.	
+Sum	over	ai(T+1)	is	the	final	result.
+Whether	we	start	from	the	beginning	or	from	the	end	is	irrelevant:	This	can	
+alternatively	formulated	as	a	Backward	probability:
+βi
+(t) = P(st
+...sT
+| zt
+= zi
+)
+08.05.19 Language Technology Group – Chris Biemann
